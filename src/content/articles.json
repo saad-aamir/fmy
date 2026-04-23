@@ -1,0 +1,2235 @@
+[
+  {
+    "url": "https://fmyaccountants.co.uk/2026/01/20/what-private-equity-investors-really-look-for-in-your-books-and-why-most-smes-arent-ready/",
+    "slug": "what-private-equity-investors-really-look-for-in-your-books-and-why-most-smes-arent-ready",
+    "title": "What Private Equity Investors Really Look for in Your Books (And Why Most SMEs Aren't Ready)",
+    "date": "20 January 2026",
+    "isoDate": "2026-01-20",
+    "category": "Business",
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "You’ve built a profitable £10M business. Private equity interest is starting to knock. Your accountant says your books are “clean.” Then due diligence begins, and everything falls apart."
+      },
+      {
+        "type": "p",
+        "text": "This scenario plays out more often than you’d think. Because there’s a world of difference between books that satisfy HMRC and books that satisfy private equity investors conducting forensic due diligence."
+      },
+      {
+        "type": "p",
+        "text": "We’ve sat on both sides of these deals – as auditors at Big 4 scrutinising targets, and now helping mid-market businesses prepare for investor scrutiny. The gap between “compliant” and “investable” is wider than most business owners realise, and it takes 6-12 months to bridge properly, not the 6 weeks most people assume."
+      },
+      {
+        "type": "h2",
+        "text": "Why PE Investors Scrutinise Differently Than HMRC"
+      },
+      {
+        "type": "p",
+        "text": "Your current accountant has likely optimised your books for one thing: minimising tax liability whilst staying compliant. That’s their job, and it’s important."
+      },
+      {
+        "type": "p",
+        "text": "But private equity investors have completely different priorities. They’re not asking “Did you follow the rules?” They’re asking:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Can we trust these numbers to make a £20M investment decision?",
+          "Will these financials hold up under bank financing scrutiny?",
+          "Are there any hidden liabilities or compliance issues that could blow up post-acquisition?",
+          "Can we clearly explain this business model and its financials to our limited partners?",
+          "Is the EBITDA real, or is it window dressing?"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "When PE firms bring in forensic accountants from Big 4 firms for due diligence (and they always do), those teams are trained to find problems. Their entire engagement is premised on scepticism. They’re not there to validate your story – they’re there to stress-test it until something breaks."
+      },
+      {
+        "type": "h2",
+        "text": "The Green Flags: What Makes Investors Confident"
+      },
+      {
+        "type": "h2",
+        "text": "Clean Revenue Recognition"
+      },
+      {
+        "type": "p",
+        "text": "Private equity investors want to see revenue that follows a clear, defensible pattern. This means consistent policies around when revenue is recognised, how contracts are structured, and how you handle deposits, milestones, and recurring revenue."
+      },
+      {
+        "type": "p",
+        "text": "If you’re recognising revenue on percentage-of-completion for long-term projects, you need documentation that proves your milestone tracking is rigorous. If you’ve got subscription revenue, your deferred revenue schedules need to reconcile perfectly. Any inconsistency in how revenue is recognised across similar transactions raises immediate red flags."
+      },
+      {
+        "type": "h2",
+        "text": "Predictable Gross Margins"
+      },
+      {
+        "type": "p",
+        "text": "Gross margins that fluctuate wildly month-to-month or year-to-year suggest you don’t have control over your cost base or pricing. Investors expect to see margins that track to a clear story: seasonal variations you can explain, pricing changes you can document, or cost initiatives you can demonstrate."
+      },
+      {
+        "type": "p",
+        "text": "If your gross margin was 45% two years ago, 38% last year, and 52% this year, you’d better have a compelling narrative backed by data. Otherwise, it looks like your accounting is unreliable or your business is unpredictable – neither of which inspires confidence in a seven-figure cheque."
+      },
+      {
+        "type": "h2",
+        "text": "Manageable Customer Concentration"
+      },
+      {
+        "type": "p",
+        "text": "Most investors want to see no single customer representing more than 20% of revenue, and ideally no single customer over 10%. If you’ve got customer concentration above these levels, it’s not necessarily a deal-breaker, but it will materially impact valuation."
+      },
+      {
+        "type": "p",
+        "text": "The due diligence team will want to see contracts, payment histories, and evidence of relationship stability for your major customers. They’ll also want comfort that there are no informal arrangements, personal relationships, or handshake deals keeping these customers loyal – because those don’t transfer with ownership."
+      },
+      {
+        "type": "h2",
+        "text": "Working Capital Management"
+      },
+      {
+        "type": "p",
+        "text": "Your working capital cycle tells investors whether you’ve built a cash-generative business or one that requires constant funding to grow. They’ll analyse your debtor days, creditor days, and inventory turnover with forensic detail."
+      },
+      {
+        "type": "p",
+        "text": "If your debtors are stretching from 30 days to 60 days to 90 days, that’s a problem. If you’re constantly chasing cash to meet payroll, that’s a problem. If your stock levels are ballooning without corresponding revenue growth, that’s a problem."
+      },
+      {
+        "type": "p",
+        "text": "Investors want to see disciplined working capital management with clear policies and consistent execution."
+      },
+      {
+        "type": "h2",
+        "text": "Real EBITDA (Not Creative Accounting)"
+      },
+      {
+        "type": "p",
+        "text": "This is where most deals hit trouble. Your accountant may have calculated EBITDA one way, but PE investors will recalculate it their way and the gap can be shocking."
+      },
+      {
+        "type": "p",
+        "text": "They’ll add back owner salary above market rate (but not the full amount you’re paying yourself). They’ll add back genuine one-off costs (but not the “one-off” costs that happen every year). They’ll normalise rent if you’re paying above or below market rates. They’ll scrutinise every add-back you’ve claimed and challenge half of them."
+      },
+      {
+        "type": "p",
+        "text": "If your EBITDA is £2M on paper but only £1.4M after investor adjustments, your valuation just dropped by 30%. And if you’ve built your expectations around the higher number, the deal psychology shifts dramatically."
+      },
+      {
+        "type": "h2",
+        "text": "The Red Flags That Kill Deals"
+      },
+      {
+        "type": "h2",
+        "text": "Unexplained Volatility"
+      },
+      {
+        "type": "p",
+        "text": "Revenue that jumps 40% one year then drops 25% the next, with no clear external drivers, suggests your numbers aren’t reliable. Either your accounting methods are inconsistent, or your business model is fundamentally unpredictable."
+      },
+      {
+        "type": "p",
+        "text": "Investors can handle volatility if you can explain it with external factors: regulatory changes, market conditions, major contract wins or losses. What they can’t handle is volatility that suggests the numbers themselves aren’t trustworthy."
+      },
+      {
+        "type": "h2",
+        "text": "Related Party Transactions You Can’t Justify"
+      },
+      {
+        "type": "p",
+        "text": "Paying your spouse’s company £60,000 a year for “consulting services” with no documentation? Renting premises from a company you own at above-market rates? Buying supplies from your brother-in-law’s business without competitive quotes?"
+      },
+      {
+        "type": "p",
+        "text": "These arrangements might be perfectly legitimate, but if you can’t produce contracts, market comparisons, and clear business rationale, they’ll get stripped out of normalised EBITDA. Worse, they create a perception that the business has been run for personal benefit rather than commercial optimisation."
+      },
+      {
+        "type": "h2",
+        "text": "Tax Positions That Don’t Hold Up"
+      },
+      {
+        "type": "p",
+        "text": "Aggressive R&D tax credit claims, capital allowances that wouldn’t survive an HMRC enquiry, or VAT treatment that’s technically questionable – these all create problems in due diligence."
+      },
+      {
+        "type": "p",
+        "text": "PE investors don’t want to inherit tax risks. If your tax returns show positions that a Big 4 tax team wouldn’t defend, those will either need to be corrected (often triggering tax bills and penalties) or will create indemnity issues that reduce your proceeds."
+      },
+      {
+        "type": "h2",
+        "text": "Documentation Chaos"
+      },
+      {
+        "type": "p",
+        "text": "Missing invoices, contracts filed inconsistently, supplier agreements that are verbal rather than written, employee contracts that don’t match payroll records – this kind of administrative sloppiness suggests operational risk."
+      },
+      {
+        "type": "p",
+        "text": "If you can’t produce a clean audit trail for your top 20 customers and suppliers, due diligence will take twice as long and cost twice as much. Every missing document creates doubt about what else might be missing."
+      },
+      {
+        "type": "h2",
+        "text": "Personal Expenses in the Business"
+      },
+      {
+        "type": "p",
+        "text": "Your Tesla lease, your golf club membership, your family holiday classified as “business development” – these need to be identified and normalised out of EBITDA. If they’re buried throughout the accounts and difficult to separate, it suggests the boundary between business and personal has been blurred for years."
+      },
+      {
+        "type": "p",
+        "text": "Investors need to see a business that can operate independently of your personal spending patterns. If the accounts don’t clearly separate these, it raises questions about what else might be hidden."
+      },
+      {
+        "type": "h2",
+        "text": "The Reality: Most SMEs Aren’t Ready"
+      },
+      {
+        "type": "p",
+        "text": "Here’s what typically happens: a business owner runs their company for years with a capable local accountant focused on tax efficiency and compliance. The books are “fine” – they pass audit if required, HMRC accepts them, the bank’s happy with them."
+      },
+      {
+        "type": "p",
+        "text": "Then PE interest emerges, and suddenly those same books are being scrutinised by former Big 4 partners who’ve spent 20 years finding problems in financial statements. The gap between “compliant” and “investable” becomes painfully apparent."
+      },
+      {
+        "type": "p",
+        "text": "Common issues we see in £5M-£20M businesses:"
+      },
+      {
+        "type": "p",
+        "text": "Revenue recognition that’s technically correct but inconsistently applied across similar transactions. Chart of accounts designed for tax reporting, not management information or investor presentation. Fixed assets that haven’t been properly tracked or depreciated. Provisions and accruals based on rough estimates rather than detailed calculations. Intercompany transactions (if you’ve got a group structure) that aren’t properly documented or priced."
+      },
+      {
+        "type": "p",
+        "text": "None of these issues would typically cause HMRC problems. But they’ll cause PE investors serious concerns."
+      },
+      {
+        "type": "h2",
+        "text": "The Timeline: Why You Need 6-12 Months"
+      },
+      {
+        "type": "p",
+        "text": "If private equity interest is even remotely on your horizon, you need to start preparing now. Here’s why it takes so long:"
+      },
+      {
+        "type": "h2",
+        "text": "Months 1-3: Diagnostic and Clean-up"
+      },
+      {
+        "type": "p",
+        "text": "A proper PE-readiness review will identify 20-40 issues across your financial statements, controls, and documentation. Some are quick fixes (missing invoices, unsigned contracts). Others require systems changes (revenue recognition policies, fixed asset registers). A few might require restating prior periods if the issues are material."
+      },
+      {
+        "type": "h2",
+        "text": "Months 4-6: Process Implementation"
+      },
+      {
+        "type": "p",
+        "text": "You need to implement proper month-end close processes, management accounts that tell a clear story, and documentation standards that will satisfy due diligence. This isn’t just about the numbers – it’s about creating an audit trail that demonstrates control and rigour."
+      },
+      {
+        "type": "h2",
+        "text": "Months 7-9: Testing and Refinement"
+      },
+      {
+        "type": "p",
+        "text": "The new processes need to run for at least two quarters before investors will trust them. You need to demonstrate that the improvements are sustainable, not just a one-off clean-up exercise. This period also allows you to build the narrative around your numbers – the story that explains your business model, margin drivers, and growth trajectory."
+      },
+      {
+        "type": "h2",
+        "text": "Months 10-12: Documentation and Positioning"
+      },
+      {
+        "type": "p",
+        "text": "Building the information memorandum, quality of earnings report, and supporting schedules that will form the basis of your data room. This documentation needs to pre-empt questions, address weaknesses proactively, and present your business in the best possible light whilst remaining scrupulously accurate."
+      },
+      {
+        "type": "p",
+        "text": "You cannot compress this timeline. Attempts to do so invariably lead to either failed deals or significant valuation haircuts when problems emerge in due diligence."
+      },
+      {
+        "type": "h2",
+        "text": "How to Prepare Your Books for PE Scrutiny"
+      },
+      {
+        "type": "h2",
+        "text": "Get a Pre-Due Diligence Review"
+      },
+      {
+        "type": "p",
+        "text": "Before you engage with investors, commission your own due diligence review from advisers who’ve worked on PE deals. This will cost £10,000-£25,000 depending on complexity, but it’s the best money you’ll spend. You’ll get a clear list of issues to address and can fix them on your timeline rather than under deal pressure."
+      },
+      {
+        "type": "h2",
+        "text": "Implement Robust Month-End Close"
+      },
+      {
+        "type": "p",
+        "text": "Your monthly management accounts should be completed within 10 working days of month-end, with supporting schedules, variance analysis, and clear audit trails. If you’re currently taking 30+ days to close the books, that’s a red flag that you don’t have proper controls."
+      },
+      {
+        "type": "h2",
+        "text": "Document Everything"
+      },
+      {
+        "type": "p",
+        "text": "Every significant accounting judgement, policy decision, or estimate should be documented in writing. Why did you capitalise that software development cost? How did you calculate that provision? What’s the basis for that debtor write-off? If you can’t produce a written rationale, it looks arbitrary."
+      },
+      {
+        "type": "h2",
+        "text": "Separate Business and Personal"
+      },
+      {
+        "type": "p",
+        "text": "Remove all personal expenses from the business and document any related party transactions with proper commercial terms. If you’re paying yourself £200,000 but market rate for your role is £120,000, that’s fine – but it needs to be clearly identified as an add-back."
+      },
+      {
+        "type": "h2",
+        "text": "Build Your Data Room Early"
+      },
+      {
+        "type": "p",
+        "text": "Start collecting the documents that will inevitably be requested: supplier contracts, customer agreements, employee contracts, insurance policies, property leases, intellectual property registrations, regulatory licences, and historical financial statements. Organise them logically and ensure they’re all current."
+      },
+      {
+        "type": "h2",
+        "text": "The Bottom Line"
+      },
+      {
+        "type": "p",
+        "text": "Private equity investors are not buying your business based on trust. They’re buying based on verifiable financial performance demonstrated through rigorous documentation and defensible accounting."
+      },
+      {
+        "type": "p",
+        "text": "The gap between HMRC-compliant books and investor-ready books is significant. The businesses that successfully navigate PE transactions are those that start preparing 12 months before they need to, not 12 weeks."
+      },
+      {
+        "type": "p",
+        "text": "If PE interest is on your horizon or even a remote possibility, your books need to tell a clean, consistent, defensible story. Because when forensic accountants start digging, it’s too late to rewrite the narrative."
+      },
+      {
+        "type": "h2",
+        "text": "Need to Get PE-Ready?"
+      },
+      {
+        "type": "p",
+        "text": "At FMY Chartered Accountants, we’ve been on both sides of these transactions. We know what PE investors look for because we’ve conducted the due diligence that makes or breaks deals."
+      },
+      {
+        "type": "p",
+        "text": "We work with ambitious £2M-£50M businesses to bridge the gap between compliance and investment readiness – with Big 4 expertise at mid-market pricing."
+      },
+      {
+        "type": "h3",
+        "text": "Book a free PE-readiness consultation"
+      },
+      {
+        "type": "p",
+        "text": "https://calendly.com/fmy-chartered-accountants/45min"
+      },
+      {
+        "type": "h3",
+        "text": "Email"
+      }
+    ]
+  },
+  {
+    "url": "https://fmyaccountants.co.uk/2026/01/01/understanding-director-verification-new-requirements-from-companies-house/",
+    "slug": "understanding-director-verification-new-requirements-from-companies-house",
+    "title": "Understanding Director Verification: New Requirements from Companies House",
+    "date": "1 January 2026",
+    "isoDate": "2026-01-01",
+    "category": "Business",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Companies House has introduced identity verification requirements for company directors and persons with significant control, marking a significant shift in UK company registration. The new regime, which commenced on 18 November 2025, forms part of the Economic Crime and Corporate Transparency Act 2023."
+      },
+      {
+        "type": "h2",
+        "text": "The New Verification Requirement"
+      },
+      {
+        "type": "p",
+        "text": "From 18 November 2025, identity verification became a legal requirement for directors and persons with significant control of UK companies. It is important to understand that this date marks the beginning of a 12-month transition period rather than an immediate deadline. The system is being phased in gradually to allow millions of individuals time to complete their verification."
+      },
+      {
+        "type": "p",
+        "text": "The requirement affects anyone serving as a director of a UK limited company, members of limited liability partnerships, and persons with significant control. A person with significant control typically means someone who owns more than 25% of shares or voting rights, or exercises significant influence or control over the company."
+      },
+      {
+        "type": "h2",
+        "text": "How the Transition Period Works"
+      },
+      {
+        "type": "p",
+        "text": "For individuals newly appointed as directors or PSCs after 18 November 2025, verification must be completed before or at the time of appointment. This means anyone forming a new company or joining an existing board needs to verify their identity as part of the registration or appointment process."
+      },
+      {
+        "type": "p",
+        "text": "Existing directors have a different timeline. They must confirm their identity verification status when filing their company’s next confirmation statement, which occurs annually. This creates individual deadlines for each director based on their company’s confirmation statement date, all falling within the 12-month period ending in November 2026."
+      },
+      {
+        "type": "p",
+        "text": "The staggered approach means approximately 6 to 7 million individuals will need to verify their identities over the course of the year. Companies House is contacting all registered companies by email to inform them of the specific deadlines applicable to their directors and PSCs."
+      },
+      {
+        "type": "h2",
+        "text": "The Verification Process"
+      },
+      {
+        "type": "p",
+        "text": "There are two pathways for completing identity verification. The first is directly through Companies House using the GOV.UK One Login system. This free digital service typically requires a valid passport or UK driving licence. The system uses biometric matching technology to confirm identity. For those unable to use the digital route, an in-person option is available at Post Office branches."
+      },
+      {
+        "type": "p",
+        "text": "The second pathway involves using an Authorised Corporate Service Provider. ACSPs are professional firms authorised by Companies House to conduct identity verification on behalf of clients. These are typically accountants, solicitors, or company formation agents who are registered with UK anti-money laundering supervisory bodies."
+      },
+      {
+        "type": "h2",
+        "text": "The Role of Authorised Corporate Service Providers"
+      },
+      {
+        "type": "p",
+        "text": "Not every professional firm can operate as an ACSP. Companies House maintains strict authorisation criteria covering professional qualifications, anti-money laundering procedures, data security standards, and insurance requirements. Firms must demonstrate robust systems for identity verification and record keeping."
+      },
+      {
+        "type": "p",
+        "text": "FMY Chartered Accountants holds ACSP authorisation from Companies House. As an ICAEW-regulated firm with established anti-money laundering supervision, FMY can verify director identities and submit the verification directly to Companies House. This service is particularly valuable for clients who prefer professional assistance with the verification process or who are incorporating new companies where multiple steps need coordination."
+      },
+      {
+        "type": "p",
+        "text": "When verifying through an ACSP, individuals present their original identity documents to the service provider. The ACSP conducts the necessary checks, maintains appropriate records, and submits the verification electronically to Companies House. Upon successful verification, the individual receives a personal code from Companies House."
+      },
+      {
+        "type": "h2",
+        "text": "Understanding Personal Codes"
+      },
+      {
+        "type": "p",
+        "text": "The personal code issued after successful verification is a unique identifier that must be provided to Companies House in various circumstances. Directors provide their code through their company’s confirmation statement. PSCs provide their code using a separate online service, with specific 14-day windows depending on their circumstances."
+      },
+      {
+        "type": "p",
+        "text": "If an individual holds multiple roles across different companies, they may need to provide their personal code several times, though the actual verification process typically only needs to be completed once. The same verified identity can be used across all directorships and PSC positions."
+      },
+      {
+        "type": "h2",
+        "text": "Why These Changes Matter"
+      },
+      {
+        "type": "p",
+        "text": "The verification regime addresses longstanding concerns about the integrity of the Companies House register. For many years, Companies House operated on a relatively passive model where information was accepted with minimal checks. This created opportunities for fraud, including the registration of fictitious directors or the misuse of real individuals’ identities without their knowledge."
+      },
+      {
+        "type": "p",
+        "text": "The new system makes it considerably more difficult to abuse the company registration process. Every director on the register will eventually be a verified individual whose identity has been confirmed against official documents. This enhances trust in UK company data and aligns the UK with international standards for corporate transparency."
+      },
+      {
+        "type": "h2",
+        "text": "Integration with Company Formation"
+      },
+      {
+        "type": "p",
+        "text": "For new company incorporations after 18 November 2025, director verification has become an integral part of the formation process. All proposed directors must verify their identities before the company can be registered. This adds a necessary step to company formation that must be factored into planning timelines."
+      },
+      {
+        "type": "p",
+        "text": "Professional service providers offering company formation services alongside ACSP verification can streamline this process by coordinating both elements together. This integrated approach ensures new companies are established correctly from the outset with all directors properly verified and compliant."
+      },
+      {
+        "type": "h2",
+        "text": "Data Security Considerations"
+      },
+      {
+        "type": "p",
+        "text": "Identity verification necessarily involves handling sensitive personal information and documentation. Companies House and authorised ACSPs must comply with UK data protection regulations and maintain appropriate security standards. Information collected during verification is used solely for identity confirmation purposes and is protected through secure systems."
+      },
+      {
+        "type": "p",
+        "text": "FMY Chartered Accountants maintains ISO 27001:2022 certification for Information Security Management Systems and ISO 27701:2019 certification for Privacy Information Management. These international standards demonstrate the firm’s commitment to protecting client data throughout the verification process and in all other services provided."
+      },
+      {
+        "type": "h2",
+        "text": "Compliance and Enforcement"
+      },
+      {
+        "type": "p",
+        "text": "Companies House takes the new verification requirements seriously. Failure to verify identity when required constitutes a criminal offence. Directors who do not comply face potential fines and may be prevented from acting as directors. Companies with unverified directors may also face sanctions, including potential removal from the register."
+      },
+      {
+        "type": "p",
+        "text": "The enforcement approach recognises the transitional nature of the rollout. Companies House is focusing on supporting businesses and individuals through the process during the 12-month phase-in period. However, as the transition period concludes in November 2026, compliance checks will intensify."
+      },
+      {
+        "type": "h2",
+        "text": "Looking Ahead"
+      },
+      {
+        "type": "p",
+        "text": "Identity verification represents a permanent change to UK company administration. As the system matures and all directors on the register become verified, the quality and reliability of Companies House data will improve significantly. This benefits all stakeholders, from businesses conducting due diligence to investors assessing potential partners."
+      },
+      {
+        "type": "p",
+        "text": "The transitional period provides an opportunity for directors and companies to become familiar with the new requirements without immediate pressure. Individuals are encouraged to verify their identities early rather than waiting until deadlines approach. Early verification avoids last-minute complications and ensures smooth handling of company filings when confirmation statements become due."
+      },
+      {
+        "type": "h2",
+        "text": "Further Information and Support"
+      },
+      {
+        "type": "p",
+        "text": "FMY Chartered Accountants provides director verification services as an authorised ACSP alongside comprehensive company formation, secretarial, and compliance support. The firm assists clients with understanding their specific verification deadlines, completing the verification process, and integrating identity verification into broader company administration activities."
+      },
+      {
+        "type": "p",
+        "text": "For detailed guidance on the verification process and specific requirements, Companies House has published comprehensive information on the GOV.UK website. Directors can also check their individual verification deadlines by viewing their company’s details on the Companies House register."
+      },
+      {
+        "type": "p",
+        "text": "The introduction of identity verification marks a significant step forward in UK corporate governance and transparency. Understanding the requirements and timelines ensures directors and companies remain compliant whilst benefiting from a more robust and trustworthy company register."
+      },
+      {
+        "type": "h2",
+        "text": "Get in Touch"
+      },
+      {
+        "type": "p",
+        "text": "FMY Chartered Accountants is an authorised ACSP providing director verification services alongside comprehensive accounting, tax, and business advisory support. If you need assistance with director verification, company formation, or have questions about your compliance obligations, our team is here to help."
+      },
+      {
+        "type": "p",
+        "text": "Contact us to discuss your requirements:"
+      },
+      {
+        "type": "h3",
+        "text": "Email"
+      },
+      {
+        "type": "h3",
+        "text": "Phone"
+      },
+      {
+        "type": "p",
+        "text": "+44 (0) 330 043 5088"
+      },
+      {
+        "type": "h3",
+        "text": "Website"
+      },
+      {
+        "type": "p",
+        "text": "www.fmyaccountants.co.uk"
+      },
+      {
+        "type": "p",
+        "text": "Our partner-led service ensures you receive expert guidance throughout the verification process and beyond."
+      }
+    ]
+  },
+  {
+    "url": "https://fmyaccountants.co.uk/2025/11/27/uk-budget-2025-complete-guide-to-tax-changes-and-what-they-mean-for-you/",
+    "slug": "uk-budget-2025-complete-guide-to-tax-changes-and-what-they-mean-for-you",
+    "title": "UK Budget 2025: Complete Guide to Tax Changes and What They Mean for You",
+    "date": "27 November 2025",
+    "isoDate": "2025-11-27",
+    "category": "Business",
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "Introduction"
+      },
+      {
+        "type": "p",
+        "text": "Chancellor Rachel Reeves delivered her second Autumn Budget on 26 November 2025, announcing £26 billion in tax increases alongside measures aimed at cutting the cost of living and reducing NHS waiting lists. This marks one of the most significant fiscal events of the year, with far reaching implications for individuals, families, and businesses across the UK."
+      },
+      {
+        "type": "p",
+        "text": "The Budget comes at a critical time for the UK economy, with the tax burden projected to reach an unprecedented 38% of GDP by 2030-31 – five percentage points higher than pre-pandemic levels. While the government has positioned these changes as necessary to repair public finances and fund essential services, the impact on taxpayers will be substantial."
+      },
+      {
+        "type": "p",
+        "text": "In this comprehensive guide, we break down the key changes announced in the Budget and explain what they mean for your personal finances and business planning."
+      },
+      {
+        "type": "p",
+        "text": "Personal Tax Thresholds: The Stealth Tax ContinuesWhat’s Changed?The freeze on income tax and National Insurance thresholds has been extended for a further three years until April 2031. This continues a policy originally introduced by former Chancellor Rishi Sunak in 2021, which was scheduled to end in 2028."
+      },
+      {
+        "type": "h2",
+        "text": "The Impact"
+      },
+      {
+        "type": "p",
+        "text": "This extension represents what economists call “fiscal drag” – as wages rise with inflation, more people are pulled into higher tax brackets without any change in tax rates. By 2029-30, this policy is expected to create:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "780,000 additional basic rate taxpayers",
+          "920,000 additional higher rate taxpayers",
+          "4,000 additional additional rate taxpayers"
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The Treasury expects this measure alone to raise £7.5 billion annually by 2029-30."
+      },
+      {
+        "type": "h2",
+        "text": "Current Tax Thresholds (Frozen Until 2031)"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Personal Allowance: £12,570",
+          "Basic Rate (20%): £12,571 to £50,270",
+          "Higher Rate (40%): £50,271 to £125,140",
+          "Additional Rate (45%): Over £125,140"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Do"
+      },
+      {
+        "type": "p",
+        "text": "With thresholds frozen for another six years, proactive tax planning becomes essential:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Review your pension contributions to reduce taxable income",
+          "Consider income splitting with your spouse if you’re approaching a higher threshold",
+          "Maximise available reliefs and allowances before they’re eroded by inflation",
+          "Plan salary and dividend extraction carefully if you’re a business owner"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "ISA Changes: Reduced Savings Limits"
+      },
+      {
+        "type": "h2",
+        "text": "What’s Changed?"
+      },
+      {
+        "type": "p",
+        "text": "From April 2027, the annual cash ISA limit will be reduced from £20,000 to £12,000 for individuals under 65. Those aged 65 and over will retain the full £20,000 allowance for cash ISAs."
+      },
+      {
+        "type": "h2",
+        "text": "The Impact"
+      },
+      {
+        "type": "p",
+        "text": "This 40% reduction in the cash ISA limit will significantly affect savers’ ability to shelter their savings from tax. With interest rates on savings accounts remaining relatively attractive, this change means more of your interest income will be subject to tax."
+      },
+      {
+        "type": "h2",
+        "text": "Example Impact"
+      },
+      {
+        "type": "p",
+        "text": "Consider a basic rate taxpayer who currently saves £20,000 annually in a cash ISA earning 4% interest:"
+      },
+      {
+        "type": "h3",
+        "text": "Currently"
+      },
+      {
+        "type": "p",
+        "text": "£800 interest earned tax free annually"
+      },
+      {
+        "type": "h3",
+        "text": "From April 2027"
+      },
+      {
+        "type": "p",
+        "text": "Only £480 tax free (on £12,000), with £320 earned on the remaining £8,000 potentially subject to tax (depending on Personal Savings Allowance usage)"
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Do"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Maximise your £20,000 ISA allowance for the 2025/26 and 2026/27 tax years while you still can",
+          "Consider transferring to Stocks & Shares ISAs which retain the £20,000 limit",
+          "Review your overall savings strategy to optimise tax efficiency",
+          "Use your spouse’s allowance effectively if you’re a couple"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Property Tax Increases: Higher Costs for Landlords and Investors"
+      },
+      {
+        "type": "h2",
+        "text": "What’s Changed?"
+      },
+      {
+        "type": "p",
+        "text": "The Budget introduces multiple changes affecting property owners:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Mansion Tax: A new levy on residential properties valued over £2 million",
+          "Property Income Tax Rate Increase: Tax rates on property, savings, and dividend income will rise by 2 percentage points",
+          "Business Property Tax Reform: Higher rates on commercial properties worth over £500,000, including warehouses used by “online giants”"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The Impact on Landlords"
+      },
+      {
+        "type": "p",
+        "text": "The Chancellor highlighted a stark disparity in the current system: “A landlord with an income of £25,000 will pay nearly £1,200 less in tax than their tenant with the same salary, because no National Insurance is due on rental income.”"
+      },
+      {
+        "type": "p",
+        "text": "The 2 percentage point increase means:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Basic rate landlords: Tax on rental income rises from 20% to 22%",
+          "Higher rate landlords: Tax on rental income rises from 40% to 42%",
+          "Additional rate landlords: Tax on rental income rises from 45% to 47%"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The Impact on High Value Homeowners"
+      },
+      {
+        "type": "p",
+        "text": "The mansion tax on properties over £2 million adds another layer of cost for owners of high value residential property. While full details are still emerging, this is expected to be an annual charge based on property value."
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Do"
+      },
+      {
+        "type": "p",
+        "text": "Property investors and landlords should:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Review the viability of your property portfolio under the new tax rates",
+          "Consider corporate structures for holding investment property",
+          "Evaluate whether to sell underperforming properties before the tax increases take effect",
+          "Factor in the additional costs when calculating rental yields",
+          "Explore capital allowances and other available reliefs"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Pension Changes: Salary Sacrifice Cap"
+      },
+      {
+        "type": "h2",
+        "text": "What’s Changed?"
+      },
+      {
+        "type": "p",
+        "text": "From April 2029, National Insurance relief on salary sacrificed pension contributions will be capped at £2,000 annually. Contributions above this threshold will be subject to employer National Insurance contributions."
+      },
+      {
+        "type": "h2",
+        "text": "The Impact"
+      },
+      {
+        "type": "p",
+        "text": "Salary sacrifice has been a highly tax efficient way to make pension contributions, saving both employer and employee National Insurance. This change significantly reduces that benefit for higher earners."
+      },
+      {
+        "type": "h2",
+        "text": "Current vs. Future Position"
+      },
+      {
+        "type": "h2",
+        "text": "Example: £10,000 salary sacrifice pension contribution"
+      },
+      {
+        "type": "h2",
+        "text": "Currently (2025)"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Employee saves: 12% NI (£1,200) + income tax (20-45%)",
+          "Employer saves: 13.8% NI (£1,380)"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "From April 2029"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "First £2,000: Full NI relief (as above)",
+          "Remaining £8,000: No employer NI relief (£1,104 additional cost)"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Do"
+      },
+      {
+        "type": "p",
+        "text": "If you currently use salary sacrifice for pension contributions:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Maximise contributions before April 2029 while full relief is available",
+          "Review your pension strategy with a financial adviser",
+          "Consider alternative contribution methods post-2029",
+          "Calculate the real cost of continuing salary sacrifice above £2,000",
+          "Explore other tax efficient investment vehicles"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Investment Income: Higher Tax on Dividends and Savings"
+      },
+      {
+        "type": "h2",
+        "text": "What’s Changed?"
+      },
+      {
+        "type": "p",
+        "text": "Tax rates on savings interest and dividend income will increase by 2 percentage points across all bands."
+      },
+      {
+        "type": "h2",
+        "text": "New Rates (From 2026/27)"
+      },
+      {
+        "type": "h2",
+        "text": "Dividend Tax"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Basic rate: 8.75% → 10.75%",
+          "Higher rate: 33.75% → 35.75%",
+          "Additional rate: 39.35% → 41.35%"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Savings Interest Tax"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Basic rate: 20% → 22%",
+          "Higher rate: 40% → 42%",
+          "Additional rate: 45% → 47%"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The Impact on Business Owners"
+      },
+      {
+        "type": "p",
+        "text": "Many owner managers of limited companies pay themselves a small salary and take the remainder as dividends to minimise tax. This strategy becomes less attractive with the dividend tax increase."
+      },
+      {
+        "type": "h2",
+        "text": "Example: Business Owner Taking £50,000 in Dividends"
+      },
+      {
+        "type": "h3",
+        "text": "Currently"
+      },
+      {
+        "type": "p",
+        "text": "Tax of approximately £16,875 (after dividend allowance)"
+      },
+      {
+        "type": "h3",
+        "text": "From 2026/27"
+      },
+      {
+        "type": "p",
+        "text": "Tax of approximately £17,875 (£1,000 additional)"
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Do"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Review your income extraction strategy if you’re a company director",
+          "Model different salary/dividend combinations under the new rates",
+          "Consider pension contributions as a more tax efficient alternative",
+          "Evaluate whether incorporation still makes sense for your business",
+          "Plan dividend timing to make best use of tax year allowances"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The Positive Changes: Cost of Living Support"
+      },
+      {
+        "type": "p",
+        "text": "While much of the Budget focuses on tax increases, there are several measures designed to ease the cost of living:"
+      },
+      {
+        "type": "h2",
+        "text": "Energy Bills"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "£150 reduction on household energy bills for all households"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Transport"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Rail fares frozen across the UK",
+          "Fuel duty 5p cut retained until September 2026 (though it will then be reversed through a staggered approach)"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Families"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Two child benefit cap removed – expected to lift 350,000 children out of poverty and reduce poverty depth for 800,000 more children. This represents a significant policy reversal from Labour’s previous position and will cost an estimated £3 billion by 2029-30."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Healthcare"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "250 new Neighbourhood Health Centres announced",
+          "5.2 million additional NHS appointments already delivered since the general election"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Education"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "£5 million for secondary school libraries following representations from backbench MPs"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Inheritance Tax: Extended FreezeWhat’s Changed?"
+      },
+      {
+        "type": "p",
+        "text": "The inheritance tax (IHT) nil rate bands will be frozen for a further year until April 2031."
+      },
+      {
+        "type": "h2",
+        "text": "Current IHT Thresholds (Frozen Until 2031)"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Nil rate band: £325,000",
+          "Residence nil rate band: £175,000",
+          "Total potential threshold for family home: £500,000 (or £1 million for married couples)"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "The Impact"
+      },
+      {
+        "type": "p",
+        "text": "With property values generally rising over time, more estates will be caught by IHT as the thresholds remain static. This particularly affects families in areas with high property values, such as London and the South East."
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Do"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Review your estate planning arrangements regularly",
+          "Consider lifetime gifting strategies (remember the seven year rule)",
+          "Explore business property relief and agricultural property relief where applicable",
+          "Review life insurance policies held in trust",
+          "Consider pension death benefits as part of your estate planning"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Electric Vehicles: New Road Tax"
+      },
+      {
+        "type": "h2",
+        "text": "What’s Changed?"
+      },
+      {
+        "type": "p",
+        "text": "From April 2028, drivers of battery electric vehicles will pay a new charge of 3 pence per mile, with the rate rising annually with inflation."
+      },
+      {
+        "type": "h2",
+        "text": "The Impact"
+      },
+      {
+        "type": "p",
+        "text": "This represents the government’s response to falling fuel duty revenues as more drivers switch to electric vehicles. Fuel duty raised just under £25 billion in 2024/25, and this revenue stream is under threat from the transition to EVs."
+      },
+      {
+        "type": "h2",
+        "text": "Example Cost"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Average annual mileage (7,400 miles): £222 per year",
+          "High mileage driver (15,000 miles): £450 per year"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "What You Should Do"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Factor in the future running costs when considering an EV purchase",
+          "Review your vehicle acquisition timing if you’re planning to switch to electric",
+          "Consider the total cost of ownership including this new charge"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Business Implications: Key Considerations"
+      },
+      {
+        "type": "h2",
+        "text": "Workforce Efficiency Drive"
+      },
+      {
+        "type": "p",
+        "text": "The Chancellor announced plans to deliver almost £5 billion in savings by 2031 through workforce reductions and greater use of AI in public services. While this primarily affects the public sector, it signals the government’s direction on technology adoption and efficiency."
+      },
+      {
+        "type": "h2",
+        "text": "The Overall Tax Burden"
+      },
+      {
+        "type": "p",
+        "text": "With the total tax burden reaching 38% of GDP by 2030-31, businesses need to:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Review cost structures in light of higher taxes",
+          "Plan for reduced consumer spending power as individuals face higher tax bills",
+          "Consider the impact on recruitment and retention as take home pay is squeezed",
+          "Optimise business structures for tax efficiency"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Timeline: When Do These Changes Take Effect?"
+      },
+      {
+        "type": "p",
+        "text": "Understanding the implementation timeline is crucial for effective planning:"
+      },
+      {
+        "type": "h2",
+        "text": "What Should You Do Now?"
+      },
+      {
+        "type": "p",
+        "text": "The changes announced in this Budget require proactive planning. Here are the key actions to consider:"
+      },
+      {
+        "type": "h2",
+        "text": "Immediate Actions (Before April 2026)"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Review your income and expenditure in light of coming changes",
+          "Maximise your ISA allowances while the £20,000 limit remains",
+          "Consider accelerating dividend payments before rates increase",
+          "Review your property portfolio strategy"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Medium Term Planning (2026-2028)"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Restructure income extraction if you’re a business owner",
+          "Optimise pension contributions before the salary sacrifice cap",
+          "Review investment strategies considering higher tax on returns",
+          "Plan for frozen tax thresholds as your income rises"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Long Term Considerations (2028+)"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Estate planning in light of extended IHT freezes",
+          "Retirement planning factoring in new pension tax rules",
+          "Business succession planning with new tax landscape in mind",
+          "Multi generational wealth strategies"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "How FMY Chartered Accountants Can Help"
+      },
+      {
+        "type": "p",
+        "text": "At FMY Chartered Accountants, we combine Big 4 expertise with mid market focus and transparent, fixed fee pricing. Our team can help you:"
+      },
+      {
+        "type": "h2",
+        "text": "Tax Planning & Optimisation"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Comprehensive tax position review in light of Budget changes",
+          "Income extraction strategy for business owners",
+          "Investment portfolio tax efficiency analysis",
+          "Estate and inheritance tax planning"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Business Advisory"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Business structure optimisation",
+          "Dividend vs. salary planning",
+          "Corporate tax strategy",
+          "Succession planning"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Compliance & Peace of Mind"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Accurate tax return preparation",
+          "Real time tax position monitoring",
+          "Regulatory compliance assurance",
+          "Year round support (not just at tax deadline)"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Our Approach"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Partner led service – you’ll work directly with experienced professionals",
+          "Fixed fee pricing – no surprises, transparent costs",
+          "Plain English communication – we explain complex tax matters clearly",
+          "Proactive advice – we identify opportunities before they’re missed"
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Conclusion"
+      },
+      {
+        "type": "p",
+        "text": "The 2025 Autumn Budget represents one of the most significant tax events in recent years, with £26 billion in tax increases set to reshape the financial landscape for individuals and businesses alike. While some measures – such as the two child benefit cap removal and energy bill support – provide welcome relief, the overall direction is clear: the tax burden is rising substantially."
+      },
+      {
+        "type": "p",
+        "text": "The key to navigating these changes successfully is proactive planning. The timeline of implementation gives us a window to optimise tax positions, restructure where beneficial, and ensure you’re positioned as efficiently as possible under the new regime."
+      },
+      {
+        "type": "p",
+        "text": "The frozen tax thresholds, reduced ISA limits, higher taxes on property and investment income, and pension changes all require careful consideration and strategic response. Those who plan ahead will be in a far stronger position than those who react only when changes take effect."
+      }
+    ]
+  },
+  {
+    "url": "https://fmyaccountants.co.uk/2025/11/17/inheritance-tax-planning-urgency-the-april-2026-deadline-approaches/",
+    "slug": "inheritance-tax-planning-urgency-the-april-2026-deadline-approaches",
+    "title": "Inheritance Tax Planning Urgency: The April 2026 Deadline Approaches",
+    "date": "17 November 2025",
+    "isoDate": "2025-11-17",
+    "category": "Business",
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "A seismic shift in estate planning"
+      },
+      {
+        "type": "p",
+        "text": "From 6 April 2026, the full 100% relief from inheritance tax will be restricted to the first £1 million of combined agricultural and business property, with anything above this receiving only 50% relief. This represents one of the most significant changes to inheritance tax in decades and requires immediate action from business owners and landowners."
+      },
+      {
+        "type": "h2",
+        "text": "Understanding the impact"
+      },
+      {
+        "type": "p",
+        "text": "For example, an interest of £2 million in shares in an unquoted company would attract 100% relief on the first £1 million and 50% relief on the second £1 million, meaning a potential inheritance tax liability of £200,000, and an effective inheritance tax rate of 10%. This compares to zero IHT liability under current rules – a dramatic change requiring urgent strategic response."
+      },
+      {
+        "type": "p",
+        "text": "The reforms are expected to result in around 2,000 estates across the UK paying more Inheritance Tax in 2026 to 2027, representing 0.3% of all UK estates and 4.5% of taxpaying estates. If you own substantial business or agricultural assets, there’s a reasonable probability you’ll be affected."
+      },
+      {
+        "type": "h2",
+        "text": "Who this affects most significantly"
+      },
+      {
+        "type": "p",
+        "text": "Business owners with companies valued over £1 million, particularly those holding unquoted company shares, are directly impacted. Around 1,000 estates are expected to hold shares designated as “not listed” on the markets of recognised stock exchanges, facing the full brunt of these changes."
+      },
+      {
+        "type": "p",
+        "text": "Agricultural landowners and farmers face particular concern. Up to 520 estates claiming agricultural property relief are expected to pay more Inheritance Tax in 2026 to 2027, though almost three-quarters of all estates claiming agricultural property relief will not be affected by the changes."
+      },
+      {
+        "type": "p",
+        "text": "Property investors and those holding AIM shares also face new restrictions. IHT relief on AIM shares will also be restricted to 50% from April 2026, removing a popular estate planning tool."
+      },
+      {
+        "type": "h2",
+        "text": "The time-limited window for action"
+      },
+      {
+        "type": "p",
+        "text": "The new rules will apply for lifetime transfers on or after 30 October 2024 if the donor dies on or after 6 April 2026 – this prevents forestalling. However, significant planning opportunities still exist for those who act immediately."
+      },
+      {
+        "type": "h2",
+        "text": "Strategic options before April 2026"
+      },
+      {
+        "type": "p",
+        "text": "Spousal transfers remain fully exempt. Full exemptions for transfers between spouses and civil partners continue to apply, meaning any agricultural and business assets left to a spouse or civil partner will be tax free. For married couples, this means two people with farmland can pass on up to £3 million to a child or grandchild tax free when combining allowances."
+      },
+      {
+        "type": "p",
+        "text": "The seven-year gifting strategy. The £1 million relief allowance will refresh every seven years for lifetime gifting (and every ten years for trusts). Making gifts now starts the seven-year clock, potentially allowing assets to pass free of IHT if the donor survives seven years."
+      },
+      {
+        "type": "p",
+        "text": "Trust restructuring opportunities. For trusts settled before 30 October 2024, there’s a time-limited opportunity to distribute APR and BPR assets to beneficiaries with no exit charge before the new regime starts to apply. However, this window depends on each trust’s 10-year anniversary date."
+      },
+      {
+        "type": "p",
+        "text": "Business restructuring considerations. Certain corporate structures may be more or less favourable under the new rules. Professional advice is essential to evaluate whether restructuring could provide advantages."
+      },
+      {
+        "type": "h2",
+        "text": "Payment flexibility helps but doesn’t eliminate the problem"
+      },
+      {
+        "type": "p",
+        "text": "Tax can be paid in instalments over 10 years interest free, rather than immediately, as with other types of inheritance tax. This interest-free instalment option will be extended to all property eligible for agricultural property relief or business property relief. While this eases cash flow pressure, it doesn’t reduce the total tax liability."
+      },
+      {
+        "type": "h2",
+        "text": "Valuation becomes critical"
+      },
+      {
+        "type": "p",
+        "text": "Professional bodies such as the Chartered Institute of Taxation have expressed concern at how administratively burdensome it would become to value assets and calculate potential liabilities. Accurate professional valuations will be essential for estates near the £1 million threshold."
+      },
+      {
+        "type": "h2",
+        "text": "Act now – the window is closing"
+      },
+      {
+        "type": "p",
+        "text": "With April 2026 just months away, any strategy requiring legal documentation, corporate restructuring, or complex planning must begin immediately. Even straightforward gifting strategies need time to implement properly."
+      },
+      {
+        "type": "p",
+        "text": "At FMY Chartered Accountants, we’re working intensively with affected clients to model the impact of these changes and implement appropriate strategies. Our integrated approach combines tax planning, business valuation, and succession planning expertise to develop solutions tailored to each client’s circumstances. The cost of inaction could be hundreds of thousands of pounds in unnecessary IHT. The cost of proper planning is a fraction of the potential savings. Contact us urgently to review your position."
+      }
+    ]
+  },
+  {
+    "url": "https://fmyaccountants.co.uk/2025/11/10/strategic-business-planning-for-2026-2027-navigating-the-economic-outlook/",
+    "slug": "strategic-business-planning-for-2026-2027-navigating-the-economic-outlook",
+    "title": "Strategic Business Planning for 2026-2027: Navigating the Economic Outlook",
+    "date": "10 November 2025",
+    "isoDate": "2025-11-10",
+    "category": "Business",
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "Understanding the economic landscape ahead"
+      },
+      {
+        "type": "p",
+        "text": "UK GDP is forecast to grow by 0.9% in 2026, before accelerating to 1.3% in 2027, with the economy expected to slow towards the end of 2025 due to the combined effects of a fragile global economy, tighter fiscal policy and reduced consumer spending power. This presents both challenges and opportunities for strategic business planning."
+      },
+      {
+        "type": "h2",
+        "text": "What the forecasts mean for your business"
+      },
+      {
+        "type": "p",
+        "text": "Business investment growth is expected to slow to 0.8% in 2026, partially due to uncertainty in the global economy and the challenging worldwide trading environment caused by tariffs, before rising to 1.7% from 2027. The message is clear: 2026 will be a year requiring caution and careful cash management, whilst 2027 offers stronger growth prospects for those who position themselves correctly."
+      },
+      {
+        "type": "p",
+        "text": "Inflation is forecast to be higher in 2025, reaching 3.2% by Q4 2025, before falling to 2.2% by the end of 2026 and 2% in Q4 2027. This gradual descent to the Bank of England’s target brings both relief and challenges – input costs should stabilise, but pricing power may diminish as competition intensifies."
+      },
+      {
+        "type": "h2",
+        "text": "Labour market and employment costs"
+      },
+      {
+        "type": "p",
+        "text": "Unemployment is forecast to continue its slow rise due to elevated labour costs, peaking at 5% in the first half of 2026, before falling back to 4.7% by 2027. Combined with recent National Insurance increases, this creates a complex workforce planning environment."
+      },
+      {
+        "type": "p",
+        "text": "Average earnings are expected to reach 4.2% by the end of 2025, falling only gradually to 4.1% in 2026 and 4% in 2027, putting continued cost pressures on businesses. Wage demands will remain elevated even as inflation moderates, squeezing margins unless offset by productivity improvements."
+      },
+      {
+        "type": "h2",
+        "text": "Consumer spending and market demand"
+      },
+      {
+        "type": "p",
+        "text": "Consumer spending is predicted to rise by 0.9% in 2026 and 1.4% in 2027, as the effects of energy price increases fade and falling interest rates persuade more households to spend rather than save. This suggests consumer-facing businesses should see improving conditions from late 2026, but must weather challenging conditions in the interim."
+      },
+      {
+        "type": "p",
+        "text": "Annual real GDP growth is expected to average 1.4% from 2026 onwards as strengthening consumption and investment offset fiscal headwinds and productivity gains increase the UK potential growth rate. The key to thriving in this environment is productivity – businesses that can achieve more with existing resources will significantly outperform."
+      },
+      {
+        "type": "h2",
+        "text": "Strategic imperatives for 2026-2027"
+      },
+      {
+        "type": "p",
+        "text": "Liquidity management comes first. With modest growth and continued cost pressures in 2026, maintaining robust cash reserves and flexible credit facilities is essential. Review your working capital cycle and identify opportunities to accelerate cash collection or extend payment terms with suppliers."
+      },
+      {
+        "type": "p",
+        "text": "Invest in productivity, not just capacity. Given the wage and NI cost environment, expansion through headcount is expensive. Focus investment on technology, automation, and process improvements that increase output per employee. Business investment projections show 0.3% growth in 2025 and 1% in 2026, downgraded from earlier predictions, indicating many businesses share this cautious approach."
+      },
+      {
+        "type": "p",
+        "text": "Prepare for recovery in 2027. Those who maintain financial strength through 2026’s challenges will be best positioned to capitalise on 2027’s improved conditions. Strategic planning should identify growth opportunities that can be executed when economic conditions strengthen."
+      },
+      {
+        "type": "p",
+        "text": "Scenario planning is vital. Potential changes to tariffs and trading arrangements represent significant risks, with scenarios showing GDP could vary by plus or minus 0.4%. Develop plans for multiple scenarios rather than betting on a single outcome."
+      },
+      {
+        "type": "h2",
+        "text": "The competitive advantage of strategic foresight"
+      },
+      {
+        "type": "p",
+        "text": "The difference between businesses that thrive and those that merely survive in 2026-2027 will be strategic preparation. At FMY Chartered Accountants, we help clients model different scenarios, stress-test assumptions, and develop flexible strategies that work across a range of economic conditions. Our experience working with businesses through previous economic cycles shows that companies receiving proactive strategic advice significantly outperform those taking a reactive approach. Now is the time to review your three-year plan, update your assumptions, and ensure your business is positioned for whatever 2026 and 2027 bring."
+      }
+    ]
+  },
+  {
+    "url": "https://fmyaccountants.co.uk/2025/11/03/esg-and-sustainability-reporting-preparing-for-the-2026-requirements/",
+    "slug": "esg-and-sustainability-reporting-preparing-for-the-2026-requirements",
+    "title": "ESG and Sustainability Reporting: Preparing for the 2026 Requirements",
+    "date": "3 November 2025",
+    "isoDate": "2025-11-03",
+    "category": "Business",
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "The sustainability reporting revolution arrives"
+      },
+      {
+        "type": "p",
+        "text": "Consultations on the UK’s new Sustainability Disclosure Requirements standards began in Q1 2025, with implementation from January 2026. While immediate requirements affect primarily larger companies, the implications cascade rapidly through supply chains to affect SMEs of all sizes."
+      },
+      {
+        "type": "h2",
+        "text": "Understanding the expanding scope"
+      },
+      {
+        "type": "p",
+        "text": "From 2026 onwards, the UK will begin phasing in mandatory climate-related financial disclosures under the UK Sustainability Reporting Standards, grounded in the global International Sustainability Standards Board framework. During 2025, both the government and the FCA are expected to consult on requirements to disclose against the UK SRS for “economically significant” and listed companies respectively."
+      },
+      {
+        "type": "p",
+        "text": "For listed SMEs, the timeline is clear: listed SMEs are required to comply with ESG reporting from January 2026, though they can postpone reporting for another two years, meaning that as a listed SME in the EU, you must start reporting by 2028."
+      },
+      {
+        "type": "h2",
+        "text": "Why unlisted SMEs must pay attention"
+      },
+      {
+        "type": "p",
+        "text": "Even if you’re not directly subject to mandatory reporting, the reality is unavoidable: whilst new and emerging ESG legislation will impact directly on larger corporate entities, those SMEs and smaller organisations in their supply chain will be indirectly affected, creating requests to SMEs for information on their environmental impact, social policies, and governance processes."
+      },
+      {
+        "type": "p",
+        "text": "Non-EU entities with significant EU activity over €150 million turnover within the EU, such as a substantial EU subsidiary or EU branch, will be impacted from 2026. UK businesses with European operations or customers may find themselves captured by EU requirements even without direct UK obligations."
+      },
+      {
+        "type": "h2",
+        "text": "The supply chain ripple effect"
+      },
+      {
+        "type": "p",
+        "text": "Your largest customers are preparing for their own reporting requirements. They will need data from their supply chains – including you – to complete their disclosures. Being unable to provide this information could cost you valuable contracts."
+      },
+      {
+        "type": "p",
+        "text": "The creation and use of sustainability-related information will enable SMEs to better manage their opportunities and risks, thereby strengthening their financial position and facilitating easier access to investment and more favourable trade terms with suppliers. This isn’t just compliance – it’s competitive advantage."
+      },
+      {
+        "type": "h2",
+        "text": "What ESG reporting actually involves"
+      },
+      {
+        "type": "p",
+        "text": "The “E” includes environmental matters such as climate change, energy use and energy efficiency, pollution, biodiversity and resource scarcity; the “S” looks at areas such as social, community and human rights issues, modern slavery, diversity, equity and inclusion, stakeholder and employee engagement, and gender pay gaps; and the “G” covers topics such as bribery, corruption, executive pay, board diversity and anti-money laundering, as well as cyber and data security."
+      },
+      {
+        "type": "p",
+        "text": "CSRD reporting goes beyond just climate reporting, requiring a double materiality approach, with value chain consideration being a crucial part of the directive, and limited assurance of ESG reporting mandatory from the first year of application. This is comprehensive, rigorous reporting requiring proper systems and processes."
+      },
+      {
+        "type": "h2",
+        "text": "Starting your ESG journey in 2025"
+      },
+      {
+        "type": "p",
+        "text": "According to the Capterra UK Survey, 48% of British SMEs pursuing environmental, social, and governance goals don’t know where and how to start. You’re not alone – but waiting for perfect clarity is a mistake. Here’s how to begin:"
+      },
+      {
+        "type": "p",
+        "text": "Conduct a materiality assessment. The company needs to narrow down the ESG concerns most relevant to itself, its stakeholders, and mandatory requirements, with industry performance benchmarks helping identify key reporting areas. Not every ESG factor matters equally to your business – focus on what’s material."
+      },
+      {
+        "type": "p",
+        "text": "Start measuring what matters. You can’t report what you don’t measure. Begin collecting data on energy consumption, waste generation, employee metrics, and governance processes. Even basic tracking now makes formal reporting later vastly easier."
+      },
+      {
+        "type": "p",
+        "text": "Review your existing compliance. Small and medium-sized businesses with fewer than 500 employees and less than £500 million annual turnover are not subject to most climate-related disclosures and ESG regulations currently. However, many requirements already apply – review your position against existing obligations like Modern Slavery Act reporting or gender pay gap reporting if applicable."
+      },
+      {
+        "type": "p",
+        "text": "Engage your supply chain. Start requesting ESG information from your key suppliers now. This serves dual purposes: gathering data you may need for your own reporting whilst also signalling to suppliers that ESG matters to your business relationships."
+      },
+      {
+        "type": "p",
+        "text": "Consider voluntary frameworks. The GRI standards create a framework all businesses can use to identify and assess their impact, as well as to determine the material topics most relevant to the company. Early adoption of voluntary frameworks demonstrates commitment whilst building reporting capability."
+      },
+      {
+        "type": "h2",
+        "text": "The business case beyond compliance"
+      },
+      {
+        "type": "p",
+        "text": "Integrating the UK SRS into your business enables you to embed sustainability into corporate strategy, improve internal risk management, uncover efficiencies, spark innovation, and boost resilience, future-proofing your business and driving measurable ESG performance."
+      },
+      {
+        "type": "p",
+        "text": "Companies that excel at ESG reporting attract better talent, win more contracts, and access capital on better terms. This is about building business value, not just ticking boxes."
+      },
+      {
+        "type": "h2",
+        "text": "Getting strategic support"
+      },
+      {
+        "type": "p",
+        "text": "At FMY Chartered Accountants, we’re helping clients across sectors prepare for ESG reporting requirements through materiality assessments, system implementation, and reporting strategy development. Our approach integrates ESG considerations with existing financial reporting to create efficient, cost-effective compliance whilst identifying genuine business improvement opportunities. The 2026 requirements may seem distant, but building robust ESG systems takes 12-18 months. Starting now positions you for success rather than scrambling later."
+      }
+    ]
+  },
+  {
+    "url": "https://fmyaccountants.co.uk/2025/10/27/cybersecurity-in-2026-protecting-your-business-in-an-ai-driven-threat-landscape/",
+    "slug": "cybersecurity-in-2026-protecting-your-business-in-an-ai-driven-threat-landscape",
+    "title": "Cybersecurity in 2026: Protecting Your Business in an AI-Driven Threat Landscape",
+    "date": "27 October 2025",
+    "isoDate": "2025-10-27",
+    "category": "Business",
+    "blocks": [
+      {
+        "type": "h2",
+        "text": "The escalating threat environment"
+      },
+      {
+        "type": "p",
+        "text": "According to the Chartered Institute of Internal Auditors, cybersecurity and data security was identified as the single greatest risk for businesses in 2026, with over 80% of internal auditors in the UK and Europe flagging it as a top threat. This isn’t hyperbole – it’s an evidence-based assessment of where business risk is concentrating."
+      },
+      {
+        "type": "p",
+        "text": "The UK cybersecurity market is projected to grow at a compound annual growth rate of around 10.5% through to 2033, reflecting both the escalating threat and the business investment required to address it."
+      },
+      {
+        "type": "h2",
+        "text": "AI transforms both attack and defence"
+      },
+      {
+        "type": "p",
+        "text": "Over half of European IT professionals believe AI-driven cyber threats will be the top concern for 2026, yet only 14% feel very prepared to handle them. This preparation gap represents existential risk for many businesses."
+      },
+      {
+        "type": "p",
+        "text": "Attackers may deploy autonomous AI-agents, deep-fake phishing, adaptive malware or supply-chain exploits at scale, requiring defences to evolve from “we’ll respond when attacked” to “we anticipate and pre-empt attack”. Reactive security models are becoming obsolete."
+      },
+      {
+        "type": "p",
+        "text": "The good news? AI strengthens defence as well as attack. Businesses deploying AI-powered threat detection, automated response systems, and predictive security analytics gain significant advantages. The question is whether your AI adoption outpaces attackers’ AI use."
+      },
+      {
+        "type": "h2",
+        "text": "The persistent threat vectors"
+      },
+      {
+        "type": "p",
+        "text": "In Q1 2025, phishing accounted for 53% of cybersecurity attacks suffered by UK SMEs, with 37% due to stolen or lost credentials and 30% due to too many permissions. These aren’t sophisticated zero-day exploits – they’re basic attacks succeeding because fundamentals aren’t properly addressed."
+      },
+      {
+        "type": "p",
+        "text": "In Q1 2025, 29% of cybersecurity attacks were attributed to AI, a slight increase from 25% in Q3 2024. AI-powered attacks are growing but haven’t yet dominated – the window to prepare is now, not after they become overwhelming."
+      },
+      {
+        "type": "h2",
+        "text": "Supply chain vulnerabilities multiply"
+      },
+      {
+        "type": "p",
+        "text": "By 2026, supply-chain attacks will continue to grow in sophistication and impact, with UK reports showing many firms are under-prepared for third-party intrusions. Your security is only as strong as your weakest supplier’s security."
+      },
+      {
+        "type": "p",
+        "text": "In Q1 2025, 55% of UK SMEs discovered employees using applications outside of those officially managed by IT, with 83% estimating employees are using between one and 20 unsanctioned applications. This “shadow IT” creates unmonitored attack surfaces that sophisticated threat actors exploit systematically."
+      },
+      {
+        "type": "h2",
+        "text": "The shift to proactive security"
+      },
+      {
+        "type": "p",
+        "text": "In 2026, the paradigm is shifting from “react when breached” to “detect and prevent early”, with proactive and pre-emptive security accounting for a significant portion of security spending going forward, including adoption of Zero Trust models, continuous monitoring, automation and rapid incident-response capabilities."
+      },
+      {
+        "type": "p",
+        "text": "Zero Trust architecture assumes breach is inevitable and therefore requires continuous verification of every user, device, and connection. This represents fundamental rethinking of security architecture but provides dramatically improved protection."
+      },
+      {
+        "type": "h2",
+        "text": "Investment priorities for 2026"
+      },
+      {
+        "type": "p",
+        "text": "Over half of UK SMEs (52%) are prioritising investment in cybersecurity tools and services in the next six months – more than anything else, with 76% expecting cybersecurity budgets to rise in the next 12 months. If you’re not planning budget increases for cybersecurity, you’re an outlier in a dangerous way."
+      },
+      {
+        "type": "p",
+        "text": "The primary reason UK SMEs use Managed Service Providers is system security (53%), with 61% saying cybersecurity is the one aspect they would like their MSPs to manage that they do not manage today. For many SMEs, outsourcing to specialists provides better protection than attempting to build internal expertise."
+      },
+      {
+        "type": "h2",
+        "text": "Practical steps for 2026 preparation"
+      },
+      {
+        "type": "p",
+        "text": "Conduct comprehensive risk assessment. Map your supplier ecosystem and rate third-party risk accordingly, expanding risk assessment to include vendor ecosystems not just direct systems. Understanding your attack surface is the foundation of protecting it."
+      },
+      {
+        "type": "p",
+        "text": "Implement multi-factor authentication universally. 85% of UK SMEs either agree or strongly agree that their organisation’s security posture would be stronger if they required biometric authentication, with 62% saying the best tool for security is biometrics, followed by MFA at 43%. This is low-cost, high-impact protection."
+      },
+      {
+        "type": "p",
+        "text": "Address shadow IT systematically. 87% of UK SMEs are very concerned or somewhat concerned about shadow IT use. Create approved alternatives that balance security with functionality rather than simply prohibiting unauthorised tools."
+      },
+      {
+        "type": "p",
+        "text": "Build AI-aware threat models. Build AI-aware threat models and include them in your next cybersecurity strategy review, considering external expertise to validate whether your AI use-cases expose you to new vulnerabilities. Every AI tool you deploy creates potential attack vectors."
+      },
+      {
+        "type": "p",
+        "text": "Establish board-level oversight. Cybersecurity cannot be delegated entirely to IT. Board and senior management must understand the risk, allocate appropriate resources, and monitor effectiveness actively."
+      },
+      {
+        "type": "p",
+        "text": "Test your incident response. Train staff and rehearse incident response, testing your playbooks regularly. When breach occurs – and you should assume it will – practiced response dramatically reduces impact."
+      },
+      {
+        "type": "h2",
+        "text": "Measuring what matters"
+      },
+      {
+        "type": "p",
+        "text": "Set key metrics for 2026: Mean Time to Detect (MTTD), Mean Time to Respond (MTTR), number of high-risk vulnerabilities closed. What gets measured gets managed. Establish baselines now and track improvement."
+      },
+      {
+        "type": "h2",
+        "text": "The strategic perspective"
+      },
+      {
+        "type": "p",
+        "text": "Cybersecurity investment isn’t optional overhead – it’s business continuity insurance. A single serious breach can destroy customer trust, trigger regulatory penalties, and cause operational paralysis for weeks or months."
+      },
+      {
+        "type": "p",
+        "text": "At FMY Chartered Accountants, we work with clients to assess cybersecurity risk from a business perspective, ensuring investment is appropriate to actual risk exposure. Our role isn’t implementing technical solutions but helping you understand what level of cybersecurity investment makes business sense and holding IT suppliers accountable for delivering protection commensurate with that investment."
+      },
+      {
+        "type": "p",
+        "text": "The threat landscape in 2026 will be fundamentally different from today. Preparation now protects your business tomorrow."
+      }
+    ]
+  },
+  {
+    "url": "https://fmyaccountants.co.uk/2025/10/20/frs-102-is-changing-what-your-business-needs-to-know-before-2026/",
+    "slug": "frs-102-is-changing-what-your-business-needs-to-know-before-2026",
+    "title": "FRS 102 Is Changing: What Your Business Needs to Know Before 2026",
+    "date": "20 October 2025",
+    "isoDate": "2025-10-20",
+    "category": "Business",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "At FMY Chartered Accountants, we believe preparation is the key to confidence. The Financial Reporting Council (FRC) has announced important updates to FRS 102, the most widely used accounting standard in the UK and Republic of Ireland. These changes, effective for accounting periods beginning on or after 1 January 2026, will bring UK GAAP closer in line with international standards (IFRS)."
+      },
+      {
+        "type": "p",
+        "text": "While 2026 may feel some time away, businesses should begin preparing now. The updates to lease accounting and revenue recognition in particular could significantly affect reported profits, balance sheets, and key financial metrics such as EBITDA."
+      },
+      {
+        "type": "h2",
+        "text": "What’s Changing Under FRS 102?"
+      },
+      {
+        "type": "h2",
+        "text": "1. Lease Accounting – Moving On Balance Sheet"
+      },
+      {
+        "type": "p",
+        "text": "Currently, many leases are treated as “off balance sheet” operating leases, with rent simply recognised in profit and loss. Under the revised FRS 102, this distinction disappears. Almost all leases will need to be recognised on balance sheet, requiring:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "A Right-of-Use (ROU) asset in fixed assets.",
+          "A corresponding lease liability for future payments."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This means reported assets and liabilities will increase, and instead of a rent expense, businesses will see depreciation of the ROU asset and interest on lease liabilities in their P&L."
+      },
+      {
+        "type": "p",
+        "text": "Exceptions remain for low-value leases and those under 12 months, but most businesses will notice a tangible shift in their financial position."
+      },
+      {
+        "type": "h2",
+        "text": "2. Revenue Recognition – A Five-Step Model"
+      },
+      {
+        "type": "p",
+        "text": "The revised FRS 102 introduces a new five-step model for recognising revenue, aligning more closely with IFRS 15. The focus moves from simply transferring “risks and rewards” to assessing whether performance obligations have been satisfied."
+      },
+      {
+        "type": "p",
+        "text": "The five steps are:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Identify the contract with the customer.",
+          "Identify distinct performance obligations.",
+          "Determine the transaction price.",
+          "Allocate the price to performance obligations.",
+          "Recognise revenue when obligations are satisfied."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "This change may accelerate or delay revenue recognition depending on contract terms. Businesses in construction, services, and long-term projects are likely to feel the greatest impact."
+      },
+      {
+        "type": "h2",
+        "text": "3. Other Key Updates"
+      },
+      {
+        "type": "p",
+        "text": "Alongside leases and revenue, the revised FRS 102 introduces further refinements:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "A new definition of fair value aligned with IFRS 13.",
+          "Updated rules on business combinations and share-based payments.",
+          "Guidance on uncertain tax positions.",
+          "Clarity on whether software costs are treated as intangible assets or property, plant, and equipment.",
+          "New disclosure requirements focused on material accounting policies.",
+          "Simplifications for small entities under Section 1A."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Why This Matters: The Business Impact"
+      },
+      {
+        "type": "p",
+        "text": "These accounting changes don’t just affect the numbers in your financial statements — they can reshape your broader business landscape. Companies should assess how the amendments will impact:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "EBITDA & Profitability: With leases moving on balance sheet, EBITDA may increase (as rent expenses are removed). However, interest and depreciation will impact profit and cashflow differently.",
+          "Loan Covenants: Businesses with loans linked to EBITDA, net debt, or gearing ratios may find themselves in breach of agreements unless terms are renegotiated.",
+          "Dividends & Bonus Schemes: Shifts in timing of revenue and profit recognition could affect distributable reserves, impacting dividends and staff incentive schemes.",
+          "M&A and Earn-Out Clauses: Changes in revenue and profit recognition may affect contingent consideration linked to acquisitions."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Practical Steps for Businesses"
+      },
+      {
+        "type": "p",
+        "text": "At FMY, we recommend businesses act now to avoid disruption later:"
+      },
+      {
+        "type": "ol",
+        "items": [
+          "Impact Assessment – Review your lease and revenue contracts to understand how the new standards affect you.",
+          "Contract Review – Update terms and conditions where necessary to support compliant reporting.",
+          "Systems & Data – Consider whether new software or enhanced IT systems are needed for lease tracking and revenue recognition.",
+          "Covenants & Agreements – Speak to lenders, investors, and stakeholders early to renegotiate terms if needed.",
+          "Internal Controls – Establish robust processes to ensure calculations, especially for leases, are accurate and auditable."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For businesses with complex lease portfolios, adopting specialised lease accounting software may be essential. Smaller businesses may manage with well-structured spreadsheets, but accuracy and compliance are critical either way."
+      },
+      {
+        "type": "h2",
+        "text": "Linking With Company Size Threshold Changes"
+      },
+      {
+        "type": "p",
+        "text": "These FRS 102 updates arrive alongside revisions to company size thresholds effective 6 April 2025. More companies may qualify as micro-entities under FRS 105, avoiding the new lease requirements altogether. However, since lease and revenue accounting changes also affect turnover and total assets — metrics used in size classification — businesses should carefully consider their future reporting framework."
+      },
+      {
+        "type": "h2",
+        "text": "How FMY Accountants Can Help"
+      },
+      {
+        "type": "p",
+        "text": "Navigating the new FRS 102 rules can be daunting, but with expert guidance, you can turn compliance into an opportunity. At FMY Chartered Accountants, we:"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Conduct tailored impact assessments for your business.",
+          "Help you review and renegotiate contracts to avoid unintended consequences.",
+          "Provide advice on system upgrades or process changes for seamless compliance.",
+          "Offer ongoing support to ensure that reporting remains robust, accurate, and aligned with your business goals."
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Final Thoughts"
+      },
+      {
+        "type": "p",
+        "text": "The revised FRS 102 standard represents one of the most significant shifts in UK GAAP in years. While the changes aim to improve transparency and bring consistency with international standards, they will have real consequences for balance sheets, profitability, and business decision-making."
+      },
+      {
+        "type": "p",
+        "text": "With less than a year until the first reporting periods under the new standard, now is the time to act."
+      }
+    ]
+  },
+  {
+    "url": "https://fmyaccountants.co.uk/2025/10/12/why-your-business-needs-a-virtual-finance-office-the-complete-guide-to-finance-as-a-service/",
+    "slug": "why-your-business-needs-a-virtual-finance-office-the-complete-guide-to-finance-as-a-service",
+    "title": "Why Your Business Needs a Virtual Finance Office: The Complete Guide to Finance as a Service",
+    "date": "12 October 2025",
+    "isoDate": "2025-10-12",
+    "category": "Business",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "As a business owner, you’re juggling countless responsibilities. From managing your team to delivering exceptional service to your customers, there’s barely enough time in the day. Yet amidst all this, one critical area often gets neglected: your finances."
+      },
+      {
+        "type": "p",
+        "text": "You know good financial management is essential. But hiring a full-time finance team is expensive, and doing it yourself means late nights wrestling with spreadsheets when you should be growing your business. There’s a better way: the Virtual Finance Office."
+      },
+      {
+        "type": "h2",
+        "text": "Most growing businesses face three common challenges"
+      },
+      {
+        "type": "h2",
+        "text": "1. The DIY Approach Is Draining"
+      },
+      {
+        "type": "p",
+        "text": "Many business owners start by managing their own books. It seems cost-effective at first, but soon you’re spending evenings and weekends on financial admin instead of strategic work. You’re also more likely to make costly mistakes or miss valuable tax reliefs because it’s not your area of expertise."
+      },
+      {
+        "type": "h2",
+        "text": "2. Hiring In-House Is Expensive"
+      },
+      {
+        "type": "p",
+        "text": "A qualified accountant or financial controller in the UK can cost £40,000-£70,000 per year in salary alone—before considering National Insurance, pension contributions, holiday pay, and office costs. For many SMEs, that’s simply not viable, especially when you might not need someone full-time."
+      },
+      {
+        "type": "h2",
+        "text": "3. Basic Bookkeeping Isn’t Enough"
+      },
+      {
+        "type": "p",
+        "text": "You might have a bookkeeper handling the basics, but who’s analyzing your cashflow? Who’s spotting opportunities to improve profitability? Who’s planning for tax efficiency? Without strategic financial oversight, you’re flying blind."
+      },
+      {
+        "type": "h2",
+        "text": "Significant Cost Savings"
+      },
+      {
+        "type": "p",
+        "text": "With a Virtual Finance Office, you get access to a whole team of specialists—from bookkeepers to chartered accountants to financial controllers—for a fraction of what it would cost to employ even one person in-house. Our packages start from just £300 per month, giving you professional expertise without breaking the bank."
+      },
+      {
+        "type": "h2",
+        "text": "Expertise on Demand"
+      },
+      {
+        "type": "p",
+        "text": "Need help with R&D tax credits? Preparing for a funding round? Planning an acquisition? With a Virtual Finance Office, you have specialists for every situation. You’re not limited to the knowledge of one person—you have an entire firm backing you up."
+      },
+      {
+        "type": "h2",
+        "text": "Scalability as You Grow"
+      },
+      {
+        "type": "p",
+        "text": "Your finance needs change as your business evolves. Perhaps you start with basic bookkeeping and year-end accounts, then add payroll as you hire staff, then management accounts and forecasting as you scale. With a Virtual Finance Office, you simply adjust your package—no recruitment, no redundancies, no hassle."
+      },
+      {
+        "type": "h2",
+        "text": "Real-Time Financial Visibility"
+      },
+      {
+        "type": "p",
+        "text": "Gone are the days of waiting weeks for your accountant to tell you how your business is performing. With cloud-based systems, you have real-time access to your financial position. Custom dashboards show your key metrics at a glance, helping you make informed decisions quickly."
+      },
+      {
+        "type": "h2",
+        "text": "Proactive, Not Reactive"
+      },
+      {
+        "type": "p",
+        "text": "Traditional accountants often focus on historical reporting—telling you what happened last month or last year. A Virtual Finance Office looks forward, helping you forecast cashflow, plan for growth, and identify potential problems before they become crises."
+      },
+      {
+        "type": "h2",
+        "text": "Startups and Early-Stage Businesses"
+      },
+      {
+        "type": "p",
+        "text": "When you’re just starting out, every penny counts. A Virtual Finance Office gives you professional financial management from day one without the overhead of permanent staff. We’ll set up your accounting systems properly, ensure you’re compliant with HMRC requirements, and provide the financial information investors want to see."
+      },
+      {
+        "type": "h2",
+        "text": "Growing SMEs"
+      },
+      {
+        "type": "p",
+        "text": "As your business grows, so do your financial complexities. You’re hiring staff, managing cashflow more carefully, perhaps dealing with VAT and corporation tax for the first time. A Virtual Finance Office scales with you, providing the expertise you need at each stage without the commitment of hiring multiple team members."
+      },
+      {
+        "type": "h2",
+        "text": "Established Businesses Seeking Efficiency"
+      },
+      {
+        "type": "p",
+        "text": "Even if you’re well-established, a Virtual Finance Office can add value. Perhaps your finance person is leaving, or you’re looking to reduce overhead costs. Maybe you need higher-level strategic guidance but can’t justify a full-time CFO. A Virtual Finance Office gives you flexibility and expertise that’s hard to match with in-house resources alone."
+      },
+      {
+        "type": "p",
+        "text": "A comprehensive Virtual Finance Office service covers the full spectrum of financial management:"
+      },
+      {
+        "type": "h2",
+        "text": "Day-to-Day Financial Operations"
+      },
+      {
+        "type": "p",
+        "text": "We handle your bookkeeping, bank reconciliations, invoicing, supplier payments, and expense management. Your financial records are always up-to-date and accurate, giving you a solid foundation for decision-making."
+      },
+      {
+        "type": "h2",
+        "text": "Compliance and Reporting"
+      },
+      {
+        "type": "p",
+        "text": "VAT returns, payroll processing, pension auto-enrolment, Making Tax Digital compliance, year-end accounts, and Companies House filings—all handled efficiently and on time. You’ll never miss a deadline or face penalties for late submissions."
+      },
+      {
+        "type": "h2",
+        "text": "Management Information"
+      },
+      {
+        "type": "p",
+        "text": "Regular management accounts show you exactly where your business stands financially. Custom KPI dashboards track the metrics that matter to you. Cashflow forecasts help you plan ahead with confidence. You get the financial intelligence you need to run your business effectively."
+      },
+      {
+        "type": "h2",
+        "text": "Strategic Financial Planning"
+      },
+      {
+        "type": "p",
+        "text": "Beyond the day-to-day, we provide strategic support: budgeting and forecasting, scenario planning, profitability analysis, pricing strategy, and business advisory. Think of us as your part-time FD or CFO, available whenever you need strategic financial guidance."
+      },
+      {
+        "type": "h2",
+        "text": "Specialized Support"
+      },
+      {
+        "type": "p",
+        "text": "Need help with R&D tax credit claims? Preparing financial projections for investors? Due diligence for an acquisition? Grant applications? We have specialists who can step in for these specific requirements, giving you expert help exactly when you need it."
+      },
+      {
+        "type": "p",
+        "text": "A Virtual Finance Office wouldn’t be possible without modern cloud accounting technology. We work with leading platforms like Xero, QuickBooks, and Sage, giving you:"
+      },
+      {
+        "type": "p",
+        "text": "Real-time access to your financial data from anywhere, automatic bank feeds that eliminate manual data entry, integration with other business tools you already use, secure document storage and sharing, mobile apps for managing expenses and invoices on the go, and collaborative working where both you and your Virtual Finance Office team can access the same up-to-date information."
+      },
+      {
+        "type": "p",
+        "text": "If you’re not already using cloud accounting, we’ll help you choose the right platform and migrate your data. If you are, we’ll work with your existing setup."
+      },
+      {
+        "type": "p",
+        "text": "Transitioning to a Virtual Finance Office is straightforward:"
+      },
+      {
+        "type": "h3",
+        "text": "Initial Consultation"
+      },
+      {
+        "type": "p",
+        "text": "We start with a thorough discussion of your business, current finance setup, pain points, and goals. This helps us recommend the right package and approach for you."
+      },
+      {
+        "type": "h3",
+        "text": "Onboarding"
+      },
+      {
+        "type": "p",
+        "text": "We’ll review your existing financial records, set up or optimize your accounting systems, and establish clear processes and communication channels. This typically takes 2-4 weeks depending on the complexity of your business."
+      },
+      {
+        "type": "h3",
+        "text": "Ongoing Support"
+      },
+      {
+        "type": "p",
+        "text": "Once you’re up and running, we handle your agreed services on a regular schedule. You’ll have direct access to your account manager and team, with regular check-ins to ensure everything is working smoothly."
+      },
+      {
+        "type": "h3",
+        "text": "Continuous Improvement"
+      },
+      {
+        "type": "p",
+        "text": "As your business evolves, so does our service. We regularly review your package to ensure it still meets your needs and suggest improvements to make your finance function even more effective."
+      },
+      {
+        "type": "p",
+        "text": "Virtual Finance Office packages typically range from £300 to £1,200+ per month, depending on the level of service you need. While this might seem significant, consider what you’re getting:"
+      },
+      {
+        "type": "p",
+        "text": "A bookkeeper alone costs £20,000-£30,000 per year. An accountant costs £35,000-£50,000. A financial controller costs £50,000-£70,000. For less than the cost of one mid-level employee, you get access to an entire team of specialists, all the latest technology, and the flexibility to scale your service up or down."
+      },
+      {
+        "type": "p",
+        "text": "Plus, there are the hidden benefits: tax savings from better planning, improved cashflow from tighter management, better business decisions from clearer financial insight, and time saved that you can invest in growing your business."
+      },
+      {
+        "type": "h2",
+        "text": "“Will I lose control of my finances?”"
+      },
+      {
+        "type": "p",
+        "text": "Actually, the opposite. With real-time access to cloud accounting and regular reporting, you’ll have better visibility and control than ever before. You maintain complete authority over financial decisions—we just provide the information and support you need to make them."
+      },
+      {
+        "type": "h2",
+        "text": "“How secure is my financial data?”"
+      },
+      {
+        "type": "p",
+        "text": "Cloud accounting platforms use bank-level encryption and security. Your data is backed up automatically and protected by multi-factor authentication. It’s actually more secure than keeping everything on a local computer or in filing cabinets."
+      },
+      {
+        "type": "h2",
+        "text": "“What if I need something outside normal business hours?”"
+      },
+      {
+        "type": "p",
+        "text": "While most work happens during business hours, we understand that businesses don’t always run 9-to-5. Our higher-tier packages include priority support and dedicated account managers who can accommodate urgent requests."
+      },
+      {
+        "type": "h2",
+        "text": "“Can I switch back to in-house later if I want?”"
+      },
+      {
+        "type": "p",
+        "text": "Absolutely. We typically work on 30-day notice periods, and if you decide to bring finance in-house, we’ll help with the transition to ensure a smooth handover. Many clients find, however, that the flexibility and expertise of a Virtual Finance Office remains the better option as they grow."
+      },
+      {
+        "type": "p",
+        "text": "If you’re spending too much time on financial admin, struggling to get clear insight into your business performance, or finding that basic bookkeeping isn’t enough anymore, a Virtual Finance Office could be the answer."
+      },
+      {
+        "type": "p",
+        "text": "The model works particularly well if you value flexibility and want to avoid the commitment and cost of permanent staff, need access to specialist expertise that would be too expensive to hire in-house, want real-time financial visibility and proactive support, or are scaling and need your finance function to grow with you."
+      },
+      {
+        "type": "p",
+        "text": "As Chartered Accountants with years of experience supporting businesses like yours, we’ve seen firsthand how transformative a Virtual Finance Office can be. It’s not just about saving money or ticking compliance boxes—it’s about giving you the financial confidence and clarity to make better decisions and grow your business with certainty."
+      },
+      {
+        "type": "p",
+        "text": "We offer a free, no-obligation consultation to discuss your business and explore whether a Virtual Finance Office is right for you. We’ll take the time to understand your situation, answer your questions, and provide honest advice about the best way forward—even if that means recommending a different solution."
+      },
+      {
+        "type": "p",
+        "text": "Get in touch today to book your consultation and take the first step towards better financial management."
+      }
+    ]
+  },
+  {
+    "url": "https://fmyaccountants.co.uk/2025/10/06/making-tax-digital-mtd-what-sole-traders-and-landlords-need-to-know-by-2026/",
+    "slug": "making-tax-digital-mtd-what-sole-traders-and-landlords-need-to-know-by-2026",
+    "title": "Making Tax Digital (MTD): What Sole Traders and Landlords Need to Know by 2026",
+    "date": "6 October 2025",
+    "isoDate": "2025-10-06",
+    "category": "Business",
+    "blocks": [
+      {
+        "type": "p",
+        "text": "From April 2026, the way self-employed individuals and landlords report their income will change forever. HMRC is introducing the next stage of Making Tax Digital (MTD), bringing Income Tax Self-Assessment (ITSA) into the digital age."
+      },
+      {
+        "type": "p",
+        "text": "For many, this will feel like a big shift. At FMY Accountants, our role is to make sure the process is smooth, simple, and even beneficial for your business. Here’s everything you need to know."
+      },
+      {
+        "type": "h2",
+        "text": "Who Will Be Affected and When?"
+      },
+      {
+        "type": "h2",
+        "text": "The rollout is based on your total gross income from self-employment and/or property"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "6 April 2026: Income above £50,000 (from 2024/25 tax year).",
+          "6 April 2027: Income above £30,000 (from 2025/26 tax year).",
+          "6 April 2028: Income above £20,000 (expected)."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Important: HMRC looks at your total income per individual, not per business or property. So if you have multiple trades or properties, all are added together."
+      },
+      {
+        "type": "p",
+        "text": "Joint property owners must each report their own share. Partnerships and trusts are excluded for now, but are likely to be included later."
+      },
+      {
+        "type": "h2",
+        "text": "What Will Change Under MTD?"
+      },
+      {
+        "type": "h2",
+        "text": "1. Digital Record Keeping"
+      },
+      {
+        "type": "p",
+        "text": "Paper records will no longer be accepted."
+      },
+      {
+        "type": "p",
+        "text": "Income and expenses must be stored in MTD-compatible software (e.g. Xero, QuickBooks, Sage) or via compliant spreadsheets with bridging software."
+      },
+      {
+        "type": "p",
+        "text": "Each income stream (self-employment vs property) must be recorded separately."
+      },
+      {
+        "type": "p",
+        "text": "Keeping a dedicated business bank account will make this much easier."
+      },
+      {
+        "type": "h2",
+        "text": "2. Quarterly Submissions"
+      },
+      {
+        "type": "p",
+        "text": "You’ll submit income and expense summaries every three months."
+      },
+      {
+        "type": "p",
+        "text": "Submissions are due within one month and six days of the quarter’s end."
+      },
+      {
+        "type": "p",
+        "text": "Each income source requires its own quarterly update."
+      },
+      {
+        "type": "p",
+        "text": "Tax payment deadlines stay the same — 31st January after the tax year."
+      },
+      {
+        "type": "h2",
+        "text": "3. Year-End Final Declaration"
+      },
+      {
+        "type": "p",
+        "text": "A final annual submission confirms your tax position."
+      },
+      {
+        "type": "p",
+        "text": "Here you’ll add adjustments, other income (pensions, dividends), and reliefs."
+      },
+      {
+        "type": "p",
+        "text": "The deadline remains 31st January after the tax year."
+      },
+      {
+        "type": "h2",
+        "text": "What This Means for You"
+      },
+      {
+        "type": "h2",
+        "text": "The benefits of MTD are real"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Fewer errors and less last-minute stress.",
+          "Clearer visibility of your business finances.",
+          "More time to plan for tax bills."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "But it also means a new way of working. If you’re used to paper ledgers or ad-hoc spreadsheets, now is the time to modernise."
+      },
+      {
+        "type": "h2",
+        "text": "Choosing the Right Software"
+      },
+      {
+        "type": "h2",
+        "text": "To comply with MTD, you’ll need HMRC-approved software"
+      },
+      {
+        "type": "ul",
+        "items": [
+          "All-in-one accounting software: Digital records, quarterly updates, and returns all in one place.",
+          "Bridging software: A simple connector between your spreadsheets and HMRC."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "The right choice depends on your business size, income streams, and how hands-on you want to be. At FMY, we’ll help you select and set it up."
+      },
+      {
+        "type": "h2",
+        "text": "How FMY Accountants Can Help"
+      },
+      {
+        "type": "p",
+        "text": "With over 20 years of experience, we know change can feel daunting. Our job is to take the pressure off you and make sure you’re always ahead of deadlines."
+      },
+      {
+        "type": "h2",
+        "text": "We’ll"
+      },
+      {
+        "type": "p",
+        "text": "Check your income to confirm when MTD applies."
+      },
+      {
+        "type": "ul",
+        "items": [
+          "Review your record-keeping and recommend the right software.",
+          "Handle quarterly submissions and your year-end declaration.",
+          "Apply for digital exemptions if you qualify."
+        ]
+      },
+      {
+        "type": "p",
+        "text": "In short, we’ll manage the details so you can stay focused on running your business."
+      },
+      {
+        "type": "h2",
+        "text": "Start Preparing Now"
+      },
+      {
+        "type": "p",
+        "text": "Although 2026 may seem far away, the best time to prepare is now. Early planning means no last-minute rush and no risk of penalties."
+      }
+    ]
+  }
+]

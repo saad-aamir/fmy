@@ -1,26 +1,238 @@
 @import "tailwindcss";
 
+@theme {
+  --color-ink-950: #060914;
+  --color-ink-900: #0a0f1f;
+  --color-ink-800: #111736;
+  --color-ink-700: #1a2148;
+  --color-ink-600: #252d5c;
+  --color-ink-500: #3a4375;
+  --color-bone-50: #f7f4ec;
+  --color-bone-100: #ebe5d4;
+  --color-bone-200: #d8cfb4;
+  --color-bone-300: #b8ab87;
+  --color-gold-300: #e8cf8a;
+  --color-gold-400: #d4b661;
+  --color-gold-500: #c9a449;
+  --color-gold-600: #a8862f;
+  --color-gold-700: #7d6221;
+  --color-slate-muted: #8892a6;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Fraunces", ui-serif, Georgia, serif;
+
+  --radius-xs: 0.25rem;
+  --radius-sm: 0.375rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+  --radius-xl: 1rem;
+  --radius-2xl: 1.5rem;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: dark;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html,
+body {
+  background-color: var(--color-ink-950);
+  color: var(--color-bone-50);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv11";
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-serif);
+  font-feature-settings: "ss01", "liga";
+  letter-spacing: -0.02em;
+}
+
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: radial-gradient(
+    rgba(255, 255, 255, 0.03) 1px,
+    transparent 1px
+  );
+  background-size: 3px 3px;
+  mix-blend-mode: overlay;
+  opacity: 0.5;
+}
+
+.gold-gradient-text {
+  background: linear-gradient(
+    135deg,
+    var(--color-gold-300) 0%,
+    var(--color-gold-500) 50%,
+    var(--color-gold-400) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bone-gradient-text {
+  background: linear-gradient(
+    180deg,
+    var(--color-bone-50) 0%,
+    var(--color-bone-200) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hairline {
+  border-color: color-mix(in oklab, var(--color-bone-50) 10%, transparent);
+}
+
+.hairline-gold {
+  border-color: color-mix(in oklab, var(--color-gold-500) 30%, transparent);
+}
+
+.glass {
+  background: linear-gradient(
+    180deg,
+    color-mix(in oklab, var(--color-ink-800) 80%, transparent) 0%,
+    color-mix(in oklab, var(--color-ink-900) 80%, transparent) 100%
+  );
+  backdrop-filter: blur(12px);
+}
+
+.glass-header {
+  background: color-mix(in oklab, var(--color-ink-950) 75%, transparent);
+  backdrop-filter: blur(16px) saturate(140%);
+}
+
+.mesh-hero {
+  background:
+    radial-gradient(
+      ellipse 80% 50% at 50% -10%,
+      color-mix(in oklab, var(--color-gold-500) 18%, transparent),
+      transparent 60%
+    ),
+    radial-gradient(
+      ellipse 60% 40% at 85% 20%,
+      color-mix(in oklab, var(--color-ink-700) 80%, transparent),
+      transparent 70%
+    ),
+    radial-gradient(
+      ellipse 70% 50% at 10% 60%,
+      color-mix(in oklab, var(--color-ink-800) 70%, transparent),
+      transparent 70%
+    ),
+    var(--color-ink-950);
+}
+
+.mesh-soft {
+  background:
+    radial-gradient(
+      ellipse 50% 40% at 80% 0%,
+      color-mix(in oklab, var(--color-gold-500) 10%, transparent),
+      transparent 70%
+    ),
+    var(--color-ink-950);
+}
+
+::selection {
+  background: var(--color-gold-500);
+  color: var(--color-ink-950);
+}
+
+.scroll-x::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 40s linear infinite;
+}
+
+@keyframes float-slow {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* -------------------------------------------------------------------------- */
+/* Page transitions — staggered fade-up on each section of the new page        */
+/* -------------------------------------------------------------------------- */
+
+@keyframes pageFadeUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* Target immediate sections under the main content area.
+   Each section fades up with a small cascade delay. */
+.page-transition > main > * {
+  opacity: 0;
+  animation: pageFadeUp 640ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.page-transition > main > *:nth-child(1) {
+  animation-delay: 0ms;
+}
+.page-transition > main > *:nth-child(2) {
+  animation-delay: 70ms;
+}
+.page-transition > main > *:nth-child(3) {
+  animation-delay: 140ms;
+}
+.page-transition > main > *:nth-child(4) {
+  animation-delay: 200ms;
+}
+.page-transition > main > *:nth-child(5) {
+  animation-delay: 260ms;
+}
+.page-transition > main > *:nth-child(6) {
+  animation-delay: 310ms;
+}
+.page-transition > main > *:nth-child(n + 7) {
+  animation-delay: 350ms;
+}
+
+/* First SSR load does not animate — only subsequent navigations do */
+.page-transition[data-initial="true"] > main > * {
+  opacity: 1;
+  animation: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-transition > main > * {
+    opacity: 1 !important;
+    animation: none !important;
+  }
 }
