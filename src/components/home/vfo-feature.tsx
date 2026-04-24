@@ -127,12 +127,6 @@ function MockDashboard() {
               d="M0 60 L25 55 L50 48 L75 52 L100 42 L125 45 L150 30 L175 28 L200 22 L225 25 L250 14 L275 10 L300 6 L300 80 L0 80 Z"
               fill="url(#cf-area)"
             />
-            <path
-              d="M0 60 L25 55 L50 48 L75 52 L100 42 L125 45 L150 30 L175 28 L200 22 L225 25 L250 14 L275 10 L300 6"
-              stroke="#C9A449"
-              strokeWidth="1.5"
-              fill="none"
-            />
           </svg>
         </div>
 

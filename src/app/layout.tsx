@@ -4,6 +4,7 @@ import "./globals.css";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { PageTransition } from "@/components/page-transition";
+import { IntroOverlay } from "@/components/intro-overlay";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -45,6 +46,7 @@ export default function RootLayout({
       className={`${inter.variable} ${fraunces.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-ink-950 text-bone-50">
+        <IntroOverlay />
         <SiteHeader />
         <PageTransition>
           <main className="flex-1">{children}</main>
