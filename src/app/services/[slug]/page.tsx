@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/container";
@@ -8,6 +9,25 @@ import { services, servicesBySlug } from "@/lib/site";
 import { ServiceIcon } from "@/components/service-icon";
 import { CTABand } from "@/components/cta-band";
 import { FAQ } from "@/components/faq";
+
+// Per-service hero imagery (Unsplash) — placeholders the user can swap.
+const serviceHero: Record<string, string> = {
+  bookkeeping:
+    "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1800&q=80",
+  accounting:
+    "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=1800&q=80",
+  tax: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1800&q=80",
+  payroll:
+    "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1800&q=80",
+  "audit-assurance":
+    "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=1800&q=80",
+  advisory:
+    "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1800&q=80",
+  "corporate-finance":
+    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1800&q=80",
+  "business-valuations":
+    "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1800&q=80",
+};
 
 export function generateStaticParams() {
   return services.map((s) => ({ slug: s.slug }));
@@ -36,9 +56,30 @@ export default async function ServiceDetail(
   const next = services[(currentIndex + 1) % services.length];
   const prev = services[(currentIndex - 1 + services.length) % services.length];
 
+  const heroImage = serviceHero[service.slug];
+
   return (
     <>
       <section className="relative overflow-hidden mesh-soft border-b hairline">
+        {heroImage && (
+          <>
+            <Image
+              src={heroImage}
+              alt=""
+              fill
+              priority
+              sizes="100vw"
+              className="object-cover opacity-60"
+            />
+            <div
+              className="absolute inset-0 pointer-events-none"
+              style={{
+                background:
+                  "linear-gradient(180deg, rgba(1,24,14,0.55) 0%, rgba(1,24,14,0.78) 65%, var(--color-ink-950) 100%)",
+              }}
+            />
+          </>
+        )}
         <div className="grain absolute inset-0" />
         <Container className="relative pt-20 pb-16 sm:pt-24 sm:pb-20">
           <Link

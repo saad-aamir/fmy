@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { Container } from "@/components/container";
 import { PageHero } from "@/components/page-hero";
 import { SectionHeading, Eyebrow } from "@/components/section";
@@ -50,11 +51,18 @@ export default function AboutPage() {
           />
 
           <div className="mt-14 relative overflow-hidden rounded-3xl border hairline-gold bg-gradient-to-br from-ink-900 via-ink-800 to-ink-900">
+            <Image
+              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=2000&q=80"
+              alt=""
+              fill
+              sizes="(min-width: 1024px) 1200px, 100vw"
+              className="object-cover opacity-45"
+            />
             <div
-              className="absolute inset-0 opacity-40"
+              className="absolute inset-0"
               style={{
                 background:
-                  "radial-gradient(ellipse 55% 45% at 100% 0%, rgba(201,164,73,0.35), transparent 60%)",
+                  "radial-gradient(ellipse 55% 45% at 100% 0%, rgba(201,164,73,0.25), transparent 60%), linear-gradient(135deg, rgba(2,51,32,0.7), rgba(1,24,14,0.78))",
               }}
             />
             <div className="grain absolute inset-0" />
