@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useState } from "react";
 
 const SESSION_KEY = "fmy:intro-seen";
@@ -56,33 +57,15 @@ export function IntroOverlay() {
     <div className="intro-overlay" aria-hidden role="presentation">
       <div className="intro-content">
         <div className="intro-mark">
-          <svg
-            width="64"
-            height="64"
-            viewBox="0 0 18 18"
-            fill="none"
-            aria-hidden
-          >
-            <defs>
-              <linearGradient
-                id="intro-mark-grad"
-                x1="0"
-                y1="0"
-                x2="18"
-                y2="18"
-                gradientUnits="userSpaceOnUse"
-              >
-                <stop stopColor="#E8CF8A" />
-                <stop offset="1" stopColor="#C9A449" />
-              </linearGradient>
-            </defs>
-            <path
-              d="M3 3h12v2.5H5.5v3H13v2.5H5.5V15H3V3z"
-              fill="url(#intro-mark-grad)"
-            />
-          </svg>
+          <Image
+            src="/fmy-mark.png"
+            alt=""
+            width={845}
+            height={287}
+            priority
+            className="h-24 sm:h-28 w-auto"
+          />
         </div>
-        <div className="intro-wordmark font-display">FMY</div>
         <div className="intro-rule" />
         <div className="intro-tagline">Clarity. Compliance. Confidence.</div>
       </div>

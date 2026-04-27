@@ -51,17 +51,17 @@ export function Testimonials() {
           {reviews.map((r) => (
             <figure
               key={r.author}
-              className="relative rounded-2xl border hairline bg-ink-900/60 p-8 backdrop-blur"
+              className="relative rounded-2xl border hairline bg-ink-900/60 p-8 backdrop-blur flex flex-col h-full"
             >
               <div className="absolute top-6 right-6 text-gold-500/30">
                 <svg width="30" height="24" viewBox="0 0 30 24" fill="currentColor">
                   <path d="M0 24V13.3Q0 6.7 3.4 3.3 6.8 0 13 0v5.3q-3.2 0-4.8 1.7Q6.5 8.7 6.5 12h4.8V24H0zm16.7 0V13.3q0-6.6 3.4-10Q23.5 0 29.7 0v5.3q-3.2 0-4.8 1.7-1.7 1.7-1.7 5h4.8V24H16.7z" />
                 </svg>
               </div>
-              <blockquote className="text-lg text-bone-50 leading-relaxed pr-10">
+              <blockquote className="text-lg text-bone-50 leading-relaxed pr-10 mb-8">
                 “{r.quote}”
               </blockquote>
-              <figcaption className="mt-8 flex items-end justify-between gap-4 pt-6 border-t hairline">
+              <figcaption className="mt-auto pt-6 border-t hairline flex items-end justify-between gap-4">
                 <div>
                   <div className="text-sm font-medium text-bone-50">
                     {r.author}

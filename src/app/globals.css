@@ -1,22 +1,23 @@
 @import "tailwindcss";
 
 @theme {
-  --color-ink-950: #060914;
-  --color-ink-900: #0a0f1f;
-  --color-ink-800: #111736;
-  --color-ink-700: #1a2148;
-  --color-ink-600: #252d5c;
-  --color-ink-500: #3a4375;
-  --color-bone-50: #f7f4ec;
-  --color-bone-100: #ebe5d4;
-  --color-bone-200: #d8cfb4;
-  --color-bone-300: #b8ab87;
+  /* Brand: deep forest green from the original FMY identity (favicon #023320) */
+  --color-ink-950: #01180e;
+  --color-ink-900: #023320;
+  --color-ink-800: #073d27;
+  --color-ink-700: #0f4a31;
+  --color-ink-600: #1a583c;
+  --color-ink-500: #2d6a4f;
+  --color-bone-50: #ebefee;
+  --color-bone-100: #d4ddd9;
+  --color-bone-200: #b8c5be;
+  --color-bone-300: #8fa49a;
   --color-gold-300: #e8cf8a;
   --color-gold-400: #d4b661;
   --color-gold-500: #c9a449;
   --color-gold-600: #a8862f;
   --color-gold-700: #7d6221;
-  --color-slate-muted: #8892a6;
+  --color-slate-muted: #7a8d83;
 
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Fraunces", ui-serif, Georgia, serif;
@@ -181,6 +182,45 @@ html {
 }
 
 /* -------------------------------------------------------------------------- */
+/* Header phone pill — subtle ringing animation                                */
+/* -------------------------------------------------------------------------- */
+
+@keyframes phonePing {
+  0%, 60% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+@keyframes phoneShake {
+  0%, 100% { transform: rotate(0); }
+  20%      { transform: rotate(-12deg); }
+  40%      { transform: rotate(10deg); }
+  60%      { transform: rotate(-6deg); }
+  80%      { transform: rotate(4deg); }
+}
+
+/* Subtle pulse loops every 4s to draw the eye gently */
+.phone-pill .phone-ping {
+  animation: phonePing 2s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+.phone-pill:hover .phone-icon {
+  animation: phoneShake 0.55s cubic-bezier(0.36, 0.07, 0.19, 0.97);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .phone-pill .phone-ping,
+  .phone-pill:hover .phone-icon {
+    animation: none;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
 /* First-load logo reveal                                                      */
 /* -------------------------------------------------------------------------- */
 
@@ -197,7 +237,7 @@ html {
       rgba(201, 164, 73, 0.08),
       transparent 60%
     ),
-    linear-gradient(180deg, #060914 0%, #0a0f1f 50%, #060914 100%);
+    linear-gradient(180deg, var(--color-ink-950) 0%, var(--color-ink-900) 50%, var(--color-ink-950) 100%);
   pointer-events: auto;
   animation: introOverlayOut 600ms cubic-bezier(0.65, 0, 0.35, 1) 1600ms
     forwards;
@@ -228,21 +268,9 @@ html {
 
 .intro-mark {
   opacity: 0;
-  transform: scale(0.85) translateY(8px);
-  filter: drop-shadow(0 4px 20px rgba(201, 164, 73, 0.35));
-  animation: introIn 900ms cubic-bezier(0.16, 1, 0.3, 1) 200ms forwards;
-}
-
-.intro-wordmark {
-  opacity: 0;
-  transform: translateY(10px);
-  font-size: clamp(2.25rem, 6vw, 3rem);
-  letter-spacing: -0.02em;
-  background: linear-gradient(180deg, #f7f4ec 0%, #d8cfb4 100%);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: introIn 900ms cubic-bezier(0.16, 1, 0.3, 1) 360ms forwards;
+  transform: scale(0.92) translateY(6px);
+  filter: drop-shadow(0 6px 24px rgba(0, 0, 0, 0.35));
+  animation: introIn 1000ms cubic-bezier(0.16, 1, 0.3, 1) 200ms forwards;
 }
 
 .intro-rule {
@@ -254,7 +282,7 @@ html {
     rgba(201, 164, 73, 0.7),
     transparent
   );
-  animation: introRule 700ms cubic-bezier(0.65, 0, 0.35, 1) 700ms forwards;
+  animation: introRule 700ms cubic-bezier(0.65, 0, 0.35, 1) 800ms forwards;
 }
 
 .intro-tagline {
@@ -263,8 +291,8 @@ html {
   font-size: 0.75rem;
   letter-spacing: 0.32em;
   text-transform: uppercase;
-  color: rgba(232, 225, 212, 0.55);
-  animation: introIn 800ms cubic-bezier(0.16, 1, 0.3, 1) 850ms forwards;
+  color: rgba(235, 239, 238, 0.6);
+  animation: introIn 800ms cubic-bezier(0.16, 1, 0.3, 1) 950ms forwards;
 }
 
 @keyframes introIn {
@@ -293,7 +321,6 @@ html {
     animation: introOverlayOut 200ms 200ms forwards;
   }
   .intro-mark,
-  .intro-wordmark,
   .intro-rule,
   .intro-tagline {
     animation: none;

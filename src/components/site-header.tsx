@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState, useEffect } from "react";
 import { primaryNav, services, site } from "@/lib/site";
 import { LinkButton, ArrowIcon } from "@/components/button";
@@ -36,13 +37,18 @@ export function SiteHeader() {
         <div className="flex h-16 items-center justify-between gap-8">
           <Link
             href="/"
-            className="flex items-center gap-2.5 shrink-0"
+            className="flex items-center shrink-0"
+            aria-label="FMY Chartered Accountants — Home"
             onClick={() => setMobileOpen(false)}
           >
-            <Logo />
-            <span className="font-display text-xl font-semibold tracking-tight bone-gradient-text">
-              FMY
-            </span>
+            <Image
+              src="/fmy-mark.png"
+              alt="FMY Chartered Accountants"
+              width={845}
+              height={287}
+              priority
+              className="h-10 w-auto"
+            />
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
@@ -103,9 +109,33 @@ export function SiteHeader() {
           <div className="hidden lg:flex items-center gap-3">
             <a
               href={site.phoneHref}
-              className="text-sm text-slate-muted hover:text-bone-50 transition-colors"
+              className="phone-pill group flex items-center gap-2.5 rounded-full pl-1 pr-3.5 py-1 border hairline hover:border-gold-400/50 hover:bg-ink-800/50 transition-all duration-300"
             >
-              {site.phone}
+              <span className="phone-badge relative inline-flex items-center justify-center w-7 h-7 rounded-full bg-gold-500/15 text-gold-400 group-hover:bg-gold-500/25 group-hover:text-gold-300 transition-colors">
+                <svg
+                  width="13"
+                  height="13"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  className="phone-icon transition-transform"
+                  aria-hidden
+                >
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+                <span className="phone-ping absolute inset-0 rounded-full ring-1 ring-gold-400/40" />
+              </span>
+              <span className="flex flex-col leading-none gap-1 text-left">
+                <span className="text-[9px] uppercase tracking-[0.18em] text-slate-muted group-hover:text-gold-400/70 transition-colors">
+                  Call us
+                </span>
+                <span className="text-[13px] font-medium text-bone-50 tabular-nums tracking-tight">
+                  {site.phone}
+                </span>
+              </span>
             </a>
             <LinkButton href="/contact" variant="primary" size="md">
               Book a consultation
@@ -195,28 +225,3 @@ export function SiteHeader() {
   );
 }
 
-function Logo() {
-  return (
-    <span className="relative inline-flex items-center justify-center w-9 h-9 rounded-lg bg-ink-800 border hairline-gold">
-      <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-        <path
-          d="M3 3h12v2.5H5.5v3H13v2.5H5.5V15H3V3z"
-          fill="url(#fmy-logo-grad)"
-        />
-        <defs>
-          <linearGradient
-            id="fmy-logo-grad"
-            x1="0"
-            y1="0"
-            x2="18"
-            y2="18"
-            gradientUnits="userSpaceOnUse"
-          >
-            <stop stopColor="#E8CF8A" />
-            <stop offset="1" stopColor="#C9A449" />
-          </linearGradient>
-        </defs>
-      </svg>
-    </span>
-  );
-}

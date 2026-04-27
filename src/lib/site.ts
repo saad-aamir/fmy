@@ -264,13 +264,45 @@ export const founder = {
   initials: "FY",
   quals: "FCCA, ACA, MSc, BSc (Hons)",
   bio: [
-    "Faraz founded FMY on a single premise: that serious businesses deserve serious, senior-led accountancy — without the Big 4 politics or the Big 4 invoice. Every file, every return, every piece of advice carries his name.",
-    "He brings 17 years of experience across EY, listed multinationals, and professional-services firms on four continents. His Big 4 background covers audit, assurance, and advisory; at board level he has led finance for listed entities; and he has executive experience scaling UK professional-services firms into new markets.",
-    "He specialises in international expansion, cross-border income, overseas assets, and multi-jurisdiction tax planning — the sorts of problems that get handed off to juniors elsewhere. At FMY, they land on his desk.",
+    "After 17 years with EY, listed multinationals, and professional services firms across four continents, Faraz founded FMY to solve a problem he'd seen too often: ambitious businesses and successful individuals caught between basic services that couldn't handle complexity, or Big 4 firms with corporate pricing and partners they'd rarely meet.",
+    "Faraz hasn't just advised businesses — he's run them, scaled them, and made the decisions that keep owners awake at night. His international experience across Asia, Middle East, Europe, and the US proves invaluable for clients with cross-border income, overseas assets, or multi-jurisdiction tax planning.",
+    "Whether you're running a £20M business navigating international expansion, or managing complex personal tax affairs involving property portfolios and international income, you work directly with Faraz and the partner team.",
   ],
   quote:
     "Not junior staff. No rushed appointments. No surprise bills for simple questions.",
 } as const;
+
+export const perspectives = [
+  {
+    k: "Big 4 Foundation",
+    v: "Trained at EY in audit, assurance, and advisory with complex, multi-jurisdictional clients.",
+  },
+  {
+    k: "Corporate Leadership",
+    v: "Senior finance roles with listed entities, delivering strategic oversight and commercial decision making at board level.",
+  },
+  {
+    k: "Professional Services Growth",
+    v: "Executive experience scaling UK professional services firms, understanding the unique challenges facing growing enterprises.",
+  },
+] as const;
+
+export const strongerFuture = [
+  "Clarity from Complexity",
+  "Proactive Planning",
+  "Business-Centric Advice",
+  "Tailored Strategies",
+  "Expert-Led Support",
+  "Reliable, Responsive Service",
+] as const;
+
+export const whyChooseUs = [
+  "Experienced and dedicated team of Chartered and Certified Accountants, Tax Advisors, Audit Specialists and Consultancy Experts.",
+  "Customised financial and tax solutions tailored to your business needs.",
+  "Proven track record of helping clients maximise savings and ensure compliance.",
+  "Transparent fixed pricing with clear communication and personalised support.",
+  "Cutting-edge technology enabled to provide efficient, accurate, real-time visibility and secure services.",
+] as const;
 
 export const coreValues = [
   {

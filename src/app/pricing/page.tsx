@@ -77,26 +77,96 @@ const tiers = [
 ];
 
 const addOns = [
-  { name: "Tax Investigation Cover", price: "£20", unit: "/month" },
-  { name: "Business Legal Support", price: "£25", unit: "/month" },
-  { name: "Company Formation", price: "£299", unit: "one-off" },
-  { name: "Registered Address", price: "From £20", unit: "/month" },
-  { name: "Business Plan", price: "£499", unit: "one-off" },
+  {
+    name: "Tax Investigation Cover",
+    price: "£20",
+    unit: "/month",
+    desc: "Cover your business for an investigation and tax risks.",
+  },
+  {
+    name: "Business Legal Support",
+    price: "£25",
+    unit: "/month",
+    desc: "Unlimited access to business legal support for running your business.",
+  },
+  {
+    name: "Company Formation",
+    price: "£299",
+    unit: "one-off",
+    desc: "Get your company formed immediately, with full digital and hard-copy documents.",
+  },
+  {
+    name: "Registered Address",
+    price: "From £20",
+    unit: "/month",
+    desc: "Use our City of London address and have all post forwarded to you.",
+  },
+  {
+    name: "Business Plan",
+    price: "£499",
+    unit: "one-off",
+    desc: "A funder-ready business plan, modelled and written by your partner team.",
+  },
 ];
 
 const premiumServices = [
-  { name: "Business Mentoring", price: "£499", unit: "/month" },
-  { name: "Part-Time FD", price: "£499", unit: "/month" },
-  { name: "Software Integration", price: "From £199", unit: "one-off" },
-  { name: "Stock Management Software", price: "From £79", unit: "/month" },
-  { name: "Time Sheets Software", price: "From £15", unit: "/month" },
+  {
+    name: "Business Mentoring",
+    price: "£499",
+    unit: "/month",
+    desc: "Grow and build your business with new strategies and achieve goals.",
+  },
+  {
+    name: "Part-Time FD",
+    price: "£499",
+    unit: "/month",
+    desc: "A senior management professional on board to run your business.",
+  },
+  {
+    name: "Software Integration",
+    price: "From £199",
+    unit: "one-off",
+    desc: "Speed up productivity by automating your tasks.",
+  },
+  {
+    name: "Stock Management Software",
+    price: "From £79",
+    unit: "/month",
+    desc: "Professional partnerships with systems such as Vend, SimPro, Unleashed and Dear Systems.",
+  },
+  {
+    name: "Time Sheets Software",
+    price: "From £15",
+    unit: "/month",
+    desc: "Speed up productivity with timesheets software.",
+  },
 ];
 
 const marketingHub = [
-  { name: "Website & Hosting", price: "From £89", unit: "/month" },
-  { name: "Branding", price: "From £49", unit: "one-off" },
-  { name: "Search Engine Optimisation (SEO)", price: "£499", unit: "/month" },
-  { name: "Pay-Per-Click (PPC)", price: "£199", unit: "set-up" },
+  {
+    name: "Website & Hosting",
+    price: "From £89",
+    unit: "/month",
+    desc: "A modern marketing site, hosted, secured and maintained for you.",
+  },
+  {
+    name: "Branding",
+    price: "From £49",
+    unit: "one-off",
+    desc: "Logo, business stationery and social-media setup.",
+  },
+  {
+    name: "Search Engine Optimisation (SEO)",
+    price: "£499",
+    unit: "/month",
+    desc: "Reach your audience with an optimised website and quality backlinks.",
+  },
+  {
+    name: "Pay-Per-Click (PPC)",
+    price: "£199",
+    unit: "set-up",
+    desc: "Attract customers on Google and other channels through paid advertising.",
+  },
 ];
 
 export default function PricingPage() {
@@ -260,23 +330,23 @@ export default function PricingPage() {
             }
             description="The package prices above cover compliance. Any of our eight service lines can be scoped in or out — tell us what you need and we'll quote it."
           />
-          <div className="mt-14 rounded-2xl border hairline overflow-hidden grid grid-cols-[1fr_auto] gap-px bg-white/5">
+          <div className="mt-14 rounded-2xl border hairline overflow-hidden divide-y divide-white/5 bg-ink-950">
             {services.map((s) => (
               <Link
                 key={s.slug}
                 href={`/services/${s.slug}`}
-                className="contents group"
+                className="group flex items-center gap-6 px-6 py-5 transition-colors hover:bg-ink-900/40"
               >
-                <div className="bg-ink-950 group-hover:bg-ink-900 transition-colors px-6 py-5">
-                  <div className="font-display text-lg text-bone-50">
+                <div className="flex-1 min-w-0">
+                  <div className="font-display text-lg text-bone-50 leading-tight">
                     {s.title}
                   </div>
-                  <div className="text-sm text-slate-muted mt-1 max-w-2xl">
+                  <div className="text-sm text-slate-muted mt-1.5 leading-snug">
                     {s.short}
                   </div>
                 </div>
-                <div className="bg-ink-950 group-hover:bg-ink-900 transition-colors px-6 py-5 self-center flex items-center gap-3">
-                  <span className="text-xs text-slate-muted whitespace-nowrap">
+                <div className="shrink-0 flex items-center gap-3 whitespace-nowrap">
+                  <span className="text-xs text-slate-muted">
                     {s.included.length} specialisms
                   </span>
                   <ArrowIcon className="text-slate-muted group-hover:text-gold-400 group-hover:translate-x-0.5 transition-all" />
@@ -337,25 +407,33 @@ export default function PricingPage() {
 function PriceTable({
   items,
 }: {
-  items: { name: string; price: string; unit: string }[];
+  items: { name: string; price: string; unit: string; desc?: string }[];
 }) {
   return (
-    <div className="mt-14 rounded-2xl border hairline overflow-hidden">
-      <div className="grid grid-cols-[1fr_auto] gap-px bg-white/5">
-        {items.map((it) => (
-          <div key={it.name} className="contents">
-            <div className="bg-ink-950 px-6 py-5 font-display text-lg text-bone-50">
+    <div className="mt-14 rounded-2xl border hairline overflow-hidden divide-y divide-white/5 bg-ink-950">
+      {items.map((it) => (
+        <div
+          key={it.name}
+          className="group flex items-center gap-6 px-6 py-5 transition-colors hover:bg-ink-900/40"
+        >
+          <div className="flex-1 min-w-0">
+            <div className="font-display text-lg text-bone-50 leading-tight">
               {it.name}
             </div>
-            <div className="bg-ink-950 px-6 py-5 text-right">
-              <span className="font-display text-lg gold-gradient-text whitespace-nowrap">
-                {it.price}
-              </span>
-              <span className="text-xs text-slate-muted ml-1">{it.unit}</span>
-            </div>
+            {it.desc && (
+              <div className="mt-1.5 text-sm text-slate-muted leading-snug">
+                {it.desc}
+              </div>
+            )}
           </div>
-        ))}
-      </div>
+          <div className="shrink-0 text-right whitespace-nowrap">
+            <span className="font-display text-lg gold-gradient-text">
+              {it.price}
+            </span>
+            <span className="text-xs text-slate-muted ml-1">{it.unit}</span>
+          </div>
+        </div>
+      ))}
     </div>
   );
 }

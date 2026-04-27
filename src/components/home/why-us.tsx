@@ -41,10 +41,13 @@ export function WhyUs() {
               key={p.k}
               className="group relative rounded-2xl border hairline p-8 bg-ink-900/40 hover:bg-ink-900 transition-colors overflow-hidden"
             >
-              <div className="absolute -top-6 -right-6 font-display text-[8rem] text-gold-500/5 leading-none select-none">
+              <span
+                aria-hidden
+                className="pointer-events-none absolute top-5 right-7 font-display italic text-5xl text-gold-400/35 group-hover:text-gold-400/55 leading-none select-none transition-colors tracking-tight"
+              >
                 0{i + 1}
-              </div>
-              <div className="relative">
+              </span>
+              <div className="relative pr-12">
                 <h3 className="font-display text-2xl text-bone-50 tracking-tight">
                   {p.k}
                 </h3>

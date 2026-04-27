@@ -2,81 +2,54 @@ import type { Metadata } from "next";
 import { Container } from "@/components/container";
 import { PageHero } from "@/components/page-hero";
 import { SectionHeading, Eyebrow } from "@/components/section";
+import { LinkButton, ArrowIcon } from "@/components/button";
 import { CTABand } from "@/components/cta-band";
-import { founder, coreValues } from "@/lib/site";
+import {
+  founder,
+  perspectives,
+  strongerFuture,
+  whyChooseUs,
+} from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "About",
   description:
-    "FMY Chartered Accountants — founded by Faraz Yunus (FCCA, ACA). Partner-led London accountancy built on 17 years of EY and listed-entity experience across four continents.",
+    "FMY Chartered Accountants — founded by Faraz Yunus (FCCA, ACA). Partner-led London accountancy with Big 4 foundation, corporate leadership, and professional services growth experience.",
 };
-
-const supportingTeam = [
-  {
-    role: "Senior chartered accountant",
-    focus:
-      "Owns statutory accounts, month-end review, and the quality sign-off chain on every engagement.",
-  },
-  {
-    role: "Tax lead",
-    focus:
-      "Runs corporation tax, VAT, R&D claims, personal tax, and the quarterly planning cycle.",
-  },
-  {
-    role: "Dedicated bookkeeper",
-    focus:
-      "Daily transactions, receipt capture, supplier & customer ledgers — books closed by the 7th.",
-  },
-  {
-    role: "Payroll specialist",
-    focus:
-      "RTI-compliant pay runs, pensions auto-enrolment, P11Ds, statutory leave and CIS.",
-  },
-  {
-    role: "Client service lead",
-    focus:
-      "Ensures every engagement lands on time, in scope, and on budget — the reason our filing record is clean.",
-  },
-];
-
-const values = [
-  {
-    h: "Say what you mean",
-    p: "No hedging, no consultant-speak. If your accounts are messy, we'll tell you. If a tax position is risky, we'll write down why.",
-  },
-  {
-    h: "The partner is the product",
-    p: "A partner reviews every material file. Nothing leaves the firm with a junior's name alone on it.",
-  },
-  {
-    h: "Fixed fees, always",
-    p: "You should never open an invoice and feel surprised. If we underquote, that's our problem to fix.",
-  },
-  {
-    h: "Teach, don't gatekeep",
-    p: "Our job is to make you financially fluent — not dependent. We explain the why, not just the what.",
-  },
-];
 
 export default function AboutPage() {
   return (
     <>
       <PageHero
         eyebrow="About FMY"
-        title={
-          <>
-            Partner-led accountancy,{" "}
-            <span className="italic font-light">
-              built around a single premise.
-            </span>
-          </>
-        }
-        description="Serious businesses deserve serious, senior-led accountancy — without the Big 4 politics or the Big 4 invoice. Every file, every return, every piece of advice carries a partner's name."
-      />
+        title="About Us"
+        description="Our team of seasoned professionals brings a wealth of expertise and a forward-thinking approach to every client relationship. At FMY Chartered Accountants, we understand that no two financial situations are alike. That's why we pride ourselves on offering tailored solutions designed to meet your specific needs and drive sustainable growth."
+      >
+        <p className="max-w-2xl text-base text-bone-100 leading-relaxed">
+          We have built a reputation for reliability, transparency, and
+          exceptional service. Clients trust us not only to manage their
+          finances with precision but also to provide the strategic insights
+          needed to navigate today's dynamic financial landscape. By
+          leveraging the latest tools and technologies, we ensure accuracy,
+          efficiency, and compliance at every step.
+        </p>
+      </PageHero>
 
       <section className="py-20 sm:py-24">
         <Container>
-          <div className="relative overflow-hidden rounded-3xl border hairline-gold bg-gradient-to-br from-ink-900 via-ink-800 to-ink-900">
+          <SectionHeading
+            eyebrow="Meet Our Founder"
+            title={
+              <>
+                Faraz Yunus.{" "}
+                <span className="italic font-light">
+                  Partner-led, by definition.
+                </span>
+              </>
+            }
+          />
+
+          <div className="mt-14 relative overflow-hidden rounded-3xl border hairline-gold bg-gradient-to-br from-ink-900 via-ink-800 to-ink-900">
             <div
               className="absolute inset-0 opacity-40"
               style={{
@@ -117,68 +90,7 @@ export default function AboutPage() {
                     <p key={p.slice(0, 32)}>{p}</p>
                   ))}
                 </div>
-                <div className="mt-8 flex flex-wrap gap-2">
-                  {[
-                    "Big 4 · EY",
-                    "17+ yrs experience",
-                    "Four continents",
-                    "Board-level finance",
-                    "Cross-border tax",
-                  ].map((tag) => (
-                    <span
-                      key={tag}
-                      className="inline-flex items-center rounded-full border hairline bg-ink-950/40 px-3 py-1 text-xs text-bone-100"
-                    >
-                      {tag}
-                    </span>
-                  ))}
-                </div>
               </div>
-            </div>
-          </div>
-        </Container>
-      </section>
-
-      <section className="py-20 sm:py-24 border-t hairline">
-        <Container>
-          <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-start">
-            <div>
-              <SectionHeading
-                eyebrow="Our story"
-                title={
-                  <>
-                    Small by design.{" "}
-                    <span className="italic font-light">
-                      Senior by default.
-                    </span>
-                  </>
-                }
-              />
-              <div className="mt-8 space-y-5 text-bone-100 leading-relaxed">
-                <p>
-                  FMY was founded on the principles of precision, integrity,
-                  and personalised service — a direct response to the pattern
-                  that dominates larger firms: juniors doing the work, partners
-                  farming the relationship, and clients paying the bill.
-                </p>
-                <p>
-                  We built the inverse. We cap our client base per partner, we
-                  write fees up front, and we make sure every engagement has a
-                  single named owner who picks up the phone. It's accounting
-                  that works like a senior hire, not a supplier.
-                </p>
-                <p>
-                  The result is a firm that grows entirely by referral. That
-                  ratio is the only scorecard we trust.
-                </p>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-2 gap-5">
-              <StatBlock v="17+ yrs" l="Big 4 & listed-entity experience" />
-              <StatBlock v="4" l="Continents of prior practice" />
-              <StatBlock v="125+ yrs" l="Cumulative team expertise" />
-              <StatBlock v="0" l="HMRC penalties on our watch" />
             </div>
           </div>
         </Container>
@@ -187,119 +99,178 @@ export default function AboutPage() {
       <section className="py-20 sm:py-24 border-t hairline">
         <Container>
           <SectionHeading
-            eyebrow="What we stand for"
+            eyebrow="Three Perspectives, One Practice"
             title={
               <>
-                Four principles.{" "}
-                <span className="italic font-light">In every engagement.</span>
+                A combination{" "}
+                <span className="italic font-light">
+                  few accountants can match.
+                </span>
               </>
             }
-            description="These aren't posters on the wall — they're the working rules that shape how we scope, price, and deliver."
+            description="Faraz holds FCCA and ACA qualifications and brings together three distinct backgrounds — each one shaping how he serves clients."
           />
-          <div className="mt-14 grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/5 border hairline rounded-2xl overflow-hidden">
-            {coreValues.map((v, i) => (
+
+          <div className="mt-14 grid md:grid-cols-3 gap-px bg-white/5 border hairline rounded-2xl overflow-hidden">
+            {perspectives.map((p, i) => (
               <div
-                key={v.k}
-                className="bg-ink-950 hover:bg-ink-900 transition-colors p-7"
+                key={p.k}
+                className="bg-ink-950 hover:bg-ink-900 transition-colors p-8"
               >
-                <div className="font-display text-4xl tracking-tight text-gold-500/30">
+                <div className="font-display text-5xl tracking-tight text-gold-500/30">
                   0{i + 1}
                 </div>
-                <h3 className="mt-5 font-display text-xl text-bone-50">
-                  {v.k}
+                <h3 className="mt-6 font-display text-2xl text-bone-50 tracking-tight">
+                  {p.k}
                 </h3>
-                <p className="mt-3 text-sm text-slate-muted leading-relaxed">
-                  {v.v}
-                </p>
+                <p className="mt-3 text-slate-muted leading-relaxed">{p.v}</p>
               </div>
             ))}
           </div>
         </Container>
       </section>
 
-      <section className="py-20 sm:py-24 border-t hairline">
+      <section className="py-24 sm:py-32 border-t hairline">
+        <Container>
+          <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
+            <div>
+              <Eyebrow>Strategic Thinking, Personal Service</Eyebrow>
+              <h2 className="mt-5 font-display text-4xl sm:text-5xl tracking-tight bone-gradient-text leading-[1.05]">
+                Three principles.{" "}
+                <span className="italic font-light">No exceptions.</span>
+              </h2>
+              <p className="mt-6 text-lg text-bone-100 leading-relaxed">
+                FMY is built on three principles: technical excellence without
+                the jargon, transparent fixed-fee pricing, and genuine
+                partnership focused on solving problems — not just filing
+                forms.
+              </p>
+              <p className="mt-5 text-lg text-slate-muted leading-relaxed">
+                If you value quality, transparency, and working with someone
+                who genuinely understands your situation, let's talk.
+              </p>
+              <div className="mt-8 flex flex-wrap gap-3">
+                <LinkButton href="/contact" variant="primary" size="lg">
+                  Book a consultation <ArrowIcon />
+                </LinkButton>
+                <LinkButton href="/services" variant="gold-outline" size="lg">
+                  Explore services
+                </LinkButton>
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              {[
+                {
+                  h: "Technical excellence",
+                  p: "Without the jargon. Every conversation, every report, written so you can act on it.",
+                },
+                {
+                  h: "Transparent fixed-fee pricing",
+                  p: "Written scope, written fee. No 6-minute timesheets. No surprise quarterly top-ups.",
+                },
+                {
+                  h: "Genuine partnership",
+                  p: "Focused on solving problems — not just filing forms. We pre-empt issues, not react to them.",
+                },
+              ].map((item) => (
+                <div
+                  key={item.h}
+                  className="rounded-2xl border hairline bg-ink-900/40 p-6"
+                >
+                  <h3 className="font-display text-xl text-bone-50 tracking-tight">
+                    {item.h}
+                  </h3>
+                  <p className="mt-2 text-sm text-slate-muted leading-relaxed">
+                    {item.p}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+        </Container>
+      </section>
+
+      <section className="py-24 sm:py-32 border-t hairline">
         <Container>
           <SectionHeading
-            eyebrow="How we operate"
+            eyebrow="A stronger financial future"
             title={
               <>
-                The working rules —{" "}
+                Smarter decisions.{" "}
+                <span className="italic font-light">From the start.</span>
+              </>
+            }
+            description="At FMY Chartered Accountants, we believe that building a successful future starts with the right financial choices today. Our expert guidance helps simplify the complex, so you can focus on what truly matters — growing with confidence."
+          />
+
+          <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-white/5 border hairline rounded-2xl overflow-hidden">
+            {strongerFuture.map((feature, i) => (
+              <div
+                key={feature}
+                className="bg-ink-950 hover:bg-ink-900 transition-colors p-7"
+              >
+                <div className="flex items-center gap-3">
+                  <span className="font-display text-xs text-gold-500/60 tracking-[0.2em]">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  <span className="inline-flex items-center justify-center w-7 h-7 rounded-md bg-gold-500/10 text-gold-400">
+                    <svg
+                      width="14"
+                      height="14"
+                      viewBox="0 0 14 14"
+                      fill="none"
+                    >
+                      <path
+                        d="M3 7l2.5 2.5L11 4"
+                        stroke="currentColor"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                      />
+                    </svg>
+                  </span>
+                </div>
+                <h3 className="mt-5 font-display text-xl text-bone-50 tracking-tight">
+                  {feature}
+                </h3>
+              </div>
+            ))}
+          </div>
+        </Container>
+      </section>
+
+      <section className="py-24 sm:py-32 border-t hairline">
+        <Container>
+          <SectionHeading
+            eyebrow="Why Choose Us"
+            title={
+              <>
+                Strategic clarity,{" "}
                 <span className="italic font-light">
-                  and what we won't do.
+                  every step of the way.
                 </span>
               </>
             }
           />
-          <div className="mt-14 grid md:grid-cols-2 gap-px bg-white/5 border hairline rounded-2xl overflow-hidden">
-            {values.map((v) => (
-              <div
-                key={v.h}
-                className="bg-ink-950 p-8 hover:bg-ink-900 transition-colors"
-              >
-                <h3 className="font-display text-2xl text-bone-50 tracking-tight">
-                  {v.h}
-                </h3>
-                <p className="mt-4 text-slate-muted leading-relaxed">{v.p}</p>
-              </div>
-            ))}
-          </div>
-        </Container>
-      </section>
 
-      <section className="py-24 sm:py-32">
-        <Container>
-          <SectionHeading
-            eyebrow="The team around the founder"
-            title={
-              <>
-                Senior specialists.{" "}
-                <span className="italic font-light">On every engagement.</span>
-              </>
-            }
-            description="FMY is a partner-led firm — Faraz personally reviews every material file. He is supported by a specialist team across tax, audit, bookkeeping, payroll and client service."
-          />
-          <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-            {supportingTeam.map((m, i) => (
+          <div className="mt-14 grid md:grid-cols-2 gap-5">
+            {whyChooseUs.map((point, i) => (
               <div
-                key={m.role}
-                className="rounded-2xl border hairline bg-ink-900/40 hover:bg-ink-900 p-7 transition-colors"
+                key={i}
+                className="flex gap-5 rounded-2xl border hairline bg-ink-900/40 p-7"
               >
-                <div className="font-display text-4xl tracking-tight text-gold-500/30">
+                <span className="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-full bg-gold-500/10 text-gold-400 font-display text-sm">
                   0{i + 1}
-                </div>
-                <div className="mt-4 font-display text-lg text-bone-50">
-                  {m.role}
-                </div>
-                <p className="mt-3 text-sm text-slate-muted leading-relaxed">
-                  {m.focus}
-                </p>
+                </span>
+                <p className="text-bone-100 leading-relaxed">{point}</p>
               </div>
             ))}
           </div>
-          <p className="mt-10 text-sm text-slate-muted max-w-2xl">
-            We're growing — selectively. If you are a qualified chartered
-            accountant, tax specialist, or senior bookkeeper who would thrive
-            in a partner-led, no-politics firm, please{" "}
-            <a href="/contact" className="text-gold-400 hover:text-gold-300">
-              get in touch
-            </a>
-            .
-          </p>
         </Container>
       </section>
 
       <CTABand />
     </>
-  );
-}
-
-function StatBlock({ v, l }: { v: string; l: string }) {
-  return (
-    <div className="rounded-2xl border hairline bg-ink-900/40 p-6">
-      <div className="font-display text-4xl tracking-tight gold-gradient-text">
-        {v}
-      </div>
-      <div className="mt-2 text-sm text-slate-muted leading-snug">{l}</div>
-    </div>
   );
 }

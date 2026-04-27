@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { services, site } from "@/lib/site";
 
 export function SiteFooter() {
@@ -7,19 +8,15 @@ export function SiteFooter() {
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-500/40 to-transparent" />
       <div className="mx-auto max-w-7xl px-6 sm:px-8 py-16 grid gap-12 lg:grid-cols-5">
         <div className="lg:col-span-2">
-          <div className="flex items-center gap-2.5">
-            <span className="relative inline-flex items-center justify-center w-9 h-9 rounded-lg bg-ink-800 border hairline-gold">
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                <path
-                  d="M3 3h12v2.5H5.5v3H13v2.5H5.5V15H3V3z"
-                  fill="#C9A449"
-                />
-              </svg>
-            </span>
-            <span className="font-display text-xl font-semibold bone-gradient-text">
-              FMY
-            </span>
-          </div>
+          <Link href="/" aria-label="FMY Chartered Accountants — Home">
+            <Image
+              src="/fmy-wordmark.png"
+              alt="FMY Chartered Accountants"
+              width={845}
+              height={336}
+              className="h-14 w-auto"
+            />
+          </Link>
           <p className="mt-5 text-sm text-slate-muted max-w-sm leading-relaxed">
             Partner-led chartered accountancy based in the City of London.
             Serving founders, scale-ups, and established UK businesses with
