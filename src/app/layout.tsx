@@ -5,6 +5,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { PageTransition } from "@/components/page-transition";
 import { IntroOverlay } from "@/components/intro-overlay";
+import { Chatbot } from "@/components/chatbot";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -59,6 +60,7 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
         </PageTransition>
         <SiteFooter />
+        <Chatbot />
       </body>
     </html>
   );
