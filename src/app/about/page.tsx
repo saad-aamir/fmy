@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import founderBg from "../../../public/img/about-founder-bg.jpg";
 import { Container } from "@/components/container";
 import { PageHero } from "@/components/page-hero";
 import { SectionHeading, Eyebrow } from "@/components/section";
@@ -52,10 +53,12 @@ export default function AboutPage() {
 
           <div className="mt-14 relative overflow-hidden rounded-3xl border hairline-gold bg-gradient-to-br from-ink-900 via-ink-800 to-ink-900">
             <Image
-              src="/img/about-founder-bg.jpg"
+              src={founderBg}
               alt=""
               fill
               sizes="(min-width: 1024px) 1200px, 100vw"
+              quality={65}
+              placeholder="blur"
               className="object-cover opacity-45"
             />
             <div

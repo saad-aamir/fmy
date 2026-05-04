@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import Image, { type StaticImageData } from "next/image";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Container } from "@/components/container";
@@ -10,16 +10,26 @@ import { ServiceIcon } from "@/components/service-icon";
 import { CTABand } from "@/components/cta-band";
 import { FAQ } from "@/components/faq";
 
-// Per-service hero imagery — local files in public/img, optimized at build time.
-const serviceHero: Record<string, string> = {
-  bookkeeping: "/img/service-bookkeeping.jpg",
-  accounting: "/img/service-accounting.jpg",
-  tax: "/img/service-tax.jpg",
-  payroll: "/img/service-payroll.jpg",
-  "audit-assurance": "/img/service-audit.jpg",
-  advisory: "/img/service-advisory.jpg",
-  "corporate-finance": "/img/service-corporate-finance.jpg",
-  "business-valuations": "/img/service-valuations.jpg",
+// Static imports → Next pre-optimizes at build time AND auto-generates
+// a tiny base64 LQIP for placeholder="blur" (instant fade-in).
+import bookkeepingImg from "../../../../public/img/service-bookkeeping.jpg";
+import accountingImg from "../../../../public/img/service-accounting.jpg";
+import taxImg from "../../../../public/img/service-tax.jpg";
+import payrollImg from "../../../../public/img/service-payroll.jpg";
+import auditImg from "../../../../public/img/service-audit.jpg";
+import advisoryImg from "../../../../public/img/service-advisory.jpg";
+import corporateFinanceImg from "../../../../public/img/service-corporate-finance.jpg";
+import valuationsImg from "../../../../public/img/service-valuations.jpg";
+
+const serviceHero: Record<string, StaticImageData> = {
+  bookkeeping: bookkeepingImg,
+  accounting: accountingImg,
+  tax: taxImg,
+  payroll: payrollImg,
+  "audit-assurance": auditImg,
+  advisory: advisoryImg,
+  "corporate-finance": corporateFinanceImg,
+  "business-valuations": valuationsImg,
 };
 
 export function generateStaticParams() {
@@ -62,6 +72,8 @@ export default async function ServiceDetail(
               fill
               priority
               sizes="100vw"
+              quality={65}
+              placeholder="blur"
               className="object-cover opacity-60"
             />
             <div

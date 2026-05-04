@@ -1,4 +1,5 @@
 import Image from "next/image";
+import ctaLondon from "../../public/img/cta-london.jpg";
 import { Container } from "@/components/container";
 import { LinkButton, ArrowIcon } from "@/components/button";
 import { site } from "@/lib/site";
@@ -17,10 +18,12 @@ export function CTABand({
       <Container>
         <div className="relative overflow-hidden rounded-3xl border hairline-gold bg-gradient-to-br from-ink-900 via-ink-800 to-ink-900 p-10 sm:p-14 lg:p-20">
           <Image
-            src="/img/cta-london.jpg"
+            src={ctaLondon}
             alt=""
             fill
             sizes="(min-width: 1280px) 1280px, 100vw"
+            quality={65}
+            placeholder="blur"
             className="object-cover opacity-50"
           />
           <div
