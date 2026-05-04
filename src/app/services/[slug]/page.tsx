@@ -10,23 +10,16 @@ import { ServiceIcon } from "@/components/service-icon";
 import { CTABand } from "@/components/cta-band";
 import { FAQ } from "@/components/faq";
 
-// Per-service hero imagery (Unsplash) — placeholders the user can swap.
+// Per-service hero imagery — local files in public/img, optimized at build time.
 const serviceHero: Record<string, string> = {
-  bookkeeping:
-    "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=1800&q=80",
-  accounting:
-    "https://images.unsplash.com/photo-1554224154-22dec7ec8818?w=1800&q=80",
-  tax: "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=1800&q=80",
-  payroll:
-    "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1800&q=80",
-  "audit-assurance":
-    "https://images.unsplash.com/photo-1551836022-deb4988cc6c0?w=1800&q=80",
-  advisory:
-    "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1800&q=80",
-  "corporate-finance":
-    "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1800&q=80",
-  "business-valuations":
-    "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=1800&q=80",
+  bookkeeping: "/img/service-bookkeeping.jpg",
+  accounting: "/img/service-accounting.jpg",
+  tax: "/img/service-tax.jpg",
+  payroll: "/img/service-payroll.jpg",
+  "audit-assurance": "/img/service-audit.jpg",
+  advisory: "/img/service-advisory.jpg",
+  "corporate-finance": "/img/service-corporate-finance.jpg",
+  "business-valuations": "/img/service-valuations.jpg",
 };
 
 export function generateStaticParams() {
@@ -249,26 +242,26 @@ export default async function ServiceDetail(
           <div className="grid sm:grid-cols-2 gap-5">
             <Link
               href={`/services/${prev.slug}`}
-              className="group rounded-2xl border hairline bg-ink-900/40 hover:bg-ink-900 p-6 transition-colors"
+              className="card-hover group rounded-2xl border hairline bg-ink-900/40 hover:bg-ink-900 p-6"
             >
               <div className="text-xs uppercase tracking-[0.18em] text-slate-muted">
                 Previous
               </div>
-              <div className="mt-2 flex items-center gap-3 font-display text-xl text-bone-50">
-                <ArrowIcon className="rotate-180 text-gold-400" />
+              <div className="mt-2 flex items-center gap-3 font-display text-xl text-bone-50 transition-colors duration-300 group-hover:text-gold-300">
+                <ArrowIcon className="rotate-180 text-gold-400 transition-transform duration-300 group-hover:-translate-x-1" />
                 {prev.title}
               </div>
             </Link>
             <Link
               href={`/services/${next.slug}`}
-              className="group rounded-2xl border hairline bg-ink-900/40 hover:bg-ink-900 p-6 transition-colors text-right"
+              className="card-hover group rounded-2xl border hairline bg-ink-900/40 hover:bg-ink-900 p-6 text-right"
             >
               <div className="text-xs uppercase tracking-[0.18em] text-slate-muted">
                 Next
               </div>
-              <div className="mt-2 flex items-center justify-end gap-3 font-display text-xl text-bone-50">
+              <div className="mt-2 flex items-center justify-end gap-3 font-display text-xl text-bone-50 transition-colors duration-300 group-hover:text-gold-300">
                 {next.title}
-                <ArrowIcon className="text-gold-400" />
+                <ArrowIcon className="text-gold-400 transition-transform duration-300 group-hover:translate-x-1" />
               </div>
             </Link>
           </div>

@@ -21,6 +21,7 @@
 
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-serif: "Fraunces", ui-serif, Georgia, serif;
+  --font-classic: "Playfair Display", "Times New Roman", ui-serif, Georgia, serif;
 
   --radius-xs: 0.25rem;
   --radius-sm: 0.375rem;
@@ -52,6 +53,12 @@ body {
   letter-spacing: -0.02em;
 }
 
+.font-classic {
+  font-family: var(--font-classic);
+  font-feature-settings: "lnum", "pnum", "liga";
+  letter-spacing: -0.015em;
+}
+
 .grain::before {
   content: "";
   position: absolute;
@@ -76,6 +83,9 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  /* Extend the painted background past the line-box so glyph descenders
+     (y, g, p, q) and tall ascenders are never clipped by the gradient. */
+  padding-block: 0.05em 0.12em;
 }
 
 .bone-gradient-text {
@@ -87,6 +97,7 @@ body {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  padding-block: 0.05em 0.12em;
 }
 
 .hairline {
@@ -182,6 +193,130 @@ html {
 }
 
 /* -------------------------------------------------------------------------- */
+/* Hover system — cohesive lift + gold-glow language                           */
+/* -------------------------------------------------------------------------- */
+
+/* Cards: subtle lift, gold border bloom, gold-tinted shadow */
+.card-hover {
+  transition:
+    transform 320ms cubic-bezier(0.16, 1, 0.3, 1),
+    border-color 320ms ease,
+    box-shadow 320ms ease,
+    background-color 320ms ease;
+  will-change: transform;
+}
+.card-hover:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in oklab, var(--color-gold-500) 40%, transparent);
+  box-shadow:
+    0 14px 36px -12px rgba(0, 0, 0, 0.5),
+    0 8px 24px -10px rgba(201, 164, 73, 0.25);
+}
+.card-hover:active {
+  transform: translateY(-1px);
+  transition-duration: 80ms;
+}
+
+/* Buttons: micro-lift + tightened active state */
+.btn-lift {
+  will-change: transform;
+}
+.btn-lift:hover {
+  transform: translateY(-1px);
+}
+.btn-lift:active {
+  transform: translateY(0);
+  transition-duration: 60ms;
+}
+
+/* Nav-link underline: gold bar slides in from the centre on hover */
+.nav-underline {
+  position: relative;
+}
+.nav-underline::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 4px;
+  width: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--color-gold-400) 50%,
+    transparent 100%
+  );
+  transform: translateX(-50%);
+  transition: width 300ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.nav-underline:hover::after,
+.nav-underline[data-active="true"]::after {
+  width: calc(100% - 1.5rem);
+}
+
+/* Row hover: gold accent bar slides in on the left edge */
+.row-hover {
+  position: relative;
+  transition: background-color 220ms ease, padding-left 220ms ease;
+}
+.row-hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 14%;
+  bottom: 14%;
+  width: 2px;
+  background: linear-gradient(
+    180deg,
+    var(--color-gold-400),
+    color-mix(in oklab, var(--color-gold-500) 40%, transparent)
+  );
+  transform: scaleY(0);
+  transform-origin: center;
+  transition: transform 280ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.row-hover:hover::before {
+  transform: scaleY(1);
+}
+
+/* Soft card glow — for informational (non-clickable) cards.
+   No lift, just a gentle gold border bloom + tiny shadow so the card
+   feels "alive" without misleadingly signalling clickability. */
+.card-glow {
+  transition:
+    border-color 280ms ease,
+    background-color 280ms ease,
+    box-shadow 280ms ease;
+}
+.card-glow:hover {
+  border-color: color-mix(in oklab, var(--color-gold-500) 30%, transparent);
+  box-shadow: 0 6px 22px -10px rgba(201, 164, 73, 0.18);
+}
+
+/* Image-zoom on group hover (for hero/cover images inside cards) */
+.image-zoom {
+  transition: transform 600ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.group:hover .image-zoom {
+  transform: scale(1.04);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-hover,
+  .btn-lift,
+  .image-zoom,
+  .nav-underline,
+  .row-hover {
+    transition: none !important;
+  }
+  .card-hover:hover,
+  .btn-lift:hover,
+  .group:hover .image-zoom {
+    transform: none !important;
+  }
+}
+
+/* -------------------------------------------------------------------------- */
 /* Header phone pill — subtle ringing animation                                */
 /* -------------------------------------------------------------------------- */
 
@@ -213,9 +348,20 @@ html {
   animation: phoneShake 0.55s cubic-bezier(0.36, 0.07, 0.19, 0.97);
 }
 
+/* CTA phone pill (larger variant in the closing CTA band) */
+.cta-phone .cta-phone-ring {
+  animation: phonePing 2.4s cubic-bezier(0.16, 1, 0.3, 1) infinite;
+}
+
+.cta-phone:hover .cta-phone-icon {
+  animation: phoneShake 0.55s cubic-bezier(0.36, 0.07, 0.19, 0.97);
+}
+
 @media (prefers-reduced-motion: reduce) {
   .phone-pill .phone-ping,
-  .phone-pill:hover .phone-icon {
+  .phone-pill:hover .phone-icon,
+  .cta-phone .cta-phone-ring,
+  .cta-phone:hover .cta-phone-icon {
     animation: none;
   }
 }

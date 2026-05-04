@@ -22,15 +22,15 @@ export function Switching() {
           {switching.map((s, i) => (
             <div
               key={s.k}
-              className="relative rounded-2xl border hairline bg-ink-900/40 hover:bg-ink-900 transition-colors p-8"
+              className="card-glow group relative rounded-2xl border hairline bg-ink-900/40 hover:bg-ink-900 p-8"
             >
               <div className="flex items-center gap-4">
-                <span className="inline-flex items-center justify-center w-10 h-10 rounded-full border hairline-gold text-gold-400 font-display text-sm">
+                <span className="inline-flex items-center justify-center w-10 h-10 rounded-full border hairline-gold text-gold-400 font-display text-sm transition-all duration-300 group-hover:bg-gold-500/15 group-hover:scale-110">
                   0{i + 1}
                 </span>
                 <div className="h-px flex-1 bg-gradient-to-r from-gold-500/40 to-transparent" />
               </div>
-              <h3 className="mt-6 font-display text-2xl text-bone-50 tracking-tight">
+              <h3 className="mt-6 font-display text-2xl text-bone-50 tracking-tight transition-colors duration-300 group-hover:text-gold-300">
                 {s.k}
               </h3>
               <p className="mt-4 text-slate-muted leading-relaxed">{s.v}</p>

@@ -69,13 +69,13 @@ export default function VFOPage() {
             {vfoFeatures.map((f, i) => (
               <div
                 key={f.k}
-                className="relative bg-ink-950 hover:bg-ink-900 transition-colors p-7"
+                className="group relative bg-ink-950 hover:bg-ink-900 transition-colors duration-300 p-7"
               >
                 <div className="flex items-center gap-3">
                   <span className="font-display text-xs text-gold-500/60 tracking-[0.2em]">
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <span className="inline-flex items-center justify-center w-7 h-7 rounded-md bg-gold-500/10 text-gold-400">
+                  <span className="inline-flex items-center justify-center w-7 h-7 rounded-md bg-gold-500/10 text-gold-400 transition-all duration-300 group-hover:bg-gold-500/25 group-hover:text-gold-300 group-hover:scale-110">
                     <svg
                       width="14"
                       height="14"
@@ -92,7 +92,7 @@ export default function VFOPage() {
                     </svg>
                   </span>
                 </div>
-                <h3 className="mt-5 font-display text-lg text-bone-50 tracking-tight">
+                <h3 className="mt-5 font-display text-lg text-bone-50 tracking-tight transition-colors duration-300 group-hover:text-gold-300">
                   {f.k}
                 </h3>
                 <p className="mt-2 text-sm text-slate-muted leading-relaxed">

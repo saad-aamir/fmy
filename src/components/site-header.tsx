@@ -52,6 +52,12 @@ export function SiteHeader() {
           </Link>
 
           <nav className="hidden lg:flex items-center gap-1">
+            <Link
+              href="/"
+              className="nav-underline px-3 py-2 text-sm text-bone-100 hover:text-gold-400 transition-colors"
+            >
+              Home
+            </Link>
             <div
               className="relative"
               onMouseEnter={() => setServicesOpen(true)}
@@ -59,10 +65,16 @@ export function SiteHeader() {
             >
               <Link
                 href="/services"
-                className="inline-flex items-center gap-1 px-3 py-2 text-sm text-bone-100 hover:text-gold-400 transition-colors"
+                className="nav-underline group inline-flex items-center gap-1 px-3 py-2 text-sm text-bone-100 hover:text-gold-400 transition-colors"
               >
                 Services
-                <svg width="10" height="10" viewBox="0 0 10 10" fill="none">
+                <svg
+                  width="10"
+                  height="10"
+                  viewBox="0 0 10 10"
+                  fill="none"
+                  className="transition-transform duration-300 group-hover:rotate-180"
+                >
                   <path
                     d="M2 4l3 3 3-3"
                     stroke="currentColor"
@@ -74,14 +86,14 @@ export function SiteHeader() {
               </Link>
               {servicesOpen && (
                 <div className="absolute left-1/2 top-full -translate-x-1/2 pt-3 w-[640px]">
-                  <div className="glass rounded-2xl border hairline shadow-2xl shadow-black/50 p-4 grid grid-cols-2 gap-1">
+                  <div className="rounded-2xl border hairline-gold bg-ink-900/[0.97] backdrop-blur-2xl shadow-[0_24px_64px_-12px_rgba(0,0,0,0.7),0_8px_24px_-8px_rgba(0,0,0,0.5)] p-4 grid grid-cols-2 gap-1 ring-1 ring-inset ring-white/[0.03]">
                     {services.map((s) => (
                       <Link
                         key={s.slug}
                         href={`/services/${s.slug}`}
-                        className="group rounded-lg p-3 hover:bg-white/5 transition-colors"
+                        className="group rounded-lg p-3 hover:bg-white/[0.06] transition-colors"
                       >
-                        <div className="text-sm font-medium text-bone-50 group-hover:text-gold-400 transition-colors">
+                        <div className="text-sm font-medium text-bone-50 group-hover:text-gold-300 transition-colors">
                           {s.title}
                         </div>
                         <div className="text-xs text-slate-muted mt-0.5 leading-snug">
@@ -99,7 +111,7 @@ export function SiteHeader() {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="px-3 py-2 text-sm text-bone-100 hover:text-gold-400 transition-colors"
+                  className="nav-underline px-3 py-2 text-sm text-bone-100 hover:text-gold-400 transition-colors"
                 >
                   {link.label}
                 </Link>
@@ -175,6 +187,14 @@ export function SiteHeader() {
       {mobileOpen && (
         <div className="lg:hidden fixed inset-x-0 top-16 bottom-0 bg-ink-950 border-t hairline overflow-y-auto">
           <div className="px-6 py-6 flex flex-col gap-1">
+            <Link
+              href="/"
+              onClick={() => setMobileOpen(false)}
+              className="px-3 py-3 text-bone-50 text-lg font-medium"
+            >
+              Home
+            </Link>
+            <div className="h-px bg-white/10 my-3" />
             <div className="text-xs uppercase tracking-wider text-slate-muted px-3 py-2">
               Services
             </div>

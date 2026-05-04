@@ -9,6 +9,7 @@ import { WhyUs } from "@/components/home/why-us";
 import { Switching } from "@/components/home/switching";
 import { Testimonials } from "@/components/home/testimonials";
 import { FAQ } from "@/components/faq";
+import { NewsletterSection } from "@/components/newsletter-section";
 import { CTABand } from "@/components/cta-band";
 
 export default function HomePage() {
@@ -25,6 +26,7 @@ export default function HomePage() {
       <Switching />
       <Testimonials />
       <FAQ />
+      <NewsletterSection />
       <CTABand />
     </>
   );

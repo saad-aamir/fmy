@@ -39,7 +39,7 @@ export function WhyUs() {
           {pillars.map((p, i) => (
             <div
               key={p.k}
-              className="group relative rounded-2xl border hairline p-8 bg-ink-900/40 hover:bg-ink-900 transition-colors overflow-hidden"
+              className="card-glow group relative rounded-2xl border hairline p-8 bg-ink-900/40 hover:bg-ink-900 overflow-hidden"
             >
               <span
                 aria-hidden

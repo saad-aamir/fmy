@@ -38,6 +38,24 @@ export function SiteFooter() {
               {site.email}
             </a>
           </div>
+          <a
+            href="https://www.icaew.com/"
+            target="_blank"
+            rel="noreferrer"
+            className="mt-7 inline-block group"
+            aria-label="Regulated by the Institute of Chartered Accountants in England and Wales"
+          >
+            <Image
+              src="/icaew-badge.png"
+              alt="ICAEW Chartered Accountants"
+              width={1203}
+              height={450}
+              className="h-14 w-auto opacity-90 group-hover:opacity-100 transition-opacity"
+            />
+            <div className="mt-2 text-[10px] uppercase tracking-[0.18em] text-slate-muted">
+              Firm No. {site.registration.icaew}
+            </div>
+          </a>
         </div>
 
         <div>
@@ -114,24 +132,16 @@ export function SiteFooter() {
             One concise tax & finance update a month. Written by our partners.
             No promo.
           </p>
-          <form className="mt-4 flex gap-2">
-            <input
-              type="email"
-              required
-              placeholder="you@company.com"
-              className="flex-1 min-w-0 h-10 rounded-full border hairline bg-ink-900 px-4 text-sm text-bone-50 placeholder:text-slate-muted focus:outline-none focus:border-gold-400 transition-colors"
-            />
-            <button
-              type="submit"
-              className="h-10 px-4 rounded-full bg-gold-500 text-ink-950 text-sm font-medium hover:bg-gold-400 transition-colors"
-            >
-              Join
-            </button>
-          </form>
+          <Link
+            href="/resources#subscribe"
+            className="mt-4 inline-flex items-center gap-1.5 text-sm text-gold-400 hover:text-gold-300 transition-colors"
+          >
+            Subscribe to The FMY Brief
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none" aria-hidden>
+              <path d="M3 7h8m0 0L7 3m4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </Link>
           <div className="mt-6 flex gap-3">
-            <SocialLink href={site.social.linkedin} label="LinkedIn">
-              <LinkedIn />
-            </SocialLink>
             <SocialLink href={site.social.instagram} label="Instagram">
               <Instagram />
             </SocialLink>
@@ -193,13 +203,6 @@ function SocialLink({
   );
 }
 
-function LinkedIn() {
-  return (
-    <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor">
-      <path d="M3.3 12H1V4.8h2.3V12zM2.15 3.8a1.3 1.3 0 110-2.6 1.3 1.3 0 010 2.6zM12.5 12h-2.3V8.5c0-.85-.02-1.94-1.18-1.94-1.18 0-1.36.92-1.36 1.88V12H5.37V4.8h2.2v.98h.04a2.4 2.4 0 012.16-1.19c2.31 0 2.73 1.52 2.73 3.5V12z" />
-    </svg>
-  );
-}
 function Instagram() {
   return (
     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.3">

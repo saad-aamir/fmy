@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Container } from "@/components/container";
 import { LinkButton, ArrowIcon } from "@/components/button";
 import { HeroBackdrop } from "@/components/home/hero-backdrop";
@@ -39,10 +40,12 @@ export function Hero() {
             </Link>
           </div>
 
-          <h1 className="mt-8 font-display text-5xl sm:text-6xl lg:text-[5.25rem] leading-[0.98] tracking-tight">
-            <span className="bone-gradient-text">The finance function</span>
+          <h1 className="mt-8 text-5xl sm:text-6xl lg:text-[5.25rem] leading-[1.02] tracking-tight">
+            <span className="font-classic font-medium bone-gradient-text">
+              The finance function
+            </span>
             <br />
-            <span className="gold-gradient-text italic">
+            <span className="font-display gold-gradient-text italic">
               your business deserves.
             </span>
           </h1>
@@ -63,8 +66,22 @@ export function Hero() {
             </LinkButton>
           </div>
 
-          <div className="mt-14 flex flex-wrap items-center gap-x-10 gap-y-4 text-sm text-slate-muted">
-            <TrustBadge>ICAEW regulated</TrustBadge>
+          <div className="mt-14 flex flex-wrap items-center gap-x-10 gap-y-5 text-sm text-slate-muted">
+            <a
+              href="https://www.icaew.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="group flex items-center gap-3 pr-4 sm:border-r border-white/10"
+              aria-label="Regulated by ICAEW — opens icaew.com"
+            >
+              <Image
+                src="/icaew-badge.png"
+                alt="ICAEW Chartered Accountants"
+                width={1203}
+                height={450}
+                className="h-12 w-auto opacity-90 group-hover:opacity-100 transition-opacity"
+              />
+            </a>
             <TrustBadge>125+ yrs Big 4 experience</TrustBadge>
             <TrustBadge>Fixed monthly fees</TrustBadge>
             <TrustBadge>Xero platinum partner</TrustBadge>
@@ -100,13 +117,13 @@ function FloatingCards() {
     <div className="relative mt-20 grid sm:grid-cols-3 gap-5">
       <StatCard
         label="Average tax saving"
-        value="11.4%"
-        detail="for advisory clients in FY24"
+        value="~17%"
+        detail="for advisory clients to date"
       />
       <StatCard
         label="Client retention"
-        value="96%"
-        detail="across 4 consecutive years"
+        value="100%"
+        detail="since incorporation"
         highlight
       />
       <StatCard

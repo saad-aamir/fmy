@@ -5,17 +5,17 @@ type Variant = "primary" | "secondary" | "ghost" | "gold-outline";
 type Size = "md" | "lg";
 
 const base =
-  "inline-flex items-center justify-center gap-2 font-medium tracking-tight transition-all duration-200 rounded-full whitespace-nowrap";
+  "btn-lift inline-flex items-center justify-center gap-2 font-medium tracking-tight transition-all duration-300 rounded-full whitespace-nowrap";
 
 const variants: Record<Variant, string> = {
   primary:
-    "bg-gold-500 text-ink-950 hover:bg-gold-400 shadow-[0_4px_24px_-6px_rgba(201,164,73,0.5)] hover:shadow-[0_8px_32px_-6px_rgba(201,164,73,0.6)]",
+    "bg-gold-500 text-ink-950 hover:bg-gold-400 shadow-[0_4px_18px_-6px_rgba(201,164,73,0.45)] hover:shadow-[0_14px_36px_-8px_rgba(201,164,73,0.65)]",
   secondary:
-    "bg-bone-50 text-ink-950 hover:bg-white",
+    "bg-bone-50 text-ink-950 hover:bg-white shadow-[0_4px_18px_-6px_rgba(235,239,238,0.25)] hover:shadow-[0_14px_36px_-8px_rgba(235,239,238,0.4)]",
   ghost:
-    "text-bone-100 hover:text-bone-50 hover:bg-white/5",
+    "text-bone-100 hover:text-bone-50 hover:bg-white/[0.06]",
   "gold-outline":
-    "border hairline-gold text-gold-400 hover:bg-gold-500/10 hover:border-gold-400",
+    "border hairline-gold text-gold-400 hover:bg-gold-500/10 hover:border-gold-400 hover:shadow-[0_8px_28px_-12px_rgba(201,164,73,0.4)]",
 };
 
 const sizes: Record<Size, string> = {

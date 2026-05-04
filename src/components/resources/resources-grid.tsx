@@ -121,25 +121,28 @@ export function ResourcesGrid({ articles, categories }: Props) {
               <Link
                 key={p.slug}
                 href={`/resources/${p.slug}`}
-                className="group rounded-2xl border hairline bg-ink-900/40 hover:bg-ink-900 transition-colors p-7 flex flex-col"
+                className="card-hover group rounded-2xl border hairline bg-ink-900/40 hover:bg-ink-900 p-7 flex flex-col"
               >
                 <div className="flex items-center gap-2 text-xs">
-                  <span className="rounded-full bg-gold-500/15 text-gold-400 px-2.5 py-1 font-medium uppercase tracking-wider">
+                  <span className="rounded-full bg-gold-500/15 text-gold-400 px-2.5 py-1 font-medium uppercase tracking-wider transition-colors duration-300 group-hover:bg-gold-500/25 group-hover:text-gold-300">
                     {p.category}
                   </span>
                   <span className="text-slate-muted">
                     · {p.readMinutes} min read
                   </span>
                 </div>
-                <h3 className="mt-5 font-display text-xl text-bone-50 leading-snug tracking-tight group-hover:text-gold-300 transition-colors">
+                <h3 className="mt-5 font-display text-xl text-bone-50 leading-snug tracking-tight group-hover:text-gold-300 transition-colors duration-300">
                   {p.title}
                 </h3>
                 <p className="mt-3 text-sm text-slate-muted leading-relaxed flex-1 line-clamp-5">
                   {p.excerpt}
                 </p>
-                <div className="mt-6 pt-4 border-t hairline flex items-center justify-between text-xs text-slate-muted">
+                <div className="mt-6 pt-4 border-t hairline flex items-center justify-between text-xs text-slate-muted transition-colors duration-300 group-hover:border-gold-400/20">
                   <span>{p.date}</span>
-                  <ArrowIcon className="text-gold-400 group-hover:translate-x-0.5 transition-transform" />
+                  <span className="inline-flex items-center gap-1 text-gold-400 transition-all duration-300 group-hover:gap-1.5 group-hover:text-gold-300">
+                    Read
+                    <ArrowIcon className="transition-transform duration-300 group-hover:translate-x-0.5" />
+                  </span>
                 </div>
               </Link>
             ))}

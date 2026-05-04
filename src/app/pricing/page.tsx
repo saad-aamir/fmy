@@ -202,7 +202,7 @@ export default function PricingPage() {
               <div
                 key={t.name}
                 className={
-                  "relative rounded-2xl p-8 flex flex-col " +
+                  "card-glow group relative rounded-2xl p-8 flex flex-col " +
                   (t.recommended
                     ? "border hairline-gold bg-gradient-to-b from-ink-800 to-ink-900"
                     : "border hairline bg-ink-900/40")
@@ -335,10 +335,10 @@ export default function PricingPage() {
               <Link
                 key={s.slug}
                 href={`/services/${s.slug}`}
-                className="group flex items-center gap-6 px-6 py-5 transition-colors hover:bg-ink-900/40"
+                className="row-hover group flex items-center gap-6 px-6 py-5 hover:bg-ink-900/50 hover:pl-8"
               >
                 <div className="flex-1 min-w-0">
-                  <div className="font-display text-lg text-bone-50 leading-tight">
+                  <div className="font-display text-lg text-bone-50 leading-tight transition-colors duration-300 group-hover:text-gold-300">
                     {s.title}
                   </div>
                   <div className="text-sm text-slate-muted mt-1.5 leading-snug">
@@ -349,7 +349,7 @@ export default function PricingPage() {
                   <span className="text-xs text-slate-muted">
                     {s.included.length} specialisms
                   </span>
-                  <ArrowIcon className="text-slate-muted group-hover:text-gold-400 group-hover:translate-x-0.5 transition-all" />
+                  <ArrowIcon className="text-slate-muted group-hover:text-gold-400 group-hover:translate-x-1 transition-all duration-300" />
                 </div>
               </Link>
             ))}
@@ -414,10 +414,10 @@ function PriceTable({
       {items.map((it) => (
         <div
           key={it.name}
-          className="group flex items-center gap-6 px-6 py-5 transition-colors hover:bg-ink-900/40"
+          className="row-hover group flex items-center gap-6 px-6 py-5 hover:bg-ink-900/50 hover:pl-8"
         >
           <div className="flex-1 min-w-0">
-            <div className="font-display text-lg text-bone-50 leading-tight">
+            <div className="font-display text-lg text-bone-50 leading-tight transition-colors duration-300 group-hover:text-gold-300">
               {it.name}
             </div>
             {it.desc && (

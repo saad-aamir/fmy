@@ -21,12 +21,12 @@ export function CoreValues() {
           {coreValues.map((v, i) => (
             <div
               key={v.k}
-              className="relative bg-ink-950 hover:bg-ink-900 transition-colors p-8"
+              className="group relative bg-ink-950 hover:bg-ink-900 transition-colors duration-300 p-8"
             >
-              <div className="font-display text-5xl tracking-tight text-gold-500/30">
+              <div className="font-display text-5xl tracking-tight text-gold-500/30 group-hover:text-gold-500/70 transition-colors duration-500">
                 0{i + 1}
               </div>
-              <h3 className="mt-6 font-display text-2xl text-bone-50 tracking-tight">
+              <h3 className="mt-6 font-display text-2xl text-bone-50 tracking-tight transition-colors duration-300 group-hover:text-gold-300">
                 {v.k}
               </h3>
               <p className="mt-3 text-sm text-slate-muted leading-relaxed">

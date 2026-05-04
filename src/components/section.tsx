@@ -67,7 +67,7 @@ export function SectionHeading({
       )}
     >
       {eyebrow && <Eyebrow className={align === "center" ? "justify-center" : ""}>{eyebrow}</Eyebrow>}
-      <h2 className="font-display text-4xl sm:text-5xl lg:text-[3.25rem] leading-[1.05] tracking-tight mt-5 bone-gradient-text">
+      <h2 className="font-display text-4xl sm:text-5xl lg:text-[3.25rem] leading-[1.18] tracking-tight mt-5 bone-gradient-text">
         {title}
       </h2>
       {description && (

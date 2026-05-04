@@ -52,7 +52,7 @@ export default function AboutPage() {
 
           <div className="mt-14 relative overflow-hidden rounded-3xl border hairline-gold bg-gradient-to-br from-ink-900 via-ink-800 to-ink-900">
             <Image
-              src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=2000&q=80"
+              src="/img/about-founder-bg.jpg"
               alt=""
               fill
               sizes="(min-width: 1024px) 1200px, 100vw"
@@ -123,12 +123,12 @@ export default function AboutPage() {
             {perspectives.map((p, i) => (
               <div
                 key={p.k}
-                className="bg-ink-950 hover:bg-ink-900 transition-colors p-8"
+                className="group bg-ink-950 hover:bg-ink-900 transition-colors duration-300 p-8"
               >
-                <div className="font-display text-5xl tracking-tight text-gold-500/30">
+                <div className="font-display text-5xl tracking-tight text-gold-500/30 group-hover:text-gold-500/70 transition-colors duration-500">
                   0{i + 1}
                 </div>
-                <h3 className="mt-6 font-display text-2xl text-bone-50 tracking-tight">
+                <h3 className="mt-6 font-display text-2xl text-bone-50 tracking-tight transition-colors duration-300 group-hover:text-gold-300">
                   {p.k}
                 </h3>
                 <p className="mt-3 text-slate-muted leading-relaxed">{p.v}</p>
@@ -216,13 +216,13 @@ export default function AboutPage() {
             {strongerFuture.map((feature, i) => (
               <div
                 key={feature}
-                className="bg-ink-950 hover:bg-ink-900 transition-colors p-7"
+                className="group bg-ink-950 hover:bg-ink-900 transition-colors duration-300 p-7"
               >
                 <div className="flex items-center gap-3">
                   <span className="font-display text-xs text-gold-500/60 tracking-[0.2em]">
                     {String(i + 1).padStart(2, "0")}
                   </span>
-                  <span className="inline-flex items-center justify-center w-7 h-7 rounded-md bg-gold-500/10 text-gold-400">
+                  <span className="inline-flex items-center justify-center w-7 h-7 rounded-md bg-gold-500/10 text-gold-400 transition-all duration-300 group-hover:bg-gold-500/25 group-hover:text-gold-300 group-hover:scale-110">
                     <svg
                       width="14"
                       height="14"
@@ -239,7 +239,7 @@ export default function AboutPage() {
                     </svg>
                   </span>
                 </div>
-                <h3 className="mt-5 font-display text-xl text-bone-50 tracking-tight">
+                <h3 className="mt-5 font-display text-xl text-bone-50 tracking-tight transition-colors duration-300 group-hover:text-gold-300">
                   {feature}
                 </h3>
               </div>
@@ -266,9 +266,9 @@ export default function AboutPage() {
             {whyChooseUs.map((point, i) => (
               <div
                 key={i}
-                className="flex gap-5 rounded-2xl border hairline bg-ink-900/40 p-7"
+                className="card-glow group flex gap-5 rounded-2xl border hairline bg-ink-900/40 p-7"
               >
-                <span className="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-full bg-gold-500/10 text-gold-400 font-display text-sm">
+                <span className="shrink-0 inline-flex items-center justify-center w-10 h-10 rounded-full bg-gold-500/10 text-gold-400 font-display text-sm transition-all duration-300 group-hover:bg-gold-500/25 group-hover:text-gold-300 group-hover:scale-110">
                   0{i + 1}
                 </span>
                 <p className="text-bone-100 leading-relaxed">{point}</p>

@@ -176,14 +176,14 @@ export default async function ArticlePage(
             {prev ? (
               <Link
                 href={`/resources/${prev.slug}`}
-                className="group rounded-2xl border hairline bg-ink-900/40 hover:bg-ink-900 p-6 transition-colors"
+                className="card-hover group rounded-2xl border hairline bg-ink-900/40 hover:bg-ink-900 p-6"
               >
                 <div className="text-xs uppercase tracking-[0.18em] text-slate-muted">
                   Older
                 </div>
                 <div className="mt-2 flex items-center gap-3">
-                  <ArrowIcon className="rotate-180 text-gold-400 shrink-0" />
-                  <span className="font-display text-lg text-bone-50 leading-tight">
+                  <ArrowIcon className="rotate-180 text-gold-400 shrink-0 transition-transform duration-300 group-hover:-translate-x-1" />
+                  <span className="font-display text-lg text-bone-50 leading-tight transition-colors duration-300 group-hover:text-gold-300">
                     {prev.title}
                   </span>
                 </div>
@@ -194,16 +194,16 @@ export default async function ArticlePage(
             {next ? (
               <Link
                 href={`/resources/${next.slug}`}
-                className="group rounded-2xl border hairline bg-ink-900/40 hover:bg-ink-900 p-6 transition-colors text-right"
+                className="card-hover group rounded-2xl border hairline bg-ink-900/40 hover:bg-ink-900 p-6 text-right"
               >
                 <div className="text-xs uppercase tracking-[0.18em] text-slate-muted">
                   Newer
                 </div>
                 <div className="mt-2 flex items-center justify-end gap-3">
-                  <span className="font-display text-lg text-bone-50 leading-tight">
+                  <span className="font-display text-lg text-bone-50 leading-tight transition-colors duration-300 group-hover:text-gold-300">
                     {next.title}
                   </span>
-                  <ArrowIcon className="text-gold-400 shrink-0" />
+                  <ArrowIcon className="text-gold-400 shrink-0 transition-transform duration-300 group-hover:translate-x-1" />
                 </div>
               </Link>
             ) : (

@@ -38,21 +38,24 @@ export function ServicesGrid() {
               className="group relative bg-ink-950 hover:bg-ink-900 p-7 transition-colors"
             >
               <div className="flex items-center justify-between">
-                <span className="inline-flex items-center justify-center w-11 h-11 rounded-lg bg-ink-800 text-gold-400 border hairline">
+                <span className="inline-flex items-center justify-center w-11 h-11 rounded-lg bg-ink-800 text-gold-400 border hairline transition-all duration-300 group-hover:border-gold-400/40 group-hover:bg-ink-700 group-hover:text-gold-300 group-hover:scale-105">
                   <ServiceIcon slug={s.slug} />
                 </span>
-                <ArrowIcon className="text-slate-muted group-hover:text-gold-400 group-hover:translate-x-0.5 transition-all" />
+                <ArrowIcon className="text-slate-muted group-hover:text-gold-400 group-hover:translate-x-1 transition-all duration-300" />
               </div>
-              <h3 className="mt-6 font-display text-xl tracking-tight text-bone-50">
+              <h3 className="mt-6 font-display text-xl tracking-tight text-bone-50 group-hover:text-gold-300 transition-colors duration-300">
                 {s.title}
               </h3>
               <p className="mt-2 text-sm text-slate-muted leading-relaxed min-h-[5rem] line-clamp-4">
                 {s.short}
               </p>
-              <div className="mt-5 pt-4 border-t hairline text-xs text-slate-muted flex items-center justify-between">
+              <div className="mt-5 pt-4 border-t hairline text-xs text-slate-muted flex items-center justify-between transition-colors duration-300 group-hover:border-gold-400/20">
                 <span>{s.included.length} sub-services</span>
-                <span className="text-gold-400 group-hover:text-gold-300">
+                <span className="text-gold-400 inline-flex items-center gap-1 transition-all duration-300 group-hover:text-gold-300 group-hover:gap-1.5">
                   Learn more
+                  <span className="opacity-0 -ml-1 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300">
+                    →
+                  </span>
                 </span>
               </div>
             </Link>

@@ -19,11 +19,14 @@ export const site = {
   },
   regulator: "Regulated by the ICAEW — Firm No. 11008484",
   social: {
-    linkedin: "https://www.linkedin.com/company/fmyaccountants",
     instagram: "https://www.instagram.com/fmyaccountants",
     youtube: "https://youtube.com/@fmyaccountants",
     facebook: "https://facebook.com/fmyaccountants",
     tiktok: "https://tiktok.com/@fmyaccountants",
+  },
+  reviews: {
+    google: "https://share.google/hPtMb4czJct5hmo4a",
+    trustpilot: "https://uk.trustpilot.com/review/fmyaccountants.co.uk",
   },
 } as const;
 

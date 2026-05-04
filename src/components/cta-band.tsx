@@ -17,7 +17,7 @@ export function CTABand({
       <Container>
         <div className="relative overflow-hidden rounded-3xl border hairline-gold bg-gradient-to-br from-ink-900 via-ink-800 to-ink-900 p-10 sm:p-14 lg:p-20">
           <Image
-            src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=2000&q=80"
+            src="/img/cta-london.jpg"
             alt=""
             fill
             sizes="(min-width: 1280px) 1280px, 100vw"
@@ -55,18 +55,43 @@ export function CTABand({
                 </p>
               )}
             </div>
-            <div className="flex flex-col sm:flex-row gap-3 shrink-0">
+            <div className="flex flex-col sm:flex-row sm:items-center gap-4 shrink-0">
               <LinkButton href="/contact" variant="primary" size="lg">
                 Book a consultation <ArrowIcon />
               </LinkButton>
-              <LinkButton
+              <span className="hidden sm:block text-xs uppercase tracking-[0.18em] text-slate-muted">
+                or
+              </span>
+              <a
                 href={site.phoneHref}
-                external
-                variant="gold-outline"
-                size="lg"
+                className="cta-phone group inline-flex items-center gap-3 rounded-full pl-1.5 pr-5 py-1.5 border hairline-gold bg-ink-950/40 hover:bg-ink-950/70 transition-all duration-300"
               >
-                or call {site.phone}
-              </LinkButton>
+                <span className="cta-phone-badge relative inline-flex items-center justify-center w-9 h-9 rounded-full bg-gold-500/15 text-gold-300 group-hover:bg-gold-500/30 group-hover:text-gold-200 transition-colors">
+                  <svg
+                    width="15"
+                    height="15"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="cta-phone-icon transition-transform"
+                    aria-hidden
+                  >
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                  </svg>
+                  <span className="cta-phone-ring absolute inset-0 rounded-full ring-1 ring-gold-400/40" />
+                </span>
+                <span className="flex flex-col leading-none gap-1 text-left">
+                  <span className="text-[10px] uppercase tracking-[0.2em] text-gold-400/80 group-hover:text-gold-300 transition-colors">
+                    Call us direct
+                  </span>
+                  <span className="text-[15px] font-medium text-bone-50 tabular-nums tracking-tight">
+                    {site.phone}
+                  </span>
+                </span>
+              </a>
             </div>
           </div>
         </div>

@@ -1,8 +1,8 @@
 import { Container } from "@/components/container";
 
 const stats = [
-  { v: "£312M", l: "client turnover under management" },
-  { v: "480+", l: "UK businesses served" },
+  { v: "£389M", l: "client turnover under management" },
+  { v: "55+", l: "UK businesses served" },
   { v: "125yr", l: "cumulative Big 4 experience" },
   { v: "0", l: "HMRC penalties on our watch" },
 ];
