@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "Virtual Finance Office",
   description:
     "A partner-led virtual finance team — 125+ years of cumulative Big 4 and corporate-finance expertise, delivered as one transparent monthly fee.",
+  alternates: { canonical: "/virtual-finance-office" },
 };
 
 const team = [

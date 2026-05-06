@@ -10,6 +10,7 @@ export const metadata: Metadata = {
   title: "Resources & insights",
   description:
     "Guides, analysis, and partner-written commentary from FMY — on UK tax, regulation, finance leadership, and running a better business.",
+  alternates: { canonical: "/resources" },
 };
 
 export default function ResourcesPage() {

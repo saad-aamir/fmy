@@ -12,6 +12,7 @@ export const metadata: Metadata = {
   title: "Pricing",
   description:
     "Transparent monthly packages from FMY Chartered Accountants. Classic £149, Premium £249, Exclusive £649 — with add-ons and premium services.",
+  alternates: { canonical: "/pricing" },
 };
 
 const tiers = [

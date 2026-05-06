@@ -17,6 +17,7 @@ export const metadata: Metadata = {
   title: "About",
   description:
     "FMY Chartered Accountants — founded by Faraz Yunus (FCCA, ACA). Partner-led London accountancy with Big 4 foundation, corporate leadership, and professional services growth experience.",
+  alternates: { canonical: "/about" },
 };
 
 export default function AboutPage() {

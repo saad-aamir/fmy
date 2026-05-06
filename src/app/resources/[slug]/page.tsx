@@ -6,6 +6,7 @@ import { Eyebrow } from "@/components/section";
 import { LinkButton, ArrowIcon } from "@/components/button";
 import { ArticleBody } from "@/components/article-body";
 import { CTABand } from "@/components/cta-band";
+import { ArticleSchema, BreadcrumbSchema } from "@/components/json-ld";
 import { articles, articlesBySlug } from "@/lib/articles";
 
 export function generateStaticParams() {
@@ -21,11 +22,20 @@ export async function generateMetadata(
   return {
     title: a.title,
     description: a.excerpt,
+    alternates: { canonical: `/resources/${a.slug}` },
     openGraph: {
       title: a.title,
       description: a.excerpt,
       type: "article",
       publishedTime: a.isoDate,
+      authors: ["Faraz Yunus"],
+      tags: [a.category],
+      url: `/resources/${a.slug}`,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: a.title,
+      description: a.excerpt,
     },
   };
 }
@@ -50,6 +60,20 @@ export default async function ArticlePage(
 
   return (
     <>
+      <ArticleSchema
+        headline={article.title}
+        description={article.excerpt}
+        datePublished={article.isoDate}
+        url={`/resources/${article.slug}`}
+        category={article.category}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Resources", url: "/resources" },
+          { name: article.title, url: `/resources/${article.slug}` },
+        ]}
+      />
       <section className="relative overflow-hidden mesh-soft border-b hairline">
         <div className="grain absolute inset-0" />
         <Container className="relative pt-16 pb-14 sm:pt-20 sm:pb-16">

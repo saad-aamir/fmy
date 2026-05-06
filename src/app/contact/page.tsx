@@ -9,6 +9,7 @@ export const metadata: Metadata = {
   title: "Contact",
   description:
     "Talk to a partner at FMY. Book a consultation, request a quote, or ask a question — we reply within one business day.",
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {

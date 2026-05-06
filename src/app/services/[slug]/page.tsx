@@ -9,6 +9,7 @@ import { services, servicesBySlug } from "@/lib/site";
 import { ServiceIcon } from "@/components/service-icon";
 import { CTABand } from "@/components/cta-band";
 import { FAQ } from "@/components/faq";
+import { ServiceSchema, BreadcrumbSchema } from "@/components/json-ld";
 
 // Static imports → Next pre-optimizes at build time AND auto-generates
 // a tiny base64 LQIP for placeholder="blur" (instant fade-in).
@@ -45,6 +46,13 @@ export async function generateMetadata(
   return {
     title: s.title,
     description: s.summary,
+    alternates: { canonical: `/services/${s.slug}` },
+    openGraph: {
+      title: `${s.title} · FMY Chartered Accountants`,
+      description: s.summary,
+      url: `/services/${s.slug}`,
+      type: "website",
+    },
   };
 }
 
@@ -63,6 +71,18 @@ export default async function ServiceDetail(
 
   return (
     <>
+      <ServiceSchema
+        name={service.title}
+        description={service.summary}
+        slug={service.slug}
+      />
+      <BreadcrumbSchema
+        items={[
+          { name: "Home", url: "/" },
+          { name: "Services", url: "/services" },
+          { name: service.title, url: `/services/${service.slug}` },
+        ]}
+      />
       <section className="relative overflow-hidden mesh-soft border-b hairline">
         {heroImage && (
           <>

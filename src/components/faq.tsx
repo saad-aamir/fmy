@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Container } from "@/components/container";
 import { SectionHeading } from "@/components/section";
+import { FaqSchema } from "@/components/json-ld";
 
 export const homeFaqs = [
   {
@@ -45,6 +46,7 @@ export function FAQ({
   const [open, setOpen] = useState<number | null>(0);
   return (
     <section className="relative py-24 sm:py-32 border-t hairline">
+      <FaqSchema items={items} />
       <Container size="narrow">
         <SectionHeading
           eyebrow={eyebrow}
