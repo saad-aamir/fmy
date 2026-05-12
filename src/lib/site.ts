@@ -7,7 +7,7 @@ export const site = {
   email: "info@fmyaccountants.co.uk",
   emailHref: "mailto:info@fmyaccountants.co.uk",
   address: {
-    line1: "86–90 Paul Street",
+    line1: "86-90 Paul Street",
     line2: "London, EC2A 4NE",
   },
   booking: "https://calendly.com/fmy-chartered-accountants/45min",
@@ -15,14 +15,15 @@ export const site = {
     entity: "FMY Accountants Limited",
     companyNumber: "16813147",
     jurisdiction: "England & Wales",
-    icaew: "11008484",
+    icaew: "C011008484",
   },
-  regulator: "Regulated by the ICAEW — Firm No. 11008484",
+  regulator: "Regulated by the ICAEW, Firm No. C011008484",
   social: {
-    instagram: "https://www.instagram.com/fmyaccountants",
-    youtube: "https://youtube.com/@fmyaccountants",
-    facebook: "https://facebook.com/fmyaccountants",
-    tiktok: "https://tiktok.com/@fmyaccountants",
+    linkedin: "https://www.linkedin.com/company/fmy-chartered-accountants/",
+    instagram: "https://www.instagram.com/fmy.chartered.accountants/",
+    facebook: "https://www.facebook.com/fmy.chartered.accountants",
+    youtube: "https://www.youtube.com/channel/UC4VRT5ftwEHHWEp3kmz5uLA",
+    tiktok: "https://www.tiktok.com/@fmy.chartered.accountant",
   },
   reviews: {
     google: "https://share.google/hPtMb4czJct5hmo4a",
@@ -52,7 +53,7 @@ export const services: {
     short:
       "We keep your financial records accurate, compliant, and up to date. You focus on running your business while we keep your books in order.",
     summary:
-      "Our bookkeeping services ensure your financial records are meticulously maintained, compliant, and ready for audits. We manage day-to-day transactions — sales and purchase ledgers, bank reconciliations, and VAT record-keeping — aligned with HMRC Making Tax Digital (MTD) requirements.",
+      "Our bookkeeping services ensure your financial records are meticulously maintained, compliant, and ready for audits. We manage day-to-day transactions, sales and purchase ledgers, bank reconciliations, and VAT record-keeping, aligned with HMRC Making Tax Digital (MTD) requirements.",
     longDescription:
       "Using industry-leading software like Xero and QuickBooks, we automate data entry, reduce errors, and provide real-time visibility into your cash flow. Beyond compliance, we deliver monthly financial summaries with actionable insights, helping you identify cost-saving opportunities and track profitability. Our team also handles complex areas like foreign currency transactions and CIS (Construction Industry Scheme) reporting.",
     outcomes: [
@@ -100,13 +101,13 @@ export const services: {
     short:
       "We simplify tax compliance while maximising savings and allowances. From VAT to annual returns, we make sure you never pay more than you should.",
     summary:
-      "Navigating the complexities of tax can be challenging — that's where we come in. We provide comprehensive tax services for individuals, businesses, and corporations. From compliance to planning, we help you minimise liabilities, optimise reliefs, and stay ahead of deadlines.",
+      "Navigating the complexities of tax can be challenging, that's where we come in. We provide comprehensive tax services for individuals, businesses, and corporations. From compliance to planning, we help you minimise liabilities, optimise reliefs, and stay ahead of deadlines.",
     longDescription:
       "Whether it's personal tax, corporation tax, VAT, or capital gains, our proactive approach ensures you meet your obligations while making the most of every opportunity.",
     outcomes: [
       "Liabilities minimised through reliefs, allowances and planning",
       "Deadlines met across personal, corporate and indirect taxes",
-      "Proactive planning — no end-of-year surprises",
+      "Proactive planning, no end-of-year surprises",
     ],
     included: [
       "Capital Allowance",
@@ -123,7 +124,7 @@ export const services: {
       "VAT",
     ],
     idealFor:
-      "Individuals, partnerships, HNWIs and corporations — UK and cross-border.",
+      "Individuals, partnerships, HNWIs and corporations, UK and cross-border.",
   },
   {
     slug: "payroll",
@@ -137,7 +138,7 @@ export const services: {
     outcomes: [
       "RTI submissions and PAYE/NIC handled in-cycle",
       "Auto-enrolment pensions kept compliant with TPR standards",
-      "Statutory pay, P60s, variable hours — delivered accurately",
+      "Statutory pay, P60s, variable hours, delivered accurately",
     ],
     included: [
       "RTI (Real Time Information) submissions to HMRC",
@@ -149,7 +150,7 @@ export const services: {
       "Annual pension scheme audits (TPR)",
     ],
     idealFor:
-      "Businesses from 1 to 500+ employees — including multi-site and seasonal teams.",
+      "Businesses from 1 to 500+ employees, including multi-site and seasonal teams.",
   },
   {
     slug: "audit-assurance",
@@ -173,7 +174,7 @@ export const services: {
       "Agreed upon Procedures",
       "SOX Compliance Audits",
       "Service Organisation Controls Reports",
-      "Solicitors Regulation Authority — Reporting Accountant",
+      "Solicitors Regulation Authority, Reporting Accountant",
       "Service Charge Financial Statements",
     ],
     idealFor:
@@ -185,7 +186,7 @@ export const services: {
     short:
       "Make informed business decisions with clarity and confidence. Our advisory service blends financial expertise with practical insight to guide you through challenges and opportunities.",
     summary:
-      "Our advisory services are built to help you make smarter decisions, unlock growth, and future-proof your business. We deliver strategic, data-driven insights customised to specific business challenges — whether you're starting a venture, adapting to market changes, or improving operational efficiency.",
+      "Our advisory services are built to help you make smarter decisions, unlock growth, and future-proof your business. We deliver strategic, data-driven insights customised to specific business challenges, whether you're starting a venture, adapting to market changes, or improving operational efficiency.",
     longDescription:
       "We position ourselves as trusted partners throughout the business lifecycle.",
     outcomes: [
@@ -211,7 +212,7 @@ export const services: {
     short:
       "From startup support to growth strategies, we act as your financial sounding board. We don't just consult, we partner with you for success.",
     summary:
-      "Our corporate finance services are designed to support you through critical business milestones — from raising capital to mergers, acquisitions, and exit planning.",
+      "Our corporate finance services are designed to support you through critical business milestones, from raising capital to mergers, acquisitions, and exit planning.",
     outcomes: [
       "Capital-raising and deal support from diligence to completion",
       "Valuations and fairness opinions that stand up to scrutiny",
@@ -235,12 +236,12 @@ export const services: {
     short:
       "Understanding the true value of your business is critical. Our valuation services are thorough, objective, and tailored to your unique needs in sale, investment, or internal decision-making.",
     summary:
-      "Accurate valuations are critical for sales, disputes, or strategic planning. We employ methodologies like DCF, EBITDA multiples, and net asset valuations (NAV), tailored to your industry — whether tech (ARR-based models), manufacturing (replacement cost), or professional services (goodwill assessments).",
+      "Accurate valuations are critical for sales, disputes, or strategic planning. We employ methodologies like DCF, EBITDA multiples, and net asset valuations (NAV), tailored to your industry, whether tech (ARR-based models), manufacturing (replacement cost), or professional services (goodwill assessments).",
     longDescription:
       "We benchmark against recent transactions and adjust for market conditions, such as rising interest rates or sector volatility. For litigation or shareholder disputes, our valuations comply with UKGAAP and International Valuation Standards (IVS), supported by robust documentation for court or HMRC scrutiny. We also provide fairness opinions for M&A, ensuring transparency and stakeholder confidence.",
     outcomes: [
       "Valuations aligned with UKGAAP and International Valuation Standards (IVS)",
-      "Methodologies matched to your sector — DCF, EBITDA multiples, NAV",
+      "Methodologies matched to your sector, DCF, EBITDA multiples, NAV",
       "Court- and HMRC-ready documentation for disputes or transactions",
     ],
     included: [
@@ -255,6 +256,32 @@ export const services: {
     idealFor:
       "Owners, shareholders, and legal counsel needing a defensible, independent valuation.",
   },
+  {
+    slug: "director-id-verification",
+    title: "Director ID Verification (ACSP)",
+    short:
+      "Identity verification for directors and PSCs, completed by an Authorised Corporate Service Provider. Compliant with the Companies House regime that came into force on 18 November 2025.",
+    summary:
+      "Identity verification is now a legal requirement for directors and persons with significant control of UK companies under the Economic Crime and Corporate Transparency Act 2023. As a Companies House-registered Authorised Corporate Service Provider (ACSP), FMY can complete the verification on your behalf, with the same audit trail and discretion you'd expect from your accountants.",
+    longDescription:
+      "We handle ID checks for new and existing directors, PSCs and incoming appointments, then file the verified status with Companies House and maintain the record across confirmation statements, share-capital changes and ownership restructures. For groups, we coordinate verification across multiple entities under a single engagement.",
+    outcomes: [
+      "Compliant with the post-November-2025 Companies House identity-verification regime",
+      "Single trusted verifier for all your directors, PSCs and group entities",
+      "Audit-ready records with proof of verification retained for the statutory period",
+    ],
+    included: [
+      "Identity verification for new and existing directors",
+      "Persons with Significant Control (PSC) verification",
+      "Filing of verified IDs with Companies House",
+      "Authorised Corporate Service Provider (ACSP) representation",
+      "Ongoing maintenance for new appointments and changes of control",
+      "Group-level coordination across multiple entities",
+      "Confirmation statement support",
+    ],
+    idealFor:
+      "UK company directors, PSCs, group structures and corporate secretaries needing compliant identity verification under the new Companies House regime.",
+  },
 ];
 
 export const servicesBySlug = Object.fromEntries(
@@ -265,10 +292,10 @@ export const founder = {
   name: "Faraz Yunus",
   role: "Founder & Managing Partner",
   initials: "FY",
-  quals: "FCCA, ACA, MSc, BSc (Hons)",
+  quals: "BFP ACA FCCA, MSc, BSc (Hons)",
   bio: [
     "After 17 years with EY, listed multinationals, and professional services firms across four continents, Faraz founded FMY to solve a problem he'd seen too often: ambitious businesses and successful individuals caught between basic services that couldn't handle complexity, or Big 4 firms with corporate pricing and partners they'd rarely meet.",
-    "Faraz hasn't just advised businesses — he's run them, scaled them, and made the decisions that keep owners awake at night. His international experience across Asia, Middle East, Europe, and the US proves invaluable for clients with cross-border income, overseas assets, or multi-jurisdiction tax planning.",
+    "Faraz hasn't just advised businesses, he's run them, scaled them, and made the decisions that keep owners awake at night. His international experience across Asia, Middle East, Europe, and the US proves invaluable for clients with cross-border income, overseas assets, or multi-jurisdiction tax planning.",
     "Whether you're running a £20M business navigating international expansion, or managing complex personal tax affairs involving property portfolios and international income, you work directly with Faraz and the partner team.",
   ],
   quote:
@@ -310,11 +337,11 @@ export const whyChooseUs = [
 export const coreValues = [
   {
     k: "Committed",
-    v: "Commitment is the foundation of everything we do. We take every client's goals personally — working with precision and persistence to deliver more than expected.",
+    v: "Commitment is the foundation of everything we do. We take every client's goals personally, working with precision and persistence to deliver more than expected.",
   },
   {
     k: "Partners",
-    v: "Accountancy is not just about numbers, it's about people. We see ourselves as partners in your journey — standing beside you, anticipating challenges, and unlocking opportunities together.",
+    v: "Accountancy is not just about numbers, it's about people. We see ourselves as partners in your journey, standing beside you, anticipating challenges, and unlocking opportunities together.",
   },
   {
     k: "Accessible",
@@ -329,11 +356,11 @@ export const coreValues = [
 export const vfoFeatures = [
   {
     k: "Partner-led, every time",
-    v: "Your engagement is owned by a partner — not by an account manager two rungs removed from the work.",
+    v: "Your engagement is owned by a partner, not by an account manager two rungs removed from the work.",
   },
   {
     k: "Scale without hiring",
-    v: "Bookkeeper, accountant, tax lead, payroll, and fractional FD — live on day one, no recruiting cycle.",
+    v: "Bookkeeper, accountant, tax lead, payroll, and fractional FD, live on day one, no recruiting cycle.",
   },
   {
     k: "Mid-market pricing",
@@ -341,7 +368,7 @@ export const vfoFeatures = [
   },
   {
     k: "Business-centric advice",
-    v: "Advice rooted in your commercial reality — not generic tax-planner output lifted from last year's template.",
+    v: "Advice rooted in your commercial reality, not generic tax-planner output lifted from last year's template.",
   },
   {
     k: "Reliable, responsive service",
@@ -353,7 +380,7 @@ export const vfoFeatures = [
   },
   {
     k: "Institutional-grade expertise",
-    v: "Big 4 training, FCA-regulated experience, listed-entity board exposure — brought in-house to your finance function.",
+    v: "Big 4 training, regulated experience, listed-entity board exposure, brought in-house to your finance function.",
   },
   {
     k: "CFO-level strategic insight",
@@ -365,7 +392,7 @@ export const vfoFeatures = [
   },
   {
     k: "Proactive planning",
-    v: "We pre-empt year-end issues in Q1, not Q4. The goal is never a surprise — to you, to HMRC, or to your board.",
+    v: "We pre-empt year-end issues in Q1, not Q4. The goal is never a surprise, to you, to HMRC, or to your board.",
   },
   {
     k: "Plain English, no jargon",
@@ -373,7 +400,7 @@ export const vfoFeatures = [
   },
   {
     k: "Fixed fees, no surprises",
-    v: "Written scope, written fee, written exclusions. If we underquote, we absorb it — not you.",
+    v: "Written scope, written fee, written exclusions. If we underquote, we absorb it, not you.",
   },
 ] as const;
 
@@ -388,7 +415,7 @@ export const switching = [
   },
   {
     k: "We handle the setup",
-    v: "Simply provide us access to your existing records or software — either online or by post — and we'll manage the full setup so you can focus on your business.",
+    v: "Simply provide us access to your existing records or software, either online or by post, and we'll manage the full setup so you can focus on your business.",
   },
 ] as const;
 

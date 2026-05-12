@@ -8,6 +8,7 @@ import { ArticleBody } from "@/components/article-body";
 import { CTABand } from "@/components/cta-band";
 import { ArticleSchema, BreadcrumbSchema } from "@/components/json-ld";
 import { articles, articlesBySlug } from "@/lib/articles";
+import { site } from "@/lib/site";
 
 export function generateStaticParams() {
   return articles.map((a) => ({ slug: a.slug }));
@@ -116,7 +117,7 @@ export default async function ArticlePage(
                   Faraz Yunus
                 </div>
                 <div className="text-xs text-slate-muted">
-                  Founder & Managing Partner · FCCA, ACA
+                  Founder & Managing Partner · BFP ACA FCCA
                 </div>
               </div>
             </div>
@@ -130,24 +131,97 @@ export default async function ArticlePage(
             <article className="max-w-3xl">
               <ArticleBody blocks={article.blocks} />
 
-              <div className="mt-16 rounded-2xl border hairline-gold bg-ink-900/60 p-8">
+              {article.slug ===
+                "understanding-director-verification-new-requirements-from-companies-house" && (
+                <div className="mt-12 rounded-2xl border hairline-gold bg-gradient-to-br from-ink-800 to-ink-900 p-8 relative overflow-hidden">
+                  <div
+                    className="absolute inset-0 pointer-events-none opacity-50"
+                    style={{
+                      background:
+                        "radial-gradient(ellipse 60% 50% at 100% 0%, rgba(201,164,73,0.18), transparent 60%)",
+                    }}
+                  />
+                  <div className="relative flex items-start gap-5">
+                    <span className="shrink-0 inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gold-500/15 text-gold-300 border hairline-gold">
+                      <svg
+                        width="22"
+                        height="22"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="1.5"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        aria-hidden
+                      >
+                        <rect x="3" y="6" width="18" height="13" rx="2" />
+                        <circle cx="9" cy="11" r="2" />
+                        <path d="M5.5 16.5c.6-1.4 2-2.3 3.5-2.3s2.9.9 3.5 2.3" />
+                        <path d="M14 10h4M14 13h3" />
+                        <path d="M17.5 4.5l1.6 1.6 3.4-3.4" />
+                      </svg>
+                    </span>
+                    <div className="min-w-0">
+                      <div className="text-[10px] uppercase tracking-[0.2em] text-gold-400 font-medium">
+                        FMY service · ACSP-registered
+                      </div>
+                      <h3 className="mt-2 font-display text-2xl tracking-tight text-bone-50 leading-snug">
+                        We handle director ID verification for you.
+                      </h3>
+                      <p className="mt-3 text-slate-muted leading-relaxed">
+                        FMY is registered with Companies House as an{" "}
+                        <strong className="text-bone-100">
+                          Authorised Corporate Service Provider (ACSP)
+                        </strong>
+                        . We can verify your directors and PSCs directly,
+                        file with Companies House, and maintain your verified
+                        status as appointments and ownership change.
+                      </p>
+                      <div className="mt-5 flex flex-wrap gap-3">
+                        <LinkButton
+                          href={site.booking}
+                          external
+                          variant="primary"
+                          size="md"
+                        >
+                          Book a meeting <ArrowIcon />
+                        </LinkButton>
+                        <LinkButton
+                          href="/services/director-id-verification"
+                          variant="gold-outline"
+                          size="md"
+                        >
+                          See the service
+                        </LinkButton>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              <div className="mt-12 rounded-2xl border hairline-gold bg-ink-900/60 p-8">
                 <Eyebrow>Need a second pair of eyes?</Eyebrow>
                 <h3 className="mt-4 font-display text-2xl tracking-tight text-bone-50">
                   Talk to a partner about what this means for your business.
                 </h3>
                 <p className="mt-3 text-slate-muted leading-relaxed">
-                  A 30-minute call with Faraz, no cost, no obligation.
+                  A 45-minute call with Faraz, no cost, no obligation.
                 </p>
                 <div className="mt-6 flex flex-wrap gap-3">
-                  <LinkButton href="/contact" variant="primary" size="md">
+                  <LinkButton
+                    href={site.booking}
+                    external
+                    variant="primary"
+                    size="md"
+                  >
                     Book a meeting <ArrowIcon />
                   </LinkButton>
                   <LinkButton
-                    href="/services"
+                    href="/contact"
                     variant="gold-outline"
                     size="md"
                   >
-                    Explore services
+                    Send a message
                   </LinkButton>
                 </div>
               </div>

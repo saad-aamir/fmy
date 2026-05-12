@@ -9,7 +9,7 @@ import { ResourcesGrid } from "@/components/resources/resources-grid";
 export const metadata: Metadata = {
   title: "Resources & insights",
   description:
-    "Guides, analysis, and partner-written commentary from FMY — on UK tax, regulation, finance leadership, and running a better business.",
+    "Guides, analysis, and partner-written commentary from FMY, on UK tax, regulation, finance leadership, and running a better business.",
   alternates: { canonical: "/resources" },
 };
 
@@ -29,7 +29,7 @@ export default function ResourcesPage() {
             </span>
           </>
         }
-        description="Working guides and analysis from our partners and senior team — the moment a tax rule changes, a framework lands, or a client asks the same question three times."
+        description="Working guides and analysis from our partners and senior team, the moment a tax rule changes, a framework lands, or a client asks the same question three times."
       />
 
       <section className="py-16 sm:py-20">

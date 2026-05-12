@@ -11,7 +11,7 @@ import { FAQ } from "@/components/faq";
 export const metadata: Metadata = {
   title: "Pricing",
   description:
-    "Transparent monthly packages from FMY Chartered Accountants. Classic £149, Premium £249, Exclusive £649 — with add-ons and premium services.",
+    "Transparent monthly packages from FMY Chartered Accountants. Classic £149, Premium £249, Exclusive £649, with add-ons and premium services.",
   alternates: { canonical: "/pricing" },
 };
 
@@ -60,7 +60,7 @@ const tiers = [
     name: "Exclusive",
     price: "£649",
     unit: "/month",
-    who: "Fully supported — with monthly reporting and legal cover.",
+    who: "Fully supported, with monthly reporting and legal cover.",
     features: [
       "Everything in Premium",
       "Preparation of P11D form",
@@ -143,33 +143,6 @@ const premiumServices = [
   },
 ];
 
-const marketingHub = [
-  {
-    name: "Website & Hosting",
-    price: "From £89",
-    unit: "/month",
-    desc: "A modern marketing site, hosted, secured and maintained for you.",
-  },
-  {
-    name: "Branding",
-    price: "From £49",
-    unit: "one-off",
-    desc: "Logo, business stationery and social-media setup.",
-  },
-  {
-    name: "Search Engine Optimisation (SEO)",
-    price: "£499",
-    unit: "/month",
-    desc: "Reach your audience with an optimised website and quality backlinks.",
-  },
-  {
-    name: "Pay-Per-Click (PPC)",
-    price: "£199",
-    unit: "set-up",
-    desc: "Attract customers on Google and other channels through paid advertising.",
-  },
-];
-
 export default function PricingPage() {
   return (
     <>
@@ -182,7 +155,7 @@ export default function PricingPage() {
             <span className="italic font-light">No hidden charges.</span>
           </>
         }
-        description="Three monthly packages — Classic, Premium and Exclusive — covering compliance, advisory and full operational support. Every fee is written up front; you always know what you're getting."
+        description="Three monthly packages, Classic, Premium and Exclusive, covering compliance, advisory and full operational support. Every fee is written up front; you always know what you're getting."
       />
 
       <section className="py-20 sm:py-24">
@@ -276,7 +249,7 @@ export default function PricingPage() {
             eyebrow="Add-ons"
             title={
               <>
-                Plug extras into any package —{" "}
+                Plug extras into any package,{" "}
                 <span className="italic font-light">only when you need them.</span>
               </>
             }
@@ -304,24 +277,6 @@ export default function PricingPage() {
       <section className="py-20 sm:py-24 border-t hairline">
         <Container>
           <SectionHeading
-            eyebrow="Marketing hub"
-            title={
-              <>
-                A brand and digital presence —{" "}
-                <span className="italic font-light">
-                  built alongside your numbers.
-                </span>
-              </>
-            }
-            description="A marketing arm for our clients. Websites, branding, SEO and PPC — delivered to the same fixed-fee standard as our accountancy work."
-          />
-          <PriceTable items={marketingHub} />
-        </Container>
-      </section>
-
-      <section className="py-20 sm:py-24 border-t hairline">
-        <Container>
-          <SectionHeading
             eyebrow="Services in every package"
             title={
               <>
@@ -329,7 +284,7 @@ export default function PricingPage() {
                 <span className="italic font-light">all under one roof.</span>
               </>
             }
-            description="The package prices above cover compliance. Any of our eight service lines can be scoped in or out — tell us what you need and we'll quote it."
+            description="The package prices above cover compliance. Any of our eight service lines can be scoped in or out, tell us what you need and we'll quote it."
           />
           <div className="mt-14 rounded-2xl border hairline overflow-hidden divide-y divide-white/5 bg-ink-950">
             {services.map((s) => (
@@ -369,11 +324,11 @@ export default function PricingPage() {
         items={[
           {
             q: "Can I change packages later?",
-            a: "Yes. You can move up or down any time — the new price applies from the next billing cycle. No penalties, no tie-ins.",
+            a: "Yes. You can move up or down any time, the new price applies from the next billing cycle. No penalties, no tie-ins.",
           },
           {
             q: "What's not included in the package fee?",
-            a: "Anything outside the written scope — for example, complex tax investigations, bespoke audit work, or one-off projects. We'll quote those separately, in writing, before starting.",
+            a: "Anything outside the written scope, for example, complex tax investigations, bespoke audit work, or one-off projects. We'll quote those separately, in writing, before starting.",
           },
           {
             q: "Are there onboarding fees?",
@@ -381,7 +336,7 @@ export default function PricingPage() {
           },
           {
             q: "Can I mix and match?",
-            a: "Yes. Pick a base package for compliance and bolt on premium services — Part-Time FD, Business Mentoring, Software Integration — only when you need them.",
+            a: "Yes. Pick a base package for compliance and bolt on premium services, Part-Time FD, Business Mentoring, Software Integration, only when you need them.",
           },
           {
             q: "Are prices VAT-inclusive?",

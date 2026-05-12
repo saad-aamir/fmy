@@ -8,7 +8,7 @@ export function SiteFooter() {
       <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-gold-500/40 to-transparent" />
       <div className="mx-auto max-w-7xl px-6 sm:px-8 py-16 grid gap-12 lg:grid-cols-5">
         <div className="lg:col-span-2">
-          <Link href="/" aria-label="FMY Chartered Accountants — Home">
+          <Link href="/" aria-label="FMY Chartered Accountants, Home">
             <Image
               src="/fmy-wordmark.png"
               alt="FMY Chartered Accountants"
@@ -63,7 +63,7 @@ export function SiteFooter() {
             Services
           </div>
           <ul className="mt-5 space-y-2.5">
-            {services.slice(0, 6).map((s) => (
+            {services.map((s) => (
               <li key={s.slug}>
                 <Link
                   href={`/services/${s.slug}`}
@@ -86,7 +86,7 @@ export function SiteFooter() {
                 href="/about"
                 className="text-bone-100 hover:text-gold-400 transition-colors"
               >
-                About us
+                About
               </Link>
             </li>
             <li>
@@ -110,7 +110,7 @@ export function SiteFooter() {
                 href="/resources"
                 className="text-bone-100 hover:text-gold-400 transition-colors"
               >
-                Resources & insights
+                Resources
               </Link>
             </li>
             <li>
@@ -141,12 +141,21 @@ export function SiteFooter() {
               <path d="M3 7h8m0 0L7 3m4 4-4 4" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
           </Link>
-          <div className="mt-6 flex gap-3">
+          <div className="mt-6 flex flex-wrap gap-3">
+            <SocialLink href={site.social.linkedin} label="LinkedIn">
+              <LinkedIn />
+            </SocialLink>
             <SocialLink href={site.social.instagram} label="Instagram">
               <Instagram />
             </SocialLink>
+            <SocialLink href={site.social.facebook} label="Facebook">
+              <Facebook />
+            </SocialLink>
             <SocialLink href={site.social.youtube} label="YouTube">
               <YouTube />
+            </SocialLink>
+            <SocialLink href={site.social.tiktok} label="TikTok">
+              <TikTok />
             </SocialLink>
           </div>
         </div>
@@ -203,6 +212,13 @@ function SocialLink({
   );
 }
 
+function LinkedIn() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.66h-3.56V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43A2.07 2.07 0 1 1 5.34 3.3a2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45C23.2 24 24 23.23 24 22.28V1.72C24 .77 23.2 0 22.22 0z" />
+    </svg>
+  );
+}
 function Instagram() {
   return (
     <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" strokeWidth="1.3">
@@ -212,10 +228,24 @@ function Instagram() {
     </svg>
   );
 }
+function Facebook() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M22 12.07C22 6.51 17.52 2 12 2S2 6.51 2 12.07c0 5.02 3.66 9.18 8.44 9.93v-7.02H7.9v-2.91h2.54V9.84c0-2.52 1.49-3.91 3.78-3.91 1.1 0 2.24.2 2.24.2v2.47h-1.26c-1.24 0-1.63.78-1.63 1.57v1.89h2.78l-.44 2.91h-2.34V22c4.78-.75 8.43-4.91 8.43-9.93z" />
+    </svg>
+  );
+}
 function YouTube() {
   return (
     <svg width="14" height="14" viewBox="0 0 14 14" fill="currentColor">
       <path d="M13.5 4.3a1.7 1.7 0 00-1.2-1.2C11.3 2.8 7 2.8 7 2.8s-4.3 0-5.3.3A1.7 1.7 0 00.5 4.3C.2 5.3.2 7 .2 7s0 1.7.3 2.7a1.7 1.7 0 001.2 1.2c1 .3 5.3.3 5.3.3s4.3 0 5.3-.3a1.7 1.7 0 001.2-1.2c.3-1 .3-2.7.3-2.7s0-1.7-.3-2.7zM5.6 9V5l3.5 2L5.6 9z" />
+    </svg>
+  );
+}
+function TikTok() {
+  return (
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.39a8.16 8.16 0 0 0 4.77 1.52V6.41a4.85 4.85 0 0 1-1.84-.27z" />
     </svg>
   );
 }

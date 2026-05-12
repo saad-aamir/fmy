@@ -1,7 +1,13 @@
-export function ServiceIcon({ slug }: { slug: string }) {
+export function ServiceIcon({
+  slug,
+  size = 22,
+}: {
+  slug: string;
+  size?: number;
+}) {
   const common = {
-    width: 22,
-    height: 22,
+    width: size,
+    height: size,
     viewBox: "0 0 24 24",
     fill: "none",
     stroke: "currentColor",
@@ -67,6 +73,17 @@ export function ServiceIcon({ slug }: { slug: string }) {
           <path d="M12 2v20" />
           <path d="M5 8h14M5 16h14" />
           <path d="M5 8l-2 3 2 3M19 8l2 3-2 3" />
+        </svg>
+      );
+    case "director-id-verification":
+      return (
+        <svg {...common}>
+          {/* ID card outline + verified-tick badge */}
+          <rect x="3" y="6" width="18" height="13" rx="2" />
+          <circle cx="9" cy="11" r="2" />
+          <path d="M5.5 16.5c.6-1.4 2-2.3 3.5-2.3s2.9.9 3.5 2.3" />
+          <path d="M14 10h4M14 13h3" />
+          <path d="M17.5 4.5l1.6 1.6 3.4-3.4" />
         </svg>
       );
     default:

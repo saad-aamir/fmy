@@ -38,7 +38,7 @@ export function SiteHeader() {
           <Link
             href="/"
             className="flex items-center shrink-0"
-            aria-label="FMY Chartered Accountants — Home"
+            aria-label="FMY Chartered Accountants, Home"
             onClick={() => setMobileOpen(false)}
           >
             <Image
@@ -149,7 +149,12 @@ export function SiteHeader() {
                 </span>
               </span>
             </a>
-            <LinkButton href="/contact" variant="primary" size="md">
+            <LinkButton
+              href={site.booking}
+              external
+              variant="primary"
+              size="md"
+            >
               Book a consultation
               <ArrowIcon />
             </LinkButton>
@@ -223,7 +228,8 @@ export function SiteHeader() {
               ))}
             <div className="mt-6">
               <LinkButton
-                href="/contact"
+                href={site.booking}
+                external
                 variant="primary"
                 size="lg"
                 className="w-full"

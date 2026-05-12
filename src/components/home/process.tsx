@@ -5,7 +5,7 @@ const steps = [
   {
     n: "01",
     title: "Discovery call",
-    desc: "A 30-minute conversation with a partner. We listen, diagnose, and tell you honestly whether we're the right fit.",
+    desc: "A 45-minute conversation with a partner. We listen, diagnose, and tell you honestly whether we're the right fit.",
     icon: (
       <svg
         width="22"
@@ -25,7 +25,7 @@ const steps = [
   {
     n: "02",
     title: "Proposal & scope",
-    desc: "A fixed-fee proposal within 48 hours. No waffle, no hidden clauses — just scope, price, and outcomes.",
+    desc: "A fixed-fee proposal within 48 hours. No waffle, no hidden clauses, just scope, price, and outcomes.",
     icon: (
       <svg
         width="22"
@@ -101,11 +101,11 @@ export function Process() {
               <span className="italic font-light">No mystery fees.</span>
             </>
           }
-          description="Switching accountants sounds painful because it usually is. We've turned it into four low-friction steps — most clients are live within 10 business days."
+          description="Switching accountants sounds painful because it usually is. We've turned it into four low-friction steps, most clients are live within 10 business days."
         />
 
         <div className="mt-20 relative">
-          {/* Horizontal connecting line — desktop only */}
+          {/* Horizontal connecting line, desktop only */}
           <div
             aria-hidden
             className="hidden lg:block absolute top-10 left-[12%] right-[12%] h-px"
@@ -116,7 +116,7 @@ export function Process() {
                 "linear-gradient(to right, black, black)",
             }}
           />
-          {/* Vertical line — mobile only */}
+          {/* Vertical line, mobile only */}
           <div
             aria-hidden
             className="lg:hidden absolute left-10 top-12 bottom-12 w-px"

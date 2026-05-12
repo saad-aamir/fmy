@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { Container } from "@/components/container";
 import { Eyebrow } from "@/components/section";
 import { LinkButton, ArrowIcon } from "@/components/button";
-import { services, servicesBySlug } from "@/lib/site";
+import { services, servicesBySlug, site } from "@/lib/site";
 import { ServiceIcon } from "@/components/service-icon";
 import { CTABand } from "@/components/cta-band";
 import { FAQ } from "@/components/faq";
@@ -21,6 +21,7 @@ import auditImg from "../../../../public/img/service-audit.jpg";
 import advisoryImg from "../../../../public/img/service-advisory.jpg";
 import corporateFinanceImg from "../../../../public/img/service-corporate-finance.jpg";
 import valuationsImg from "../../../../public/img/service-valuations.jpg";
+import directorIdImg from "../../../../public/img/service-director-id.jpg";
 
 const serviceHero: Record<string, StaticImageData> = {
   bookkeeping: bookkeepingImg,
@@ -31,6 +32,7 @@ const serviceHero: Record<string, StaticImageData> = {
   advisory: advisoryImg,
   "corporate-finance": corporateFinanceImg,
   "business-valuations": valuationsImg,
+  "director-id-verification": directorIdImg,
 };
 
 export function generateStaticParams() {
@@ -118,11 +120,11 @@ export default async function ServiceDetail(
           <div className="mt-8 flex flex-col lg:flex-row lg:items-end lg:justify-between gap-10">
             <div className="max-w-3xl">
               <Eyebrow>Service</Eyebrow>
-              <div className="mt-5 flex items-center gap-5">
-                <span className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-ink-800 text-gold-400 border hairline-gold">
-                  <ServiceIcon slug={service.slug} />
+              <div className="mt-5 flex items-center gap-5 sm:gap-6">
+                <span className="shrink-0 inline-flex items-center justify-center w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-ink-800 text-gold-400 border hairline-gold">
+                  <ServiceIcon slug={service.slug} size={36} />
                 </span>
-                <h1 className="font-display text-5xl sm:text-6xl tracking-tight bone-gradient-text leading-[1]">
+                <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl tracking-tight bone-gradient-text leading-[1.05]">
                   {service.title}
                 </h1>
               </div>
@@ -135,11 +137,12 @@ export default async function ServiceDetail(
                 Start the conversation
               </div>
               <div className="mt-3 font-display text-xl text-bone-50 tracking-tight leading-snug">
-                A 30-minute consultation with a partner — no cost, no
+                A 45-minute consultation with a partner, no cost, no
                 obligation.
               </div>
               <LinkButton
-                href="/contact"
+                href={site.booking}
+                external
                 variant="primary"
                 size="md"
                 className="mt-5 w-full"
@@ -319,36 +322,36 @@ function faqsFor(slug: string) {
   const common = [
     {
       q: "How quickly can you start?",
-      a: "Most engagements begin within 10 business days of signing. For urgent deadlines we can move faster — call us and we'll tell you honestly whether it's realistic.",
+      a: "Most engagements begin within 10 business days of signing. For urgent deadlines we can move faster, call us and we'll tell you honestly whether it's realistic.",
     },
     {
       q: "Is the price really fixed?",
-      a: "Yes. You get a written scope and written fee. If additional work comes up, we'll quote it before we do it — no retrospective bills, ever.",
+      a: "Yes. You get a written scope and written fee. If additional work comes up, we'll quote it before we do it, no retrospective bills, ever.",
     },
   ];
   const specific: Record<string, { q: string; a: string }[]> = {
     "bookkeeping": [
       {
         q: "Which software do you use?",
-        a: "We're Xero Platinum and QuickBooks Elite partners. We can also work with Sage, FreeAgent, and NetSuite. Dext handles receipt capture across all of them.",
+        a: "We're Xero, QuickBooks and Sage partners. We can also work with FreeAgent and NetSuite. Dext handles receipt capture across all of them.",
       },
     ],
     tax: [
       {
         q: "Can you handle historic errors or missed returns?",
-        a: "Yes — we run a confidential diagnostic, then handle voluntary disclosures to HMRC where needed. We've negotiated dozens of penalty mitigations.",
+        a: "Yes, we run a confidential diagnostic, then handle voluntary disclosures to HMRC where needed. We've negotiated dozens of penalty mitigations.",
       },
     ],
     "audit-assurance": [
       {
         q: "Are you independent from my current accountant?",
-        a: "Yes. We frequently audit companies whose compliance work is done by another firm — including the Big 4 — and we'll happily work alongside them.",
+        a: "Yes. We frequently audit companies whose compliance work is done by another firm, including the Big 4, and we'll happily work alongside them.",
       },
     ],
     "corporate-finance": [
       {
         q: "Do you work on buy-side and sell-side?",
-        a: "Both. We've supported £250k seed rounds through to £40m exits. For regulated transactions we work with a panel of partnered FCA-authorised advisers.",
+        a: "Both. We've supported £250k seed rounds through to £40m exits. For regulated transactions we work with a panel of partnered regulated advisers.",
       },
     ],
   };

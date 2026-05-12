@@ -3,7 +3,7 @@
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 
-// Module-level flag — the first render in this session is the SSR load
+// Module-level flag, the first render in this session is the SSR load
 // and should not animate. Every subsequent pathname change animates.
 let hasNavigated = false;
 
@@ -16,7 +16,7 @@ export function PageTransition({ children }: { children: React.ReactNode }) {
       hasNavigated = true;
       return;
     }
-    // New navigation — scroll to top so the stagger starts from the top.
+    // New navigation, scroll to top so the stagger starts from the top.
     window.scrollTo({ top: 0, left: 0 });
   }, [pathname]);
 

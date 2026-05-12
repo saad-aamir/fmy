@@ -31,7 +31,7 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL("https://fmyaccountants.co.uk"),
   title: {
-    default: "FMY Chartered Accountants — Clarity. Compliance. Confidence.",
+    default: "FMY Chartered Accountants, Clarity. Compliance. Confidence.",
     template: "%s · FMY Chartered Accountants",
   },
   description:
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "FMY Chartered Accountants — Clarity. Compliance. Confidence.",
+    title: "FMY Chartered Accountants, Clarity. Compliance. Confidence.",
     description:
       "Partner-led London chartered accountancy. 125+ years of Big 4 expertise, fixed-fee pricing, and a Virtual Finance Office for ambitious UK businesses.",
     type: "website",

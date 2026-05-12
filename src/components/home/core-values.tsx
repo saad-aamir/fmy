@@ -14,7 +14,7 @@ export function CoreValues() {
               <span className="italic font-light">In every engagement.</span>
             </>
           }
-          description="These aren't posters on the wall — they're the working rules that shape how we scope, price, and deliver."
+          description="These aren't posters on the wall, they're the working rules that shape how we scope, price, and deliver."
         />
 
         <div className="mt-16 grid md:grid-cols-2 lg:grid-cols-4 gap-px bg-white/5 border hairline rounded-2xl overflow-hidden">

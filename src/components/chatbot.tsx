@@ -16,7 +16,7 @@ type Msg = {
 
 const STORAGE_KEY = "fmy:chat-v1";
 
-// Curated suggested prompts — shown when conversation is empty.
+// Curated suggested prompts, shown when conversation is empty.
 const STARTER_QUESTIONS = [
   "What is the Virtual Finance Office?",
   "How much does FMY cost?",
@@ -79,9 +79,9 @@ export function Chatbot() {
     const onPointerDown = (e: MouseEvent | TouchEvent) => {
       const target = e.target as HTMLElement | null;
       if (!target) return;
-      // Click inside the panel itself — keep open.
+      // Click inside the panel itself, keep open.
       if (panelRef.current && panelRef.current.contains(target)) return;
-      // Click on the launcher — let its own handler toggle.
+      // Click on the launcher, let its own handler toggle.
       if (target.closest(".chatbot-launcher")) return;
       setOpen(false);
     };

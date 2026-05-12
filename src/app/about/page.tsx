@@ -9,6 +9,7 @@ import { CTABand } from "@/components/cta-band";
 import {
   founder,
   perspectives,
+  site,
   strongerFuture,
   whyChooseUs,
 } from "@/lib/site";
@@ -16,7 +17,7 @@ import {
 export const metadata: Metadata = {
   title: "About",
   description:
-    "FMY Chartered Accountants — founded by Faraz Yunus (FCCA, ACA). Partner-led London accountancy with Big 4 foundation, corporate leadership, and professional services growth experience.",
+    "FMY Chartered Accountants, founded by Faraz Yunus (BFP ACA FCCA). Partner-led London accountancy with Big 4 foundation, corporate leadership, and professional services growth experience.",
   alternates: { canonical: "/about" },
 };
 
@@ -73,9 +74,17 @@ export default function AboutPage() {
 
             <div className="relative grid lg:grid-cols-[auto_1fr] gap-10 lg:gap-14 p-10 sm:p-14">
               <div className="flex flex-col items-center lg:items-start">
-                <div className="relative w-36 h-36 rounded-2xl bg-gradient-to-br from-gold-400 to-gold-700 flex items-center justify-center font-display text-5xl text-ink-950 font-semibold shadow-2xl shadow-black/30">
-                  {founder.initials}
-                  <span className="absolute -bottom-2 -right-2 rounded-full bg-ink-950 border hairline-gold px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-gold-400">
+                <div className="relative">
+                  <div className="relative w-40 h-52 rounded-[1rem] overflow-hidden border-2 border-gold-500/40 shadow-2xl shadow-black/40">
+                    <Image
+                      src="/img/faraz-yunus.jpg"
+                      alt="Faraz Yunus — Founder, FMY Chartered Accountants"
+                      fill
+                      sizes="160px"
+                      className="object-cover object-center"
+                    />
+                  </div>
+                  <span className="absolute -bottom-3 left-1/2 -translate-x-1/2 rounded-full bg-ink-950 border hairline-gold px-3 py-1 text-[10px] uppercase tracking-[0.18em] text-gold-400 whitespace-nowrap">
                     Founder
                   </span>
                 </div>
@@ -120,7 +129,7 @@ export default function AboutPage() {
                 </span>
               </>
             }
-            description="Faraz holds FCCA and ACA qualifications and brings together three distinct backgrounds — each one shaping how he serves clients."
+            description="Faraz holds BFP, ACA and FCCA qualifications and brings together three distinct backgrounds, each one shaping how he serves clients."
           />
 
           <div className="mt-14 grid md:grid-cols-3 gap-px bg-white/5 border hairline rounded-2xl overflow-hidden">
@@ -154,7 +163,7 @@ export default function AboutPage() {
               <p className="mt-6 text-lg text-bone-100 leading-relaxed">
                 FMY is built on three principles: technical excellence without
                 the jargon, transparent fixed-fee pricing, and genuine
-                partnership focused on solving problems — not just filing
+                partnership focused on solving problems, not just filing
                 forms.
               </p>
               <p className="mt-5 text-lg text-slate-muted leading-relaxed">
@@ -162,7 +171,12 @@ export default function AboutPage() {
                 who genuinely understands your situation, let's talk.
               </p>
               <div className="mt-8 flex flex-wrap gap-3">
-                <LinkButton href="/contact" variant="primary" size="lg">
+                <LinkButton
+                  href={site.booking}
+                  external
+                  variant="primary"
+                  size="lg"
+                >
                   Book a consultation <ArrowIcon />
                 </LinkButton>
                 <LinkButton href="/services" variant="gold-outline" size="lg">
@@ -183,7 +197,7 @@ export default function AboutPage() {
                 },
                 {
                   h: "Genuine partnership",
-                  p: "Focused on solving problems — not just filing forms. We pre-empt issues, not react to them.",
+                  p: "Focused on solving problems, not just filing forms. We pre-empt issues, not react to them.",
                 },
               ].map((item) => (
                 <div
@@ -213,7 +227,7 @@ export default function AboutPage() {
                 <span className="italic font-light">From the start.</span>
               </>
             }
-            description="At FMY Chartered Accountants, we believe that building a successful future starts with the right financial choices today. Our expert guidance helps simplify the complex, so you can focus on what truly matters — growing with confidence."
+            description="At FMY Chartered Accountants, we believe that building a successful future starts with the right financial choices today. Our expert guidance helps simplify the complex, so you can focus on what truly matters, growing with confidence."
           />
 
           <div className="mt-14 grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-white/5 border hairline rounded-2xl overflow-hidden">

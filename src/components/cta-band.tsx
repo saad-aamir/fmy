@@ -44,7 +44,7 @@ export function CTABand({
                 {title ?? (
                   <>
                     <span className="bone-gradient-text">
-                      30 minutes with a partner
+                      45 minutes with a partner
                     </span>{" "}
                     <span className="italic font-light gold-gradient-text">
                       could save you your year-end.
@@ -59,7 +59,12 @@ export function CTABand({
               )}
             </div>
             <div className="flex flex-col sm:flex-row sm:items-center gap-4 shrink-0">
-              <LinkButton href="/contact" variant="primary" size="lg">
+              <LinkButton
+                href={site.booking}
+                external
+                variant="primary"
+                size="lg"
+              >
                 Book a consultation <ArrowIcon />
               </LinkButton>
               <span className="hidden sm:block text-xs uppercase tracking-[0.18em] text-slate-muted">

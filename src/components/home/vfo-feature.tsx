@@ -26,7 +26,7 @@ export function VFOFeature() {
               </h2>
               <p className="mt-6 text-lg text-slate-muted leading-relaxed max-w-xl">
                 Bookkeeping, management accounts, tax, payroll, and a
-                fractional FD — all under one monthly fee. It’s the finance
+                fractional FD, all under one monthly fee. It’s the finance
                 function a 50-person company would build, delivered from day
                 one.
               </p>
@@ -133,7 +133,7 @@ function MockDashboard() {
         <div className="mt-4 space-y-2">
           {[
             { k: "Corp tax · Q1 paid", t: "HMRC" },
-            { k: "VAT return filed", t: "Jan–Mar" },
+            { k: "VAT return filed", t: "Jan-Mar" },
             { k: "Payroll reconciled", t: "March" },
           ].map((r) => (
             <div

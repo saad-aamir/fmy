@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Container } from "@/components/container";
 import { LinkButton, ArrowIcon } from "@/components/button";
 import { HeroBackdrop } from "@/components/home/hero-backdrop";
+import { site } from "@/lib/site";
 
 export function Hero() {
   return (
@@ -30,7 +31,7 @@ export function Hero() {
               New
             </span>
             <span className="text-bone-100">
-              Virtual Finance Office — now live
+              Virtual Finance Office, now live
             </span>
             <Link
               href="/virtual-finance-office"
@@ -57,13 +58,24 @@ export function Hero() {
           </p>
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
-            <LinkButton href="/contact" variant="primary" size="lg">
+            <LinkButton
+              href={site.booking}
+              external
+              variant="primary"
+              size="lg"
+            >
               Book a free consultation
               <ArrowIcon />
             </LinkButton>
             <LinkButton href="/services" variant="gold-outline" size="lg">
               Explore services
             </LinkButton>
+            <Link
+              href="/contact"
+              className="text-sm text-slate-muted hover:text-gold-400 transition-colors"
+            >
+              or send a message →
+            </Link>
           </div>
 
           <div className="mt-14 flex flex-wrap items-center gap-x-10 gap-y-5 text-sm text-slate-muted">
@@ -72,7 +84,7 @@ export function Hero() {
               target="_blank"
               rel="noreferrer"
               className="group flex items-center gap-3 pr-4 sm:border-r border-white/10"
-              aria-label="Regulated by ICAEW — opens icaew.com"
+              aria-label="Regulated by ICAEW, opens icaew.com"
             >
               <Image
                 src="/icaew-badge.png"
@@ -84,7 +96,7 @@ export function Hero() {
             </a>
             <TrustBadge>125+ yrs Big 4 experience</TrustBadge>
             <TrustBadge>Fixed monthly fees</TrustBadge>
-            <TrustBadge>Xero platinum partner</TrustBadge>
+            <TrustBadge>Xero, QB & Sage partner</TrustBadge>
           </div>
         </div>
 

@@ -10,7 +10,7 @@ import { CTABand } from "@/components/cta-band";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "From day-to-day bookkeeping to corporate finance, FMY delivers the full accounting stack under one roof — partner-led, fixed fee.",
+    "From day-to-day bookkeeping to corporate finance, FMY delivers the full accounting stack under one roof, partner-led, fixed fee.",
   alternates: { canonical: "/services" },
 };
 

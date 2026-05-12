@@ -34,7 +34,7 @@ function score(input: string, topic: Topic): number {
     if (tokens.has(kw)) s += 2;
   }
 
-  // Bonus if a keyword appears at the start of the input — tends to be
+  // Bonus if a keyword appears at the start of the input, tends to be
   // the actual subject of the query (e.g. "vfo pricing" → vfo).
   for (const kw of topic.keywords) {
     if (lower.startsWith(kw)) s += 1;
@@ -49,7 +49,7 @@ export type MatchResult = {
   isFallback: boolean;
 };
 
-/** Greeting detection — short hellos shouldn't trigger keyword matching. */
+/** Greeting detection, short hellos shouldn't trigger keyword matching. */
 const GREETING_RE = /^\s*(hi|hello|hey|yo|hiya|howdy|good (morning|afternoon|evening))\b[\s!?.]*$/i;
 
 export function matchTopic(input: string): MatchResult {

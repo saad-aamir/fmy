@@ -36,21 +36,54 @@ export function ContactForm() {
 
   return (
     <form action={formAction} className="space-y-5">
+      {/* Name + Email */}
       <div className="grid sm:grid-cols-2 gap-5">
-        <Field label="Your name" name="name" required defaultValue={state.values?.name} />
-        <Field
-          label="Work email"
-          name="email"
-          type="email"
-          required
-          defaultValue={state.values?.email}
-        />
-      </div>
-      <div className="grid sm:grid-cols-2 gap-5">
-        <Field label="Company" name="company" defaultValue={state.values?.company} />
-        <Field label="Phone (optional)" name="phone" type="tel" defaultValue={state.values?.phone} />
+        <Field label="Name" name="name" required defaultValue={state.values?.name} />
+        <Field label="Email Address" name="email" type="email" required defaultValue={state.values?.email} />
       </div>
 
+      {/* Business Name */}
+      <Field label="Business Name" name="company" defaultValue={state.values?.company} />
+
+      {/* Phone */}
+      <Field label="Phone Number" name="phone" type="tel" defaultValue={state.values?.phone} />
+
+      {/* Type of Business */}
+      <Field label="Type of Business" name="businessType" placeholder="e.g. Limited Company, Sole Trader, Partnership" defaultValue={state.values?.businessType} />
+
+      {/* Annual Turnover + Annual Profit */}
+      <div className="grid sm:grid-cols-2 gap-5">
+        <Field label="Annual Turnover" name="annualTurnover" placeholder="e.g. £250,000" defaultValue={state.values?.annualTurnover} />
+        <Field label="Annual Profit" name="annualProfit" placeholder="e.g. £80,000" defaultValue={state.values?.annualProfit} />
+      </div>
+
+      {/* VAT Registered */}
+      <div>
+        <span className="block text-xs uppercase tracking-[0.18em] text-slate-muted mb-3">
+          VAT Registered
+        </span>
+        <div className="flex gap-6">
+          {["Yes", "No"].map((opt) => (
+            <label key={opt} className="flex items-center gap-2.5 cursor-pointer group">
+              <input
+                type="radio"
+                name="vatRegistered"
+                value={opt}
+                defaultChecked={state.values?.vatRegistered === opt}
+                className="w-4 h-4 accent-gold-400 cursor-pointer"
+              />
+              <span className="text-[15px] text-bone-100 group-hover:text-gold-300 transition-colors">
+                {opt}
+              </span>
+            </label>
+          ))}
+        </div>
+      </div>
+
+      {/* Number of Employees */}
+      <Field label="Number of Employees" name="employees" placeholder="e.g. 12" defaultValue={state.values?.employees} />
+
+      {/* Service */}
       <div>
         <label className="block text-xs uppercase tracking-[0.18em] text-slate-muted mb-2">
           I'm interested in
@@ -71,12 +104,13 @@ export function ContactForm() {
         </select>
       </div>
 
+      {/* Message */}
       <div>
         <label
           htmlFor="message"
           className="block text-xs uppercase tracking-[0.18em] text-slate-muted mb-2"
         >
-          What's on your mind? *
+          How can we help you? *
         </label>
         <textarea
           id="message"
@@ -116,12 +150,14 @@ function Field({
   type = "text",
   required,
   defaultValue,
+  placeholder,
 }: {
   label: string;
   name: string;
   type?: string;
   required?: boolean;
   defaultValue?: string;
+  placeholder?: string;
 }) {
   return (
     <div>
@@ -138,6 +174,7 @@ function Field({
         type={type}
         required={required}
         defaultValue={defaultValue}
+        placeholder={placeholder}
         className="w-full h-12 rounded-xl border hairline bg-ink-900 px-4 text-[15px] text-bone-50 placeholder:text-slate-muted focus:outline-none focus:border-gold-400 transition-colors"
       />
     </div>

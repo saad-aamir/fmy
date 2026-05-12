@@ -36,7 +36,7 @@ export const topics: Topic[] = [
       "specialisms",
     ],
     answer:
-      "We cover the full accountancy stack across **eight specialisms**: Bookkeeping · Accounting · Tax · Payroll · Audit & Assurance · Advisory & Consultancy · Corporate Finance · Business Valuations.\n\nEvery engagement is led by a partner — no junior-first delivery. Take a look at our [services overview](/services) for what each one includes, or ask me about a specific area.",
+      "We cover the full accountancy stack across **eight specialisms**: Bookkeeping · Accounting · Tax · Payroll · Audit & Assurance · Advisory & Consultancy · Corporate Finance · Business Valuations.\n\nEvery engagement is led by a partner, no junior-first delivery. Take a look at our [services overview](/services) for what each one includes, or ask me about a specific area.",
   },
   {
     id: "vfo",
@@ -53,7 +53,7 @@ export const topics: Topic[] = [
       "fractional cfo",
     ],
     answer:
-      "The **Virtual Finance Office** bundles bookkeeping, management accounts, tax, payroll, and a fractional FD into one transparent monthly fee.\n\nIt's the finance function a 100-person business would build — ready on day one, partner-led, mid-market priced. Read the [VFO page](/virtual-finance-office) for the 12 features, or [book a chat](/contact) to scope it.",
+      "The **Virtual Finance Office** bundles bookkeeping, management accounts, tax, payroll, and a fractional FD into one transparent monthly fee.\n\nIt's the finance function a 100-person business would build, ready on day one, partner-led, mid-market priced. Read the [VFO page](/virtual-finance-office) for the 12 features, or [book a chat](/contact) to scope it.",
   },
   {
     id: "bookkeeping",
@@ -73,7 +73,7 @@ export const topics: Topic[] = [
       "cis",
     ],
     answer:
-      "We keep your records meticulously maintained and audit-ready — sales and purchase ledgers, bank reconciliations, VAT record-keeping (MTD-compliant), and complex areas like CIS and foreign currency.\n\nWe work in **Xero** and **QuickBooks** primarily, with monthly summaries that show what's actually moving in your business. [More on bookkeeping](/services/bookkeeping).",
+      "We keep your records meticulously maintained and audit-ready, sales and purchase ledgers, bank reconciliations, VAT record-keeping (MTD-compliant), and complex areas like CIS and foreign currency.\n\nWe work in **Xero** and **QuickBooks** primarily, with monthly summaries that show what's actually moving in your business. [More on bookkeeping](/services/bookkeeping).",
   },
   {
     id: "tax",
@@ -112,7 +112,7 @@ export const topics: Topic[] = [
       "research relief",
     ],
     answer:
-      "Yes — R&D tax relief is a core specialism. We prepare claims to the post-2024 HMRC scrutiny standard, with full technical narrative and cost apportionment. Average advisory clients see **circa 17%** effective tax saving across the relief portfolio.\n\nWe never sub-contract R&D work — your partner runs the engagement. [Book a 30-min review](/contact).",
+      "Yes, R&D tax relief is a core specialism. We prepare claims to the post-2024 HMRC scrutiny standard, with full technical narrative and cost apportionment. Average advisory clients see **circa 17%** effective tax saving across the relief portfolio.\n\nWe never sub-contract R&D work, your partner runs the engagement. [Book a 45-min review](/contact).",
   },
   {
     id: "audit",
@@ -176,7 +176,7 @@ export const topics: Topic[] = [
       "start-up",
     ],
     answer:
-      "Yes — strategic, data-driven advice across business advisory, forecasting, modelling, start-up support, exit/retirement planning, and fractional CFO/FD services. Designed to help you make smarter decisions, unlock growth, and future-proof the business. [Advisory page](/services/advisory).",
+      "Yes, strategic, data-driven advice across business advisory, forecasting, modelling, start-up support, exit/retirement planning, and fractional CFO/FD services. Designed to help you make smarter decisions, unlock growth, and future-proof the business. [Advisory page](/services/advisory).",
   },
   {
     id: "corp-finance",
@@ -215,7 +215,7 @@ export const topics: Topic[] = [
       "fairness opinion",
     ],
     answer:
-      "Independent valuations using DCF, EBITDA multiples, and NAV — tailored to your industry (tech ARR models, manufacturing replacement cost, professional services goodwill). Compliant with UKGAAP and International Valuation Standards (IVS), supported by court- and HMRC-ready documentation. [Valuations page](/services/business-valuations).",
+      "Independent valuations using DCF, EBITDA multiples, and NAV, tailored to your industry (tech ARR models, manufacturing replacement cost, professional services goodwill). Compliant with UKGAAP and International Valuation Standards (IVS), supported by court- and HMRC-ready documentation. [Valuations page](/services/business-valuations).",
   },
 
   // ---------------------------------------------------------------------- Pricing
@@ -238,7 +238,7 @@ export const topics: Topic[] = [
       "monthly",
     ],
     answer:
-      "Three monthly packages, written up front, no hidden fees:\n\n• **Classic** — £149/month — essentials for compliant UK companies\n• **Premium** — £249/month — adds advisory, management accounts and HMRC representation\n• **Exclusive** — £649/month — fully supported, monthly reporting, fractional FD optional\n\nPlus add-ons (Tax Investigation Cover, Part-Time FD, Software Integration, etc.). Full breakdown on [/pricing](/pricing).",
+      "Three monthly packages, written up front, no hidden fees:\n\n• **Classic**, £149/month, essentials for compliant UK companies\n• **Premium**, £249/month, adds advisory, management accounts and HMRC representation\n• **Exclusive**, £649/month, fully supported, monthly reporting, fractional FD optional\n\nPlus add-ons (Tax Investigation Cover, Part-Time FD, Software Integration, etc.). Full breakdown on [/pricing](/pricing).",
   },
   {
     id: "pricing-classic",
@@ -253,7 +253,7 @@ export const topics: Topic[] = [
       "essentials",
     ],
     answer:
-      "**Classic — £149/month**: year-end accounts + Companies House submission, corporation tax + CT600, quarterly VAT, monthly payroll + RTI, the FMY mobile app for invoicing, unlimited accountancy support, dedicated account manager, deadline reminders, and tax planning throughout the year. [See pricing](/pricing).",
+      "**Classic, £149/month**: year-end accounts + Companies House submission, corporation tax + CT600, quarterly VAT, monthly payroll + RTI, the FMY mobile app for invoicing, unlimited accountancy support, dedicated account manager, deadline reminders, and tax planning throughout the year. [See pricing](/pricing).",
   },
   {
     id: "pricing-premium",
@@ -268,7 +268,7 @@ export const topics: Topic[] = [
       "management accounts",
     ],
     answer:
-      "**Premium — £249/month** is everything in Classic plus: business and tax advisory, directors' self-assessment, EC Sales List, foreign bank accounts, dividend vouchers, mortgage/visa letters, **quarterly management accounts**, and HMRC investigation representation. [Compare on /pricing](/pricing).",
+      "**Premium, £249/month** is everything in Classic plus: business and tax advisory, directors' self-assessment, EC Sales List, foreign bank accounts, dividend vouchers, mortgage/visa letters, **quarterly management accounts**, and HMRC investigation representation. [Compare on /pricing](/pricing).",
   },
   {
     id: "pricing-exclusive",
@@ -284,7 +284,7 @@ export const topics: Topic[] = [
       "treasury",
     ],
     answer:
-      "**Exclusive — £649/month** adds P11D forms, **monthly** management accounts, quarterly cashflow forecasts, Tax Investigation Cover, registered address with mail forwarding, full business reviews, CRM/cloud integration advisory, controls reviews, and access to legal/HR/H&S guidance.\n\nIt's the closest off-the-shelf equivalent to the Virtual Finance Office. [Pricing details](/pricing).",
+      "**Exclusive, £649/month** adds P11D forms, **monthly** management accounts, quarterly cashflow forecasts, Tax Investigation Cover, registered address with mail forwarding, full business reviews, CRM/cloud integration advisory, controls reviews, and access to legal/HR/H&S guidance.\n\nIt's the closest off-the-shelf equivalent to the Virtual Finance Office. [Pricing details](/pricing).",
   },
   {
     id: "addons",
@@ -312,7 +312,7 @@ export const topics: Topic[] = [
     question: "Can I get a written quote?",
     keywords: ["quote", "quotation", "estimate", "proposal", "bespoke"],
     answer:
-      "Yes — every engagement is priced up front in writing, typically within **48 hours** of the discovery call. No 6-minute timesheets, no quarterly top-ups. If we underquote, we absorb it. [Request a quote](/contact).",
+      "Yes, every engagement is priced up front in writing, typically within **48 hours** of the discovery call. No 6-minute timesheets, no quarterly top-ups. If we underquote, we absorb it. [Request a quote](/contact).",
   },
 
   // ----------------------------------------------------------------------- About
@@ -331,7 +331,7 @@ export const topics: Topic[] = [
       "chartered",
     ],
     answer:
-      "**Faraz Yunus** — Founder & Managing Partner. FCCA, ACA, MSc, BSc (Hons). 17 years with EY, listed multinationals, and professional services firms across **four continents**. International experience across Asia, Middle East, Europe and the US — invaluable for cross-border income, overseas assets, and multi-jurisdiction tax planning.\n\n*\"Not junior staff. No rushed appointments. No surprise bills for simple questions.\"* — Read his [full profile](/about).",
+      "**Faraz Yunus**, Founder & Managing Partner. BFP ACA FCCA, MSc, BSc (Hons). 17 years with EY, listed multinationals, and professional services firms across **four continents**. International experience across Asia, Middle East, Europe and the US, invaluable for cross-border income, overseas assets, and multi-jurisdiction tax planning.\n\n*\"Not junior staff. No rushed appointments. No surprise bills for simple questions.\"*, Read his [full profile](/about).",
   },
   {
     id: "regulation",
@@ -347,7 +347,7 @@ export const topics: Topic[] = [
       "licensed",
     ],
     answer:
-      "Yes. **FMY Chartered Accountants** is a trading name of **FMY Accountants Limited** (Companies House registration 16813147, England & Wales), regulated by the Institute of Chartered Accountants in England and Wales (**ICAEW Firm No. 11008484**).",
+      "Yes. **FMY Chartered Accountants** is a trading name of **FMY Accountants Limited** (Companies House registration 16813147, England & Wales), regulated by the Institute of Chartered Accountants in England and Wales (**ICAEW Firm No. C011008484**).",
   },
   {
     id: "experience",
@@ -364,7 +364,7 @@ export const topics: Topic[] = [
       "big four",
     ],
     answer:
-      "Our partner team brings **125+ cumulative years of Big 4 experience** (EY, Deloitte, KPMG, PwC), board-level finance roles at listed entities, and executive experience scaling UK professional-services firms. Three perspectives, one practice — Big 4 foundation, corporate leadership, and professional-services growth. [About page](/about).",
+      "Our partner team brings **125+ cumulative years of Big 4 experience** (EY, Deloitte, KPMG, PwC), board-level finance roles at listed entities, and executive experience scaling UK professional-services firms. Three perspectives, one practice, Big 4 foundation, corporate leadership, and professional-services growth. [About page](/about).",
   },
   {
     id: "why-choose",
@@ -380,7 +380,7 @@ export const topics: Topic[] = [
       "competitors",
     ],
     answer:
-      "Five things you'll notice quickly:\n\n• **Partner-led, every time** — your engagement is owned by a partner, not handed to juniors\n• **Fixed fees** — written up front, no 6-minute timesheets, no surprise top-ups\n• **Big 4 expertise without Big 4 invoices** — institutional rigour at mid-market pricing\n• **Proactive advice** — we call you before you knew you needed calling\n• **100% client retention since incorporation** — and zero HMRC penalties on our watch",
+      "Five things you'll notice quickly:\n\n• **Partner-led, every time**, your engagement is owned by a partner, not handed to juniors\n• **Fixed fees**, written up front, no 6-minute timesheets, no surprise top-ups\n• **Big 4 expertise without Big 4 invoices**, institutional rigour at mid-market pricing\n• **Proactive advice**, we call you before you knew you needed calling\n• **100% client retention since incorporation**, and zero HMRC penalties on our watch",
   },
 
   // -------------------------------------------------------------------- Process
@@ -399,7 +399,7 @@ export const topics: Topic[] = [
       "leave my accountant",
     ],
     answer:
-      "Easier than you think — three steps:\n\n1. **Sign the engagement letter** — that's all we need from you to start\n2. **Liaise with your previous accountant** — we contact them directly and handle the handover\n3. **Set up access** — share your existing records or software, we manage the full setup\n\nMost clients are fully live within **10 business days**. [Start the switch](/contact).",
+      "Easier than you think, three steps:\n\n1. **Sign the engagement letter**, that's all we need from you to start\n2. **Liaise with your previous accountant**, we contact them directly and handle the handover\n3. **Set up access**, share your existing records or software, we manage the full setup\n\nMost clients are fully live within **10 business days**. [Start the switch](/contact).",
   },
   {
     id: "onboarding",
@@ -407,7 +407,7 @@ export const topics: Topic[] = [
     question: "How does onboarding work?",
     keywords: ["onboarding", "onboard", "get started", "start", "begin", "first call"],
     answer:
-      "Four low-friction steps:\n\n1. **Discovery call** — 30 mins with a partner to listen and diagnose\n2. **Proposal & scope** — fixed-fee proposal in writing within 48 hours\n3. **Onboarding** — software connected, prior-year files reviewed, handover handled\n4. **Ongoing delivery** — monthly packs, quarterly reviews, partner on call\n\n[Book the discovery call](/contact).",
+      "Four low-friction steps:\n\n1. **Discovery call**, 30 mins with a partner to listen and diagnose\n2. **Proposal & scope**, fixed-fee proposal in writing within 48 hours\n3. **Onboarding**, software connected, prior-year files reviewed, handover handled\n4. **Ongoing delivery**, monthly packs, quarterly reviews, partner on call\n\n[Book the discovery call](/contact).",
   },
   {
     id: "software",
@@ -425,7 +425,7 @@ export const topics: Topic[] = [
       "platform",
     ],
     answer:
-      "We work natively with **Xero** and **QuickBooks** (our primary stack), and also support **Sage** and **NetSuite**. **Dext** for receipt capture across all of them. If you're on something else, we'll honestly advise whether a switch pays back.",
+      "We're **Xero, QuickBooks and Sage partners** — that's our primary stack — and we also support **FreeAgent** and **NetSuite**. **Dext** handles receipt capture across all of them. If you're on something else, we'll honestly advise whether a switch pays back.",
   },
 
   // ----------------------------------------------------------------- Contact
@@ -446,7 +446,7 @@ export const topics: Topic[] = [
       "reach you",
     ],
     answer:
-      "**Phone**: 0330 043 5088 (weekdays 9am–6pm GMT)\n**Email**: info@fmyaccountants.co.uk\n**Office**: 86–90 Paul Street, London EC2A 4NE\n\nFor a 30-minute partner consultation, head to [/contact](/contact) or [book directly](https://calendly.com/fmy-chartered-accountants/45min).",
+      "**Phone**: 0330 043 5088 (weekdays 9am-5pm GMT)\n**Email**: info@fmyaccountants.co.uk\n**Office**: 86-90 Paul Street, London EC2A 4NE\n\nFor a 45-minute partner consultation, head to [/contact](/contact) or [book directly](https://calendly.com/fmy-chartered-accountants/45min).",
   },
   {
     id: "booking",
@@ -463,7 +463,7 @@ export const topics: Topic[] = [
       "discovery call",
     ],
     answer:
-      "Two ways:\n\n• **Direct booking** — pick a slot on [Faraz's calendar](https://calendly.com/fmy-chartered-accountants/45min) (45-min consultation)\n• **Contact form** — tell us a bit about your business at [/contact](/contact) and we'll come back within 1 business day\n\nNo cost, no obligation.",
+      "Two ways:\n\n• **Direct booking**, pick a slot on [Faraz's calendar](https://calendly.com/fmy-chartered-accountants/45min) (45-min consultation)\n• **Contact form**, tell us a bit about your business at [/contact](/contact) and we'll come back within 1 business day\n\nNo cost, no obligation.",
   },
   {
     id: "hours",
@@ -471,7 +471,7 @@ export const topics: Topic[] = [
     question: "What are your office hours?",
     keywords: ["hours", "open", "opening", "office hours", "available"],
     answer:
-      "We answer phones **weekdays 9am–6pm GMT**. Email enquiries get a response within 1 business day. Office visits are by appointment only — buzz reception on the City side of 86–90 Paul Street.",
+      "We answer phones **weekdays 9am-5pm GMT**. Email enquiries get a response within 1 business day. Office visits are by appointment only.",
   },
 
   // ----------------------------------------------------------------- Misc / Resources
@@ -491,7 +491,7 @@ export const topics: Topic[] = [
       "brief",
     ],
     answer:
-      "Yes — partner-written analysis on UK tax, regulation, and finance leadership. Recent pieces cover the 2025 Autumn Budget, IHT relief changes, MTD for sole traders, FRS 102 updates and more. [Read on /resources](/resources) or subscribe to the **FMY Brief** for one curated email a month.",
+      "Yes, partner-written analysis on UK tax, regulation, and finance leadership. Recent pieces cover the 2025 Autumn Budget, IHT relief changes, MTD for sole traders, FRS 102 updates and more. [Read on /resources](/resources) or subscribe to the **FMY Brief** for one curated email a month.",
   },
   {
     id: "stats",
@@ -514,5 +514,5 @@ export const greeting = {
   hello:
     "Hi! I'm the FMY assistant. I can answer questions about our services, pricing, the Virtual Finance Office, switching from your current accountant, and more. What brings you here today?",
   fallback:
-    "I don't have a specific answer for that one — but a partner can. The fastest way is a 30-minute consultation (no cost, no obligation): [book a meeting](/contact) or call **0330 043 5088**.",
+    "I don't have a specific answer for that one, but a partner can. The fastest way is a 45-minute consultation (no cost, no obligation): [book a meeting](/contact) or call **0330 043 5088**.",
 };

@@ -8,15 +8,15 @@ import { FaqSchema } from "@/components/json-ld";
 export const homeFaqs = [
   {
     q: "How quickly can we switch from our current accountant?",
-    a: "Most clients are fully onboarded in 10 business days. We handle the handover letter, the engagement transfer, and the prior-year file requests — you don't need to chase anyone.",
+    a: "Most clients are fully onboarded in 10 business days. We handle the handover letter, the engagement transfer, and the prior-year file requests, you don't need to chase anyone.",
   },
   {
     q: "Are your fees really fixed?",
-    a: "Yes. You get a written scope, a written fee, and a written list of what isn't included. If something extra comes up mid-year, we'll quote it before we do it — no retrospective bills, ever.",
+    a: "Yes. You get a written scope, a written fee, and a written list of what isn't included. If something extra comes up mid-year, we'll quote it before we do it, no retrospective bills, ever.",
   },
   {
     q: "Do you work with businesses outside London?",
-    a: "Most of our clients are UK-wide. We run everything on secure cloud platforms (Xero, QuickBooks, Dext, Pleo), so location is irrelevant — we've had a bakery in Leeds and a SaaS firm in Edinburgh onboarded in the same week.",
+    a: "Most of our clients are UK-wide. We run everything on secure cloud platforms (Xero, QuickBooks, Dext, Pleo), so location is irrelevant, we've had a bakery in Leeds and a SaaS firm in Edinburgh onboarded in the same week.",
   },
   {
     q: "What if we're not VAT-registered or pre-revenue?",
@@ -24,11 +24,11 @@ export const homeFaqs = [
   },
   {
     q: "Can you help with R&D tax credits and EIS/SEIS?",
-    a: "Yes — and we prepare claims to the post-2024 HMRC scrutiny standard. Our team includes former HMRC-trained specialists; we've never had a claim rejected.",
+    a: "Yes, and we prepare claims to the post-2024 HMRC scrutiny standard. Our team includes former HMRC-trained specialists; we've never had a claim rejected.",
   },
   {
     q: "Are you regulated?",
-    a: "Yes. FMY is regulated by the Institute of Chartered Accountants in England & Wales (ICAEW). Firm registration number 11008484.",
+    a: "Yes. FMY is regulated by the Institute of Chartered Accountants in England & Wales (ICAEW). Firm registration number C011008484.",
   },
 ];
 

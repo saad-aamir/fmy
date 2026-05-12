@@ -41,7 +41,7 @@ export function NewsletterSection() {
               <ul className="mt-7 space-y-2 text-sm text-bone-100">
                 {[
                   "One concise tax & finance update each month",
-                  "Written by our partners — no agency copy",
+                  "Written by our partners, no agency copy",
                   "Unsubscribe in one click, no questions asked",
                 ].map((line) => (
                   <li key={line} className="flex items-start gap-2.5">

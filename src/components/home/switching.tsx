@@ -11,7 +11,7 @@ export function Switching() {
           eyebrow="Switching made simple"
           title={
             <>
-              Moving accountants —{" "}
+              Moving accountants,{" "}
               <span className="italic font-light">easier than you think.</span>
             </>
           }
@@ -43,7 +43,7 @@ export function Switching() {
             Start the switch <ArrowIcon />
           </LinkButton>
           <span className="text-sm text-slate-muted">
-            No obligation · 30-min discovery call with a partner
+            No obligation · 45-min discovery call with a partner
           </span>
         </div>
       </Container>

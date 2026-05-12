@@ -5,12 +5,12 @@ import { Eyebrow, SectionHeading } from "@/components/section";
 import { LinkButton, ArrowIcon } from "@/components/button";
 import { CTABand } from "@/components/cta-band";
 import { FAQ } from "@/components/faq";
-import { vfoFeatures } from "@/lib/site";
+import { site, vfoFeatures } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Virtual Finance Office",
   description:
-    "A partner-led virtual finance team — 125+ years of cumulative Big 4 and corporate-finance expertise, delivered as one transparent monthly fee.",
+    "A partner-led virtual finance team, 125+ years of cumulative Big 4 and corporate-finance expertise, delivered as one transparent monthly fee.",
   alternates: { canonical: "/virtual-finance-office" },
 };
 
@@ -34,10 +34,15 @@ export default function VFOPage() {
             <span className="italic font-light">Reimagined.</span>
           </>
         }
-        description="FMY's Virtual Finance Office delivers 125+ years of cumulative Big 4 and corporate-finance expertise through partner-led service — handling everything from management accounts and cash-flow forecasting to board reporting and scenario planning, all for a transparent, fixed monthly fee."
+        description="FMY's Virtual Finance Office delivers 125+ years of cumulative Big 4 and corporate-finance expertise through partner-led service, handling everything from management accounts and cash-flow forecasting to board reporting and scenario planning, all for a transparent, fixed monthly fee."
       >
         <div className="flex flex-wrap gap-3">
-          <LinkButton href="/contact" variant="primary" size="lg">
+          <LinkButton
+            href={site.booking}
+            external
+            variant="primary"
+            size="lg"
+          >
             Book a consultation <ArrowIcon />
           </LinkButton>
           <LinkButton href="/pricing" variant="gold-outline" size="lg">
@@ -56,12 +61,12 @@ export default function VFOPage() {
             </h2>
             <p className="mt-6 text-lg text-slate-muted leading-relaxed">
               Hire a full-time in-house CFO/FD and a finance team you can't
-              quite afford yet — or make do with reactive accounting that never
+              quite afford yet, or make do with reactive accounting that never
               gets ahead of the curve.
             </p>
             <p className="mt-4 text-lg text-bone-100 leading-relaxed">
               We become your strategic finance team. Management accounts, cash
-              flow forecasting, board reporting, scenario planning — all
+              flow forecasting, board reporting, scenario planning, all
               handled, at mid-market pricing.
             </p>
           </div>
@@ -152,7 +157,7 @@ export default function VFOPage() {
             <div className="relative max-w-2xl">
               <Eyebrow>Pricing</Eyebrow>
               <h2 className="mt-5 font-display text-3xl sm:text-4xl lg:text-[3rem] leading-[1.05] tracking-tight bone-gradient-text">
-                Transparent, fixed monthly fees —{" "}
+                Transparent, fixed monthly fees,{" "}
                 <span className="italic font-light gold-gradient-text">
                   scoped to your business.
                 </span>
@@ -160,7 +165,7 @@ export default function VFOPage() {
               <p className="mt-6 text-lg text-slate-muted leading-relaxed">
                 VFO engagements are priced per business. We publish three
                 ready-made packages covering compliance, advisory and full
-                operational support — and we quote the premium services you
+                operational support, and we quote the premium services you
                 bolt on (Part-Time FD, Business Mentoring, Software
                 Integration) up front.
               </p>
@@ -196,11 +201,11 @@ export default function VFOPage() {
           },
           {
             q: "What if we grow or shrink?",
-            a: "Change packages any time — the new price applies from the next billing cycle. No retroactive billing. We'll re-scope transparently.",
+            a: "Change packages any time, the new price applies from the next billing cycle. No retroactive billing. We'll re-scope transparently.",
           },
           {
             q: "Who owns the data?",
-            a: "You do, always. The software, the ledger, the reports — all in your name. If you ever leave, we hand over cleanly within 5 business days.",
+            a: "You do, always. The software, the ledger, the reports, all in your name. If you ever leave, we hand over cleanly within 5 business days.",
           },
         ]}
       />

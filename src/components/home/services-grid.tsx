@@ -20,7 +20,7 @@ export function ServicesGrid() {
                 </span>
               </>
             }
-            description="Eight disciplines, one partner. Pick the services you need today — scale into the rest as you grow. Every engagement is led by a qualified chartered accountant."
+            description="Eight disciplines, one partner. Pick the services you need today, scale into the rest as you grow. Every engagement is led by a qualified chartered accountant."
           />
           <Link
             href="/services"
@@ -30,7 +30,7 @@ export function ServicesGrid() {
           </Link>
         </div>
 
-        <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-4 gap-px bg-white/5 border hairline rounded-2xl overflow-hidden">
+        <div className="mt-16 grid sm:grid-cols-2 lg:grid-cols-3 gap-px bg-white/5 border hairline rounded-2xl overflow-hidden">
           {services.map((s) => (
             <Link
               key={s.slug}

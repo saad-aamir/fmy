@@ -7,13 +7,13 @@ export function JsonLd({ data }: { data: Record<string, unknown> }) {
   return (
     <script
       type="application/ld+json"
-      // JSON.stringify is safe — no user-supplied keys, just structured data.
+      // JSON.stringify is safe, no user-supplied keys, just structured data.
       dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }}
     />
   );
 }
 
-/** Org + LocalBusiness — global, attached to the root layout. */
+/** Org + LocalBusiness, global, attached to the root layout. */
 export function OrganizationSchema() {
   return (
     <JsonLd
@@ -56,9 +56,10 @@ export function OrganizationSchema() {
           url: "https://www.icaew.com/",
         },
         sameAs: [
+          site.social.linkedin,
           site.social.instagram,
-          site.social.youtube,
           site.social.facebook,
+          site.social.youtube,
           site.social.tiktok,
         ],
       }}
@@ -66,7 +67,7 @@ export function OrganizationSchema() {
   );
 }
 
-/** WebSite + SearchAction — helps Google show site-search box. */
+/** WebSite + SearchAction, helps Google show site-search box. */
 export function WebsiteSchema() {
   return (
     <JsonLd

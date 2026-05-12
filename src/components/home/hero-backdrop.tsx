@@ -65,7 +65,27 @@ function TickerColumns() {
   );
 }
 
-const SYMBOLS = ["FTSE", "NYSE", "LSE", "GBP", "USD", "EUR", "AIM", "IFRS", "VAT", "CT", "P&L", "EBITDA", "ROIC", "IRR"];
+// Only real, price-quoted instruments — major indices, exchanges,
+// FX currencies. Removed accounting-standard / financial-metric
+// labels (P&L, VAT, IFRS, CT, EBITDA, ROIC, IRR) which made no sense
+// rendered as price indices.
+const SYMBOLS = [
+  "FTSE",
+  "FTSE 250",
+  "AIM",
+  "LSE",
+  "NYSE",
+  "SPX",
+  "NDX",
+  "DJIA",
+  "DAX",
+  "CAC",
+  "N225",
+  "HSI",
+  "GBP",
+  "USD",
+  "EUR",
+];
 
 function renderTickerLines(seed: number, loops: number) {
   // Deterministic pseudo-random so SSR/CSR match.
@@ -220,7 +240,7 @@ function LineChart() {
           <circle r="12" fill="#C9A449" opacity="0.2" />
         </g>
 
-        {/* Candle marks — subtle, anchor points */}
+        {/* Candle marks, subtle, anchor points */}
         <g opacity="0.35">
           {[
             [200, 330],

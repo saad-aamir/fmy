@@ -8,7 +8,7 @@ import { LinkButton, ArrowIcon } from "@/components/button";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Talk to a partner at FMY. Book a consultation, request a quote, or ask a question — we reply within one business day.",
+    "Talk to a partner at FMY. Book a consultation, request a quote, or ask a question, we reply within one business day.",
   alternates: { canonical: "/contact" },
 };
 
@@ -23,7 +23,7 @@ export default function ContactPage() {
             <span className="italic font-light">first conversation.</span>
           </>
         }
-        description="A 30-minute discovery call with a partner. You'll leave with a clearer diagnosis — whether you end up working with us or not."
+        description="A 45-minute discovery call with a partner. You'll leave with a clearer diagnosis, whether you end up working with us or not."
       />
 
       <section className="py-20 sm:py-24">
@@ -56,7 +56,7 @@ export default function ContactPage() {
                 title="Call us"
                 value={site.phone}
                 href={site.phoneHref}
-                detail="Weekdays · 9am–6pm GMT"
+                detail="Weekdays · 9am-5pm GMT"
               />
               <InfoBlock
                 title="Email"
@@ -75,8 +75,7 @@ export default function ContactPage() {
                   {site.address.line2}
                 </div>
                 <div className="mt-5 text-xs text-slate-muted">
-                  Visits by appointment only — buzz the reception on the City
-                  side of the building.
+                  Visits by appointment only.
                 </div>
               </div>
 

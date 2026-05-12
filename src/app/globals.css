@@ -208,7 +208,7 @@ button:disabled,
 }
 
 /* -------------------------------------------------------------------------- */
-/* Hover system — cohesive lift + gold-glow language                           */
+/* Hover system, cohesive lift + gold-glow language                           */
 /* -------------------------------------------------------------------------- */
 
 /* Cards: subtle lift, gold border bloom, gold-tinted shadow */
@@ -294,7 +294,7 @@ button:disabled,
   transform: scaleY(1);
 }
 
-/* Soft card glow — for informational (non-clickable) cards.
+/* Soft card glow, for informational (non-clickable) cards.
    No lift, just a gentle gold border bloom + tiny shadow so the card
    feels "alive" without misleadingly signalling clickability. */
 .card-glow {
@@ -332,7 +332,7 @@ button:disabled,
 }
 
 /* -------------------------------------------------------------------------- */
-/* Header phone pill — subtle ringing animation                                */
+/* Header phone pill, subtle ringing animation                                */
 /* -------------------------------------------------------------------------- */
 
 @keyframes phonePing {
@@ -532,7 +532,7 @@ button:disabled,
 }
 
 /* -------------------------------------------------------------------------- */
-/* Page transitions — staggered fade-up on each section of the new page        */
+/* Page transitions, staggered fade-up on each section of the new page        */
 /* -------------------------------------------------------------------------- */
 
 @keyframes pageFadeUp {
@@ -575,7 +575,7 @@ button:disabled,
   animation-delay: 350ms;
 }
 
-/* First SSR load does not animate — only subsequent navigations do */
+/* First SSR load does not animate, only subsequent navigations do */
 .page-transition[data-initial="true"] > main > * {
   opacity: 1;
   animation: none;

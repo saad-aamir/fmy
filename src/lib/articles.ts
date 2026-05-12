@@ -20,7 +20,7 @@ export type Article = {
   sourceUrl: string;
 };
 
-// Topic-based category inference — the source data all says "Business".
+// Topic-based category inference, the source data all says "Business".
 // We infer a more useful category from the title for navigation purposes.
 function inferCategory(title: string): string {
   const t = title.toLowerCase();
