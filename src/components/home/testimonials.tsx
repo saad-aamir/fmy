@@ -7,29 +7,29 @@ const reviews = [
   {
     quote:
       "FMY rebuilt our finance function in six weeks. Our monthly board pack went from a fire drill to something I actually enjoy reading.",
-    author: "Imogen Clarke",
-    role: "CEO, Ravelin Bio",
+    author: "CEO",
+    role: "Series A biotech company",
     result: "Closed Series A in 4 months",
   },
   {
     quote:
       "We switched after years of opaque invoices from a Top 20 firm. FMY's pricing is fixed, the partner picks up the phone, and the quality is better. No contest.",
-    author: "Daniel Hartwell",
-    role: "Founder, Hartwell Foods",
+    author: "Founder",
+    role: "UK food & beverage business",
     result: "Saved £42k in fees year one",
   },
   {
     quote:
       "The R&D claim they prepared stood up to an HMRC enquiry without a single amendment. That's the standard you want.",
-    author: "Priya Menon",
-    role: "CFO, Primrose Labs",
+    author: "CFO",
+    role: "Life sciences company",
     result: "£168k R&D claim approved",
   },
   {
     quote:
       "Our VFO partner spotted a margin issue three months before it would have hit us. That alone paid for the relationship.",
-    author: "Martin Ojo",
-    role: "MD, The Drayford",
+    author: "Managing Director",
+    role: "Hospitality group",
     result: "Margin recovered within Q2",
   },
 ];
@@ -66,9 +66,9 @@ export function Testimonials() {
         </div>
 
         <div className="mt-12 grid md:grid-cols-2 gap-6">
-          {reviews.map((r) => (
+          {reviews.map((r, i) => (
             <figure
-              key={r.author}
+              key={i}
               className="card-glow group relative rounded-2xl border hairline bg-ink-900/60 p-8 backdrop-blur flex flex-col h-full"
             >
               <div className="absolute top-6 right-6 text-gold-500/30 transition-all duration-300 group-hover:text-gold-400/60 group-hover:scale-110">

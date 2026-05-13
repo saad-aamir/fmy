@@ -292,7 +292,7 @@ export const founder = {
   name: "Faraz Yunus",
   role: "Founder & Managing Partner",
   initials: "FY",
-  quals: "BFP ACA FCCA, MSc, BSc (Hons)",
+  quals: "BFP, ACA FCCA, MSc, BSc (Hons)",
   bio: [
     "After 17 years with EY, listed multinationals, and professional services firms across four continents, Faraz founded FMY to solve a problem he'd seen too often: ambitious businesses and successful individuals caught between basic services that couldn't handle complexity, or Big 4 firms with corporate pricing and partners they'd rarely meet.",
     "Faraz hasn't just advised businesses, he's run them, scaled them, and made the decisions that keep owners awake at night. His international experience across Asia, Middle East, Europe, and the US proves invaluable for clients with cross-border income, overseas assets, or multi-jurisdiction tax planning.",
